@@ -657,4 +657,8 @@ front_openimage[ew][1]=./images/crossing_narrow_road_90_80.3.2
 closedimage[ew][1]=./images/crossing_narrow_road_90_80.4.4
 front_closedimage[ew][1]=./images/crossing_narrow_road_90_80.3.4
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> d00a92ea (change road speeds from 50 to 55 and from 70 to 80)

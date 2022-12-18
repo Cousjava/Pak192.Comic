@@ -73,6 +73,7 @@ copyright=Leartin&Cruzer
 intro_year=1835
 cost=5000
 maintenance=2200
+>>>>>>> d00a92ea (change road speeds from 50 to 55 and from 70 to 80)
 topspeed=55
 #topspeed=50
 icon=> ./images/way/road-icon-cursor.2.0
@@ -142,9 +143,16 @@ name=asphalt_road
 waytype=road
 copyright=Leartin&Cruzer
 intro_year=1890
+<<<<<<< HEAD
 cost=10000
 maintenance=5000
 topspeed=80
+=======
+cost=900
+maintenance=250
+topspeed=80
+#topspeed=70
+>>>>>>> d00a92ea (change road speeds from 50 to 55 and from 70 to 80)
 icon=> ./images/way/road-icon-cursor.3.0
 cursor=./images/way/road-icon-cursor.3.1
 
