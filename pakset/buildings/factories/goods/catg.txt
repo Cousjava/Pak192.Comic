@@ -71,6 +71,8 @@
 	apples (Äpfel)
 	hop (Hopfen)
 	coka_leaves (Colablätter)
+	beets ([Zucker]Rüben)
+	potatoes* (Kartoffeln)
 10=rolled_goods
 	yarn (Garn)
 	fabric (Stoff)
