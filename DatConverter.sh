@@ -428,12 +428,13 @@ calculatecosts(){
 		fi
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
-	
-
-
-	#malus for passenger trains as they usually get higher average payload
+	#malus for passenger vehicles as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
-		Income=$(( Income / 100 * 110 ))
+		Income=$(( Income * 110 / 100 ))
+	fi
+	#bonus for post vehicles as they usually get lower average payload
+	if [[ ${ObjectArray[freight]} == "Post" ]] ;then
+		Income=$(( Income * 100 / 800 ))
 	fi
 
 	#echo $Income
@@ -1053,8 +1054,6 @@ Commands:
 			readallfiles 'AddOn/**/**/*.dat'
 			readallfiles 'AddOn/**/**/**/*.dat'
 			readallfiles 'AddOn/**/**/**/**/*.dat'
-<<<<<<< HEAD
-=======
 			readallfiles 'AddOn384/*.dat'
 			readallfiles 'AddOn384/**/*.dat'
 			readallfiles 'AddOn384/**/**/*.dat'
@@ -1065,7 +1064,6 @@ Commands:
 			readallfiles 'AddOn48/**/**/*.dat'
 			readallfiles 'AddOn48/**/**/**/*.dat'
 			readallfiles 'AddOn48/**/**/**/**/*.dat'
->>>>>>> af139c7c (fix 48-sized addons)
 		else
 			if [[ $AllVehicles == 1 ]] ;then
 				echo "- Edit All Vehicle .dat Files "
