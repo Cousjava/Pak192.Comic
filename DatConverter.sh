@@ -461,7 +461,25 @@ calculatecosts(){
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
 	#local FixCost=$(( RunningCost * 240 ))
 	#speed=$(( speed - 10 ))
-	local FixCost=$(( RunningCost * speed * 1000 / 700 ))
+	local FixCost=$(( RunningCost * speed * 5 / 3 ))
+	#speed=$(( speed + 150 ))
+	if [[ $speed -gt 160 ]] ;then
+		speed=160
+	fi
+	FixCost=$(( FixCost * speed / 160 ))
+
+	if [[ ${ObjectArray[waytype]} == "water" ]] ;then
+		FixCost=$(( FixCost * 800 / 100 ))
+	fi
+	if [[ ${ObjectArray[waytype]} == "road" ]] ;then
+		FixCost=$(( FixCost * 120 / 100 ))
+	fi
+	if [[ ${ObjectArray[waytype]} == "road" ]] ;then
+		LoadingTime=$(( LoadingTime * 200 / 100 ))
+	fi
+	#if [[ ${ObjectArray[waytype]} == "road" ]] ;then
+	#	Cost=$(( Cost * 100 / 80 ))
+	#fi
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 || $ForcingNewPrices == 1 ]];then
 		echo "max_loading_time=$LoadingTime" >> calculated/$dat
