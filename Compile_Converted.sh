@@ -40,6 +40,8 @@ compile() {
     local size=${#size[@]}
 
     for dat in $3; do
+        # get directory where the dat file is located
+        local dir=$(dirname "$dat")
 
         if [ -f "$dat" ] ; then
             echo -e "Compiling $dat"

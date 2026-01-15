@@ -19,6 +19,11 @@ constraint[next][0]=Preuszischer_Postwagen
 constraint[next][1]=Preuszischer_Abteilwagen
 constraint[next][2]=Preuszischer_Bremser_und_Abteilwagen
 constraint[next][3]=none
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Preussischer_Abteilwagen.2.1
 EmptyImage[E]=./image/Preussischer_Abteilwagen.2.0
 EmptyImage[SE]=./image/Preussischer_Abteilwagen.2.4

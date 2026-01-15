@@ -12,7 +12,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=55
+
+# Vorbild 38 Sitz- und 80 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=40
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -26,6 +33,11 @@ EmptyImage[N]=./tram_image/KT4d_EF_U2RW.0.1
 EmptyImage[W]=./tram_image/KT4d_EF_U2RW.0.0
 EmptyImage[NW]=./tram_image/KT4d_EF_U2RW.0.6
 EmptyImage[NE]=./tram_image/KT4d_EF_U2RW.0.5
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=CKD_Tatra_KT4d_EF_U2RW_H
 constraint[prev][1]=none
 constraint[next][0]=CKD_Tatra_KT4d_EF_U2RW_H
@@ -43,7 +55,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=55
+
+# Vorbild 38 Sitz- und 80 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=40
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -57,6 +76,11 @@ EmptyImage[N]=./tram_image/KT4d_EF_U2RW.1.1
 EmptyImage[W]=./tram_image/KT4d_EF_U2RW.1.0
 EmptyImage[NW]=./tram_image/KT4d_EF_U2RW.1.6
 EmptyImage[NE]=./tram_image/KT4d_EF_U2RW.1.5
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 constraint[prev][0]=CKD_Tatra_KT4d_EF_U2RW_F
 constraint[next][0]=CKD_Tatra_KT4d_EF_U2RW_F
 constraint[next][1]=none
@@ -75,7 +99,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=55
+
+# Vorbild 38 Sitz- und 80 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=40
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -89,6 +120,11 @@ EmptyImage[N]=./tram_image/KT4d_EF_U2RW.3.3
 EmptyImage[W]=./tram_image/KT4d_EF_U2RW.3.2
 EmptyImage[NW]=./tram_image/KT4d_EF_U2RW.3.4
 EmptyImage[NE]=./tram_image/KT4d_EF_U2RW.3.7
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=CKD_Tatra_KT4d_EF_U2RWR_H
 constraint[prev][1]=none
 constraint[next][0]=CKD_Tatra_KT4d_EF_U2RWR_H
@@ -106,7 +142,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=55
+
+# Vorbild 38 Sitz- und 80 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=40
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -120,6 +163,11 @@ EmptyImage[N]=./tram_image/KT4d_EF_U2RW.2.3
 EmptyImage[W]=./tram_image/KT4d_EF_U2RW.2.2
 EmptyImage[NW]=./tram_image/KT4d_EF_U2RW.2.4
 EmptyImage[NE]=./tram_image/KT4d_EF_U2RW.2.7
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 constraint[prev][0]=CKD_Tatra_KT4d_EF_U2RWR_F
 constraint[next][0]=CKD_Tatra_KT4d_EF_U2RWR_F
 constraint[next][1]=none

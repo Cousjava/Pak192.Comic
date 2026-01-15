@@ -2,28 +2,33 @@ obj=vehicle
 name=road_bus_1981_scb266
 copyright=PappeTeeMaster
 waytype=road
-#
+engine_type=diesel
 intro_year=1981
 intro_month=6
 retire_year=1995
 retire_month=7
-#
-runningcost=997
-cost=13574063
-weight=10
 speed=100
-payload=150
-length=8
-loading_time=8970
-#
-engine_type=diesel
 power=190
 gear=75
-smoke=Diesel_small
-sound=bus.wav
-#
+
+# Vorbildlos 75 Sitzplätze und 75 Stehplätze
+payload=75
+overcrowded_capacity=75
+
+# Reichweite Vorbildlos
+range=500
+
+# Anzahl Achsen
+axles=3
+
+weight=10
+runningcost=997
+cost=13574063
+length=8
+loading_time=8970
 constraint[next][0]=none
 constraint[prev][0]=none
 emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1981_scb266.0.<$0>
 freight=Passagiere
----
+smoke=Diesel_small
+-----

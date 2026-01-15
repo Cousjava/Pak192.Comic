@@ -106,7 +106,9 @@ compile() {
                     rm "$csv.in"
                     exit $?
                 fi
+
             fi
+        fi
 
             # put the hashes in the $csv.in file
             echo "$dat,$dathash,${imghash[*]}" >> "$csv.in"

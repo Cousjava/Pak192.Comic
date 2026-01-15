@@ -9,16 +9,24 @@ runningcost=1034
 cost=11376338
 weight=50
 speed=160
-payload=155
+payload=125
+overcrowded_capacity=160
 # 125 Seats
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10340
 
-constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.0.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=BWegt
+liverytype[2]=LNVG
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.0.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_781_0
@@ -31,16 +39,22 @@ runningcost=1034
 cost=11376338
 weight=50
 speed=160
-payload=164
+payload=134
+overcrowded_capacity=140
 # 134 Seats
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10340
 
-constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.1.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=LNVG
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.1.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1
@@ -53,15 +67,24 @@ runningcost=1076
 cost=11832391
 weight=52
 speed=160
-payload=102
+payload=92
+overcrowded_capacity=140
 # 92 Seats
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10760
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.2.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=BWegt
+liverytype[2]=LNVG
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.2.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_2
@@ -74,16 +97,24 @@ runningcost=1076
 cost=11832391
 weight=52
 speed=160
-payload=102
+payload=92
+overcrowded_capacity=140
 # 92 Seats
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10760
 
-constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.3.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=BWegt
+liverytype[2]=LNVG
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.3.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.3.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_2004_Innovations-Doppelstockwagen_DBpkza_781_9
@@ -96,14 +127,18 @@ runningcost=1034
 cost=11376338
 weight=51
 speed=160
-payload=137
+payload=107
+overcrowded_capacity=160
 # 107 Seats
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10340
+catering_level=2
 
-constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.4.<$0>
 
@@ -113,8 +148,7 @@ EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelsto
 obj=vehicle
 name=Dosto_4g_F_500_bwsp
 copyright=Flemmbrav
-intro_year=2014
-build_year=2004
+intro_year=1999
 intro_month=6
 runningcost=963
 cost=23107000
@@ -130,8 +164,7 @@ EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelsto
 obj=vehicle
 name=Dosto_4g_B_500_bwsp
 copyright=Flemmbrav
-intro_year=2014
-build_year=2004
+intro_year=1999
 intro_month=6
 runningcost=963
 cost=23107000
@@ -149,8 +182,7 @@ EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelsto
 obj=vehicle
 name=Dosto_4g_M_500_bwsp
 copyright=Flemmbrav
-intro_year=2014
-build_year=2004
+intro_year=1999
 intro_month=6
 runningcost=1002
 cost=24993000

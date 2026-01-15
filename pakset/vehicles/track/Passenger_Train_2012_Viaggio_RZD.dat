@@ -7,6 +7,7 @@ intro_month=3
 #retire_month=0
 freight=Passagiere
 payload=32
+overcrowded_capacity=20
 cost=3024120
 runningcost=275
 loading_time=2750
@@ -14,7 +15,13 @@ weight=56
 speed=200
 length=12
 waytype=narrowgauge_track
-constraint[prev][0]=any
+catering_level=2
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Viaggio_Wagen_2012.0.1
 EmptyImage[E]=./image/Viaggio_Wagen_2012.0.0
 EmptyImage[SE]=./image/Viaggio_Wagen_2012.0.4

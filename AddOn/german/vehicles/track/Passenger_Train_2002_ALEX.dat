@@ -14,7 +14,9 @@ runningcost=638
 cost=6615000
 length=12
 
-constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 emptyimage[e]=./image/UIC-X.0.0
 emptyimage[n]=./image/UIC-X.0.3
@@ -43,7 +45,9 @@ runningcost=638
 cost=6615000
 length=12
 
-constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 emptyimage[e]=./image/UIC-X_Alex_PC.0.0
 emptyimage[n]=./image/UIC-X_Alex_PC.0.3

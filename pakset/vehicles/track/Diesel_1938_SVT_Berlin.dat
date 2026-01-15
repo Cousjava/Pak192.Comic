@@ -7,6 +7,7 @@ retire_year=1958
 retire_month=0
 freight=Passagiere
 payload=50
+overcrowded_capacity=18
 cost=5191725
 runningcost=472
 weight=40
@@ -56,6 +57,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 sound=none
+catering_level=5
 
 constraint[prev][0]=VT_07_PC-4
 constraint[prev][1]=VT_07_PC-5
@@ -63,6 +65,10 @@ constraint[prev][2]=none
 constraint[next][0]=VT_07_PC-3
 constraint[next][1]=VT_07_PC-4
 constraint[next][2]=VT_07_PC-5
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/Diesel_1938_SVT_Berlin.3.1
 EmptyImage[E]=./image/Diesel_1938_SVT_Berlin.3.0
@@ -81,7 +87,8 @@ intro_month=0
 retire_year=1958
 retire_month=0
 freight=Passagiere
-payload=68
+payload=60
+overcrowded_capacity=18
 cost=6230070
 runningcost=566
 weight=43
@@ -120,6 +127,7 @@ retire_year=1958
 retire_month=0
 freight=Passagiere
 payload=50
+overcrowded_capacity=18
 cost=5191725
 runningcost=472
 weight=40
@@ -139,6 +147,10 @@ constraint[prev][2]=VT_07_PC-3
 constraint[next][0]=VT_07_PC-1
 constraint[next][1]=VT_07_PC-2
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/Diesel_1938_SVT_Berlin.2.1
 EmptyImage[E]=./image/Diesel_1938_SVT_Berlin.2.0
@@ -169,6 +181,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 sound=none
+catering_level=5
 
 constraint[prev][0]=VT_07_PC-1
 constraint[prev][1]=VT_07_PC-2

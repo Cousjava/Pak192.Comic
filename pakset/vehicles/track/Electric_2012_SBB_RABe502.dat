@@ -15,7 +15,9 @@ payload=100
 cost=53779500
 runningcost=2536
 weight=57
+brake_force=130
 power=750
+tractive_effort=48
 gear=300
 speed=200
 length=12
@@ -26,6 +28,10 @@ constraint[prev][1]=None
 constraint[next][0]=SBB_A502
 constraint[next][1]=SBB_B502
 constraint[next][2]=SBB_WRB502
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/Twindexx_SE.0.1
 EmptyImage[E]=image/Twindexx_SE.0.0
@@ -54,7 +60,9 @@ payload=120
 cost=65119950
 runningcost=2708
 weight=57
+brake_force=130
 power=750
+tractive_effort=48
 gear=300
 speed=200
 length=12
@@ -63,6 +71,10 @@ loading_time=10310
 constraint[prev][0]=SBB_B502
 constraint[next][0]=SBB_RAe502
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/Twindexx_SE.8.3
 EmptyImage[E]=image/Twindexx_SE.8.2
@@ -91,7 +103,9 @@ payload=142
 cost=85125533
 runningcost=3456
 weight=57
+brake_force=130
 power=1000
+tractive_effort=64
 gear=300
 speed=200
 length=11
@@ -102,6 +116,10 @@ constraint[prev][1]=SBB_WRB502
 constraint[prev][2]=SBB_B502
 constraint[next][0]=SBB_RBe502
 constraint[next][1]=SBB_B502
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/Twindexx_SE.6.3
 EmptyImage[E]=image/Twindexx_SE.6.2
@@ -131,7 +149,9 @@ payload=120
 cost=83046450
 runningcost=3267
 weight=57
+brake_force=130
 power=1000
+tractive_effort=64
 gear=300
 speed=200
 length=11
@@ -142,6 +162,10 @@ constraint[prev][1]=SBB_A502
 constraint[next][0]=SBB_WRB502
 constraint[next][1]=SBB_A502
 constraint[next][2]=SBB_B502
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/Twindexx_SE.2.3
 EmptyImage[E]=image/Twindexx_SE.2.2
@@ -170,7 +194,9 @@ payload=120
 cost=83046450
 runningcost=3267
 weight=57
+brake_force=130
 power=1000
+tractive_effort=64
 gear=300
 speed=200
 length=11
@@ -179,6 +205,10 @@ loading_time=10310
 constraint[prev][0]=SBB_A502
 constraint[prev][1]=SBB_RAe502
 constraint[next][0]=SBB_B502
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/Twindexx_SE.4.3
 EmptyImage[E]=image/Twindexx_SE.4.2

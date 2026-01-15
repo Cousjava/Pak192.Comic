@@ -9,7 +9,8 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=88
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=28
@@ -25,14 +26,19 @@ Constraint[Prev][0]=BR_422_4
 Constraint[Prev][1]=none
 Constraint[Next][0]=BR_422_2
 
-EmptyImage[S]=./image/BR_422.0.3
-EmptyImage[E]=./image/BR_422.0.2
-EmptyImage[SE]=./image/BR_422.1.0
-EmptyImage[SW]=./image/BR_422.1.1
-EmptyImage[N]=./image/BR_422.0.1
-EmptyImage[W]=./image/BR_422.0.0
-EmptyImage[NW]=./image/BR_422.1.2
-EmptyImage[NE]=./image/BR_422.1.3
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=DB_Regio
+EmptyImage[S][0]=./image/BR_422.0.3
+EmptyImage[E][0]=./image/BR_422.0.2
+EmptyImage[SE][0]=./image/BR_422.1.0
+EmptyImage[SW][0]=./image/BR_422.1.1
+EmptyImage[N][0]=./image/BR_422.0.1
+EmptyImage[W][0]=./image/BR_422.0.0
+EmptyImage[NW][0]=./image/BR_422.1.2
+EmptyImage[NE][0]=./image/BR_422.1.3
 -----
 obj=vehicle
 name=BR_422_2
@@ -43,7 +49,8 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=96
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=28
@@ -58,14 +65,19 @@ loading_time=4820
 Constraint[Prev][0]=BR_422_1
 Constraint[Next][0]=BR_422_3
 
-EmptyImage[S]=./image/BR_422.4.3
-EmptyImage[E]=./image/BR_422.4.2
-EmptyImage[SE]=./image/BR_422.5.0
-EmptyImage[SW]=./image/BR_422.5.1
-EmptyImage[N]=./image/BR_422.4.1
-EmptyImage[W]=./image/BR_422.4.0
-EmptyImage[NW]=./image/BR_422.5.2
-EmptyImage[NE]=./image/BR_422.5.3
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=DB_Regio
+EmptyImage[S][0]=./image/BR_422.4.3
+EmptyImage[E][0]=./image/BR_422.4.2
+EmptyImage[SE][0]=./image/BR_422.5.0
+EmptyImage[SW][0]=./image/BR_422.5.1
+EmptyImage[N][0]=./image/BR_422.4.1
+EmptyImage[W][0]=./image/BR_422.4.0
+EmptyImage[NW][0]=./image/BR_422.5.2
+EmptyImage[NE][0]=./image/BR_422.5.3
 -----
 obj=vehicle
 name=BR_422_3
@@ -76,7 +88,7 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=96
+payload=48
 overcrowded_capacity=88
 cost=20515780
 runningcost=1029
@@ -92,14 +104,19 @@ loading_time=4820
 Constraint[Prev][0]=BR_422_2
 Constraint[Next][0]=BR_422_4
 
-EmptyImage[S]=./image/BR_422.6.3
-EmptyImage[E]=./image/BR_422.6.2
-EmptyImage[SE]=./image/BR_422.7.0
-EmptyImage[SW]=./image/BR_422.7.1
-EmptyImage[N]=./image/BR_422.6.1
-EmptyImage[W]=./image/BR_422.6.0
-EmptyImage[NW]=./image/BR_422.7.2
-EmptyImage[NE]=./image/BR_422.7.3
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=DB_Regio
+EmptyImage[S][0]=./image/BR_422.6.3
+EmptyImage[E][0]=./image/BR_422.6.2
+EmptyImage[SE][0]=./image/BR_422.7.0
+EmptyImage[SW][0]=./image/BR_422.7.1
+EmptyImage[N][0]=./image/BR_422.6.1
+EmptyImage[W][0]=./image/BR_422.6.0
+EmptyImage[NW][0]=./image/BR_422.7.2
+EmptyImage[NE][0]=./image/BR_422.7.3
 -----
 obj=vehicle
 name=BR_422_4
@@ -110,7 +127,8 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=88
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=28
@@ -126,11 +144,16 @@ Constraint[Prev][0]=BR_422_3
 Constraint[Next][0]=BR_422_1
 Constraint[Next][1]=none
 
-EmptyImage[S]=./image/BR_422.2.3
-EmptyImage[E]=./image/BR_422.2.2
-EmptyImage[SE]=./image/BR_422.3.0
-EmptyImage[SW]=./image/BR_422.3.1
-EmptyImage[N]=./image/BR_422.2.1
-EmptyImage[W]=./image/BR_422.2.0
-EmptyImage[NW]=./image/BR_422.3.2
-EmptyImage[NE]=./image/BR_422.3.3
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
+liverytype[0]=DB_Regio
+EmptyImage[S][0]=./image/BR_422.2.3
+EmptyImage[E][0]=./image/BR_422.2.2
+EmptyImage[SE][0]=./image/BR_422.3.0
+EmptyImage[SW][0]=./image/BR_422.3.1
+EmptyImage[N][0]=./image/BR_422.2.1
+EmptyImage[W][0]=./image/BR_422.2.0
+EmptyImage[NW][0]=./image/BR_422.3.2
+EmptyImage[NE][0]=./image/BR_422.3.3

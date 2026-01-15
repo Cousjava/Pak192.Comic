@@ -8,7 +8,8 @@
 # vehicles.
 # If something during loading is not found, it will be looked up here and
 # retried.
-# ================================================================================
+==== BASE ====
+==== BASE ====
 #
 ##-------------------------------------
 # player buildings
@@ -1080,7 +1081,44 @@ oberleitung_narrowgauge
 catenary_ng_90
 oberleitung_road_m
 catenary_road
-#
+<<<<<<< HEAD
+#-----------------
+#     Liveries
+#-----------------
+Eurofima_Wagen_2001_0
+Eurofima_Wagen_1979_0
+Eurofima_Wagen_1986_0
+Eurofima_Wagen_1979_0
+Eurofima_Wagen_2001_1
+Eurofima_Wagen_1979_2
+Eurofima_Wagen_1986_1
+Eurofima_Wagen_1979_2
+Eurofima_Wagen_2001_2
+Eurofima_Wagen_1986_2
+Eurofima_Wagen_2001_3
+Eurofima_Wagen_1986_3
+Eurofima_Wagen_1979_0
+Track_Passenger_Train_1979_Eurofima_200_Second_Class_Open_Coach
+Eurofima_Wagen_1979_2
+Track_Passenger_Train_1979_Eurofima_200_Restaurant
+Eurofima_Wagen_1991_0
+Track_Passenger_Train_1979_Eurofima_160_Second_Class_Open_Coach
+Passenger_Train_1977_Eurofima
+Track_Passenger_Train_1979_Eurofima_160_Second_Class_Compartment
+SNCB_I_10_Wagen_2000_1
+SNCB_I_10_Wagen_1987_1
+BR_223
+V16
+OBB_2016
+V16
+Eurorunner_20
+V16
+Eurorunner_20_Alex
+V16
+Eurorunner_20_Alex_PC
+V16
+Eurorunner_20_MRCE
+V16
 SNCB_AM_96_Triebwagen_1996_0
 Track_Electric_1996_AM96_0
 SNCB_AM_96_Triebwagen_1996_1
@@ -1125,6 +1163,28 @@ SNCB_Dms
 Track_Post_1987_Dms
 SNCB_Dms_grey
 Track_Post_2000_Dms
+Twindex_Vario_Mittelwagen_PC
+Passenger_Train_2014_Twindexx_Vario_DBpza_782_1
+Twindex_Vario_Triebwagen_PC_1
+Dosto_5g_F_500M
+Twindex_Vario_Triebwagen_PC_2
+Dosto_5g_B_500M
+Passenger_Train_2014_Twindexx_Vario_DBpza_783_0_IC2
+Passenger_Train_2014_Twindexx_Vario_DBpza_783_0
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1_IC2
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2_IC2
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2
+Metropolitan_Lokomotive
+BR_101
+BR_246_LNVG
+BR_246_TRAXX
+Lokomotive_2008_MRCE_Taurus
+Rh 1016
+Lokomotive_2008_Dispolok_Taurus
+Rh 1016
+Lokomotive_2008_Alex_PC_Taurus
+Rh 1016
 #
 Locomotvie_2008_Taurus_RJ_1
 Lokomotive_2008_1116_Railjet_DA

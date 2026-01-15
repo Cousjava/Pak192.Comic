@@ -8,6 +8,7 @@ cost=59345945
 weight=87
 speed=160
 payload=100
+overcrowded_capacity=100
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -16,7 +17,12 @@ power=2300
 gear=100
 loading_time=5850
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Double_Deck.0.<$0>
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Double_Deck.0.<$0>
 -----------
 obj=vehicle
 name=Dosto_5g_B_500M
@@ -28,6 +34,7 @@ cost=59345945
 weight=87
 speed=160
 payload=100
+overcrowded_capacity=100
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -38,4 +45,9 @@ loading_time=5850
 
 constraint[prev][0]=any
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Double_Deck.1.<$0>
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Double_Deck.1.<$0>

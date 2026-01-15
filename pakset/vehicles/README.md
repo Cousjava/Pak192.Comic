@@ -1,4 +1,4 @@
-# How to Vehicle in Pak192.Comic
+# How to Vehicle in Pak192.Comic Extended
 
 Small documentation on how to use the sub-folders.
 We're very aware that this convention is not on full affect on everything yet, but that's work in progress.
@@ -119,7 +119,7 @@ Examples for bad names of .dat files:
 
 The .png file shares either the name of the vehicle or the dat file.
 In case of latter, all vehicles of that .dat file shall be includet.
-All images are hosted in a sub folder called "image".
+All images are hosted in sub folders for every supported livery by the vehicle.
 Examples of good .png file references:
 
 > ./image/Lokomotive_2003_BR189.png

@@ -24,6 +24,11 @@ EmptyImage[NE]=./image/DDR-Wagen3.1.5
 EmptyImage[NW]=./image/DDR-Wagen3.1.6
 EmptyImage[SW]=./image/DDR-Wagen3.1.7
 constraint[next][0]=DDR-Wagen3b
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 -----
 obj=vehicle
 name=DDR-Wagen3b
@@ -50,6 +55,10 @@ EmptyImage[NE]=./image/DDR-Wagen3.0.5
 EmptyImage[NW]=./image/DDR-Wagen3.0.6
 EmptyImage[SW]=./image/DDR-Wagen3.0.7
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 constraint[prev][0]=DDR-Wagen3
-#constraint[next][0]=DDR-Wagen3
-#constraint[next][1]=none
+constraint[next][0]=DDR-Wagen3
+constraint[next][1]=none

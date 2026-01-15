@@ -8,8 +8,10 @@ intro_month=0
 runningcost=784
 cost=15556349
 weight=45
+brake_force=146
 speed=160
-payload=85
+payload=64
+overcrowded_capacity=56
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -19,7 +21,12 @@ loading_time=4860
 constraint[prev][0]=Electric_2011_Desiro_ML_SNCB_1
 constraint[next][0]=Electric_2011_Desiro_ML_SNCB_3
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.1.<$0>
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=SNCB_new_look
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_2011_Desiro_ML_SNCB.1.<$0>
 -----------
 obj=vehicle
 name=Electric_2011_Desiro_ML_SNCB_1
@@ -31,13 +38,16 @@ intro_month=0
 runningcost=983
 cost=22361626
 weight=50
+brake_force=81
 speed=160
-payload=85
+payload=48
+overcrowded_capacity=88
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 engine_type=electric
 power=1100
+tractive_effort=85
 loading_time=4860
 
 constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_3
@@ -51,7 +61,12 @@ constraint[prev][7]=Electric_2011_Desiro_ML_SNCB_3
 constraint[prev][8]=none
 constraint[next][0]=Electric_2011_Desiro_ML_SNCB_2
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.0.<$0>
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=SNCB_new_look
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_2011_Desiro_ML_SNCB.0.<$0>
 -----------
 obj=vehicle
 name=Electric_2011_Desiro_ML_SNCB_3
@@ -63,13 +78,16 @@ intro_month=0
 runningcost=983
 cost=22361626
 weight=50
+brake_force=83
 speed=160
-payload=85
+payload=48
+overcrowded_capacity=88
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
 engine_type=electric
 power=1100
+tractive_effort=85
 loading_time=4860
 
 constraint[prev][0]=Electric_2011_Desiro_ML_SNCB_2
@@ -83,4 +101,9 @@ constraint[next][6]=Electric_2019_Desiro_ML_ODEG_1
 constraint[next][7]=Electric_2011_Desiro_ML_SNCB_1
 constraint[next][8]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.2.<$0>
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
+liverytype[0]=SNCB_new_look
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_2011_Desiro_ML_SNCB.2.<$0>

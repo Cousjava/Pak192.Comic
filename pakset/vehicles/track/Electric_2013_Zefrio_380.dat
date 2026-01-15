@@ -7,6 +7,7 @@ retire_year=2050
 retire_month=0
 freight=Passagiere
 payload=80
+overcrowded_capacity=36
 cost=122362980
 runningcost=5630
 weight=58
@@ -19,6 +20,11 @@ engine_type=electric
 loading_time=16220
 constraint[prev][0]=none
 constraint[next][0]=Zefrio_380-2
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Zefrio_380.1.1
 EmptyImage[E]=./image/Zefrio_380.1.0
 EmptyImage[SE]=./image/Zefrio_380.1.4
@@ -37,6 +43,7 @@ retire_year=2050
 retire_month=0
 freight=Passagiere
 payload=80
+overcrowded_capacity=36
 cost=122362980
 runningcost=5630
 weight=58
@@ -49,6 +56,11 @@ engine_type=electric
 loading_time=16220
 constraint[prev][0]=Zefrio_380-4
 constraint[next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Zefrio_380.2.3
 EmptyImage[E]=./image/Zefrio_380.2.2
 EmptyImage[SE]=./image/Zefrio_380.2.6
@@ -67,6 +79,7 @@ retire_year=2050
 retire_month=0
 freight=Passagiere
 payload=85
+overcrowded_capacity=36
 cost=123477885
 runningcost=5732
 weight=58
@@ -81,6 +94,11 @@ constraint[prev][0]=Zefrio_380-2
 constraint[prev][1]=Zefrio_380-3
 constraint[next][0]=Zefrio_380-3
 constraint[next][1]=Zefrio_380-4
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Zefrio_380.0.1
 EmptyImage[E]=./image/Zefrio_380.0.0
 EmptyImage[SE]=./image/Zefrio_380.0.4
@@ -99,6 +117,7 @@ retire_year=2050
 retire_month=0
 freight=Passagiere
 payload=85
+overcrowded_capacity=36
 cost=123477885
 runningcost=5732
 weight=58
@@ -112,6 +131,11 @@ loading_time=17230
 constraint[prev][0]=Zefrio_380-1
 constraint[next][0]=Zefrio_380-3
 constraint[next][1]=Zefrio_380-4
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Zefrio_380.3.1
 EmptyImage[E]=./image/Zefrio_380.3.0
 EmptyImage[SE]=./image/Zefrio_380.3.4
@@ -130,6 +154,7 @@ retire_year=2050
 retire_month=0
 freight=Passagiere
 payload=85
+overcrowded_capacity=36
 cost=123477885
 runningcost=5732
 weight=58
@@ -143,6 +168,11 @@ loading_time=17230
 constraint[prev][0]=Zefrio_380-2
 constraint[prev][1]=Zefrio_380-3
 constraint[next][0]=Zefrio_380-5
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Zefrio_380.4.1
 EmptyImage[E]=./image/Zefrio_380.4.0
 EmptyImage[SE]=./image/Zefrio_380.4.4

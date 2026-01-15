@@ -18,6 +18,11 @@ engine_type=steam
 constraint[prev][0]=none
 constraint[prev][1]=Preuszische_P6_Tender
 constraint[next][0]=Preuszische_P6_Tender
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=0
+
 EmptyImage[S]=./image/Preussische_P6.1.1
 EmptyImage[E]=./image/Preussische_P6.1.0
 EmptyImage[SE]=./image/Preussische_P6.1.4
@@ -41,6 +46,11 @@ speed=90
 length=4
 waytype=narrowgauge_track
 constraint[prev][0]=Preuszische_P6
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
+
 EmptyImage[S]=./image/Preussische_P6.0.1
 EmptyImage[E]=./image/Preussische_P6.0.0
 EmptyImage[SE]=./image/Preussische_P6.0.4

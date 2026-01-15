@@ -13,7 +13,21 @@ weight=6
 gear=45
 power=300
 speed=75
-payload=41
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=8
+overcrowded_capacity=13
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=4
 waytype=tram_track
@@ -49,7 +63,21 @@ runningcost=70
 cost=773735
 weight=6
 speed=75
-payload=42
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=18
+overcrowded_capacity=36
+
+# Anzahl Achsen - eigentlich 0
+axles=1
+
 freight=Passagiere
 length=6
 waytype=tram_track
@@ -86,7 +114,21 @@ weight=6
 gear=45
 power=300
 speed=75
-payload=42
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=11
+overcrowded_capacity=10
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=3
 waytype=tram_track
@@ -119,7 +161,21 @@ runningcost=70
 cost=773735
 weight=6
 speed=75
-payload=42
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=18
+overcrowded_capacity=36
+
+# Anzahl Achsen - eigentlich 0
+axles=1
+
 freight=Passagiere
 length=6
 waytype=tram_track
@@ -158,7 +214,21 @@ weight=6
 #gear=45
 #power=300
 speed=75
-payload=42
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=11
+overcrowded_capacity=10
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=3
 waytype=tram_track
@@ -194,7 +264,21 @@ weight=6
 gear=45
 power=300
 speed=75
-payload=41
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=12
+overcrowded_capacity=18
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=5
 waytype=tram_track
@@ -230,7 +314,21 @@ weight=6
 gear=45
 power=300
 speed=75
-payload=41
+
+# Vorbild (5-Teilig) 67 Sitzplätze und 113 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (5-Teilig) 1-8    2-18    3-11    4-18    5-12  =  67
+# Stehplatzverteilung umgerechnet (5-Teilig) 1-13   2-36    3-10    4-36    5-18  =  113
+
+# Vorbild (3-Teilig) 38 Sitzplätze und 67 Stehplätze (Angaben von erfurter Straßenbahn)
+# Sitzplatzverteilung in Erfurt (3-Teilig) 1-8    2-18    3-12  =  38
+# Stehplatzverteilung umgerechnet (3-Teilig) 1-13   2-36    3-18  =  67
+
+payload=12
+overcrowded_capacity=18
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=5
 waytype=tram_track

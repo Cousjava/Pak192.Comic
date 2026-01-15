@@ -7,7 +7,8 @@ retire_year=1999
 retire_month=5
 freight=Passagiere
 
-payload=110
+payload=80
+overcrowded_capacity=120
 cost=8579505
 runningcost=780
 weight=31
@@ -19,6 +20,10 @@ loading_time=7800
 Constraint[Prev][0]=X_Wagen_1978_2
 Constraint[Prev][1]=none
 Constraint[Next][0]=X_Wagen_1978_1
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/X-Wagen_1978.1.1
 EmptyImage[E]=./image/X-Wagen_1978.1.0
@@ -38,7 +43,8 @@ retire_year=1999
 retire_month=5
 freight=Passagiere
 
-payload=114
+payload=88
+overcrowded_capacity=140
 cost=8891487
 runningcost=808
 weight=28
@@ -47,7 +53,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=8080
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/X-Wagen_1978.0.1
 EmptyImage[E]=./image/X-Wagen_1978.0.0
@@ -67,7 +77,8 @@ retire_year=1999
 retire_month=5
 freight=Passagiere
 
-payload=110
+payload=80
+overcrowded_capacity=120
 cost=8579505
 runningcost=780
 weight=31
@@ -79,6 +90,10 @@ loading_time=7800
 Constraint[Prev][0]=X_Wagen_1978_1
 Constraint[Next][0]=X_Wagen_1978_0
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/X-Wagen_1978.2.1
 EmptyImage[E]=./image/X-Wagen_1978.2.0

@@ -1,5 +1,5 @@
 obj=vehicle
-name=OBB_1142
+name=Rh 1142
 copyright=PappeTeeMaster
 waytype=narrowgauge_track
 engine_type=electric
@@ -9,11 +9,20 @@ retire_year=2001
 retire_month=10
 speed=150
 power=3800
-gear=100
+axles=4
+gear=90
+bidirectional=1
+brake_force=110
+tractive_effort=225
 weight=83
 runningcost=3945
 cost=135987134
 length=9
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/OBB_1142.0.0
 emptyimage[n]=./image/OBB_1142.1.1
 emptyimage[ne]=./image/OBB_1142.1.3

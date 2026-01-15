@@ -1,6 +1,43 @@
 #!/bin/bash
 
-#set -e
+# Structure of the file:
+# - parameters for balancing
+#   - buildings
+#   - vehicles
+# - general functions that don't have a single purpose and are used quite often
+# - single use functions that run once the script starts
+#   - functions related to reading the goods from the goods file
+# - functions related to balancing
+# - functions related to writing certain objects
+# - the main function
+
+
+
+#parameters for balancing
+
+    #buildings
+
+    	#will be used in case no class proporion is given in the dat file
+   		BuildingClassProportion0=1
+   		BuildingClassProportion1=4
+   		BuildingClassProportion2=40
+   		BuildingClassProportion3=50
+   		BuildingClassProportion4=5
+
+    #vehicles
+
+		StandardComfort=(33 66 100 150 200)
+		PriceForClasses=(33 66 100 150 200)
+
+		StandardPayloadPerLength=8
+		StandardPayloadPerLength0=3
+		StandardPayloadPerLength1=6
+		StandardPayloadPerLength2=8
+		StandardPayloadPerLength3=10
+		StandardPayloadPerLength4=12
+
+		FreeSpace=0
+
 
 #general functions that don't have a single purpose
 
@@ -27,6 +64,7 @@ trim() {
 }
 
 
+#single use functions that run once the script starts
 
 #functions related to reading the goods from the goods file
 

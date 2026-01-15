@@ -8,11 +8,17 @@ intro_month=1
 #retire_month=2
 speed=200
 payload=500
-weight=43
+weight=42
+brake_force=84
 runningcost=1020
 cost=162870
 length=12
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/EW IV Spezialwagen.0.0
 emptyimage[n]=./image/EW IV Spezialwagen.0.3
 emptyimage[ne]=./image/EW IV Spezialwagen.0.5
@@ -33,11 +39,18 @@ intro_month=1
 #retire_month=2
 speed=200
 payload=45
-weight=43
+weight=48
+brake_force=110
 runningcost=1020
 cost=162870
 length=12
+catering_level=4
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/EW IV Spezialwagen.1.0
 emptyimage[n]=./image/EW IV Spezialwagen.1.3
 emptyimage[ne]=./image/EW IV Spezialwagen.1.5
@@ -58,11 +71,17 @@ intro_month=1
 #retire_month=2
 speed=200
 payload=500
-weight=40
+weight=42
+brake_force=84
 runningcost=1260
 cost=209670
 length=12
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/EW IV Spezialwagen.2.0
 emptyimage[n]=./image/EW IV Spezialwagen.2.3
 emptyimage[ne]=./image/EW IV Spezialwagen.2.5

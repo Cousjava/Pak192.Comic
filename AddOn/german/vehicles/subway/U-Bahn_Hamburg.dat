@@ -47,6 +47,10 @@ gear=100
 speed=60
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
 constraint[prev][2]=U-Bahn_Hamburg_T1_3
@@ -105,6 +109,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -167,6 +175,10 @@ gear=100
 speed=60
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
 constraint[prev][2]=U-Bahn_Hamburg_T1_3
@@ -225,6 +237,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -286,6 +302,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -350,6 +370,10 @@ gear=100
 speed=60
 length=9
 
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
 constraint[prev][2]=U-Bahn_Hamburg_T1_3
@@ -412,6 +436,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -478,6 +506,10 @@ gear=100
 speed=80
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
 constraint[prev][2]=U-Bahn_Hamburg_T1_3
@@ -527,6 +559,10 @@ power=148
 gear=100
 speed=80
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T15_1
 
@@ -579,6 +615,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -640,6 +680,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -704,6 +748,10 @@ gear=100
 speed=60
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
 constraint[prev][2]=U-Bahn_Hamburg_T1_3
@@ -764,6 +812,10 @@ power=148
 gear=100
 speed=60
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_T1_1
 constraint[prev][1]=U-Bahn_Hamburg_T1_2
@@ -826,6 +878,10 @@ gear=100
 speed=80
 length=10
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
@@ -864,6 +920,10 @@ power=296
 gear=100
 speed=80
 length=10
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
@@ -907,6 +967,10 @@ gear=100
 speed=80
 length=10
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
@@ -946,6 +1010,10 @@ power=296
 gear=100
 speed=80
 length=10
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT1_3
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
@@ -988,6 +1056,10 @@ gear=100
 speed=70
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT2E_2
 constraint[prev][2]=U-Bahn_Hamburg_AL
@@ -1024,6 +1096,10 @@ power=160
 gear=100
 speed=70
 length=10
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_1
@@ -1066,6 +1142,10 @@ gear=100
 speed=70
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT2E_2
 constraint[prev][2]=U-Bahn_Hamburg_AL
@@ -1104,6 +1184,10 @@ power=160
 gear=100
 speed=70
 length=10
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT2E_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_1
@@ -1144,6 +1228,10 @@ gear=100
 speed=80
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
@@ -1183,6 +1271,10 @@ gear=100
 speed=80
 length=8
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT3_3
 
@@ -1216,6 +1308,10 @@ power=160
 gear=100
 speed=80
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT3_2
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
@@ -1260,6 +1356,10 @@ gear=100
 speed=80
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
@@ -1301,6 +1401,10 @@ gear=100
 speed=80
 length=8
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 Constraint[prev][0]=U-Bahn_Hamburg_DT3E_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT3E_3
 
@@ -1336,6 +1440,10 @@ power=160
 gear=100
 speed=80
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT3E_2
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
@@ -1379,6 +1487,10 @@ gear=100
 speed=80
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT4_4
 constraint[prev][1]=U-Bahn_Hamburg_DT4U_4
 constraint[prev][2]=U-Bahn_Hamburg_DT4_5_4
@@ -1418,6 +1530,10 @@ gear=100
 speed=80
 length=10
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT4_1
 constraint[next][0]=U-Bahn_Hamburg_DT4_3
 
@@ -1453,6 +1569,10 @@ gear=100
 speed=80
 length=10
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT4_2
 constraint[next][0]=U-Bahn_Hamburg_DT4_4
 
@@ -1487,6 +1607,10 @@ power=250
 gear=100
 speed=80
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_DT4_3
 constraint[next][0]=U-Bahn_Hamburg_DT4_1
@@ -1677,6 +1801,10 @@ gear=100
 speed=80
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT4_4
 constraint[prev][1]=U-Bahn_Hamburg_DT4U_4
 constraint[prev][2]=U-Bahn_Hamburg_DT4_5_4
@@ -1716,6 +1844,10 @@ gear=100
 speed=80
 length=10
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT4_5_1
 constraint[next][0]=U-Bahn_Hamburg_DT4_5_3
 
@@ -1751,6 +1883,10 @@ gear=100
 speed=80
 length=10
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT4_5_2
 constraint[next][0]=U-Bahn_Hamburg_DT4_5_4
 
@@ -1785,6 +1921,10 @@ power=250
 gear=100
 speed=80
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_DT4_5_3
 constraint[next][0]=U-Bahn_Hamburg_DT4_1
@@ -1826,6 +1966,10 @@ gear=100
 speed=80
 length=9
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT5_3
 constraint[prev][1]=U-Bahn_Hamburg_AL
 constraint[prev][2]=none
@@ -1863,6 +2007,10 @@ gear=100
 speed=80
 length=8
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=U-Bahn_Hamburg_DT5_1
 constraint[next][0]=U-Bahn_Hamburg_DT5_3
 
@@ -1897,6 +2045,10 @@ power=270
 gear=100
 speed=80
 length=9
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=U-Bahn_Hamburg_DT5_2
 constraint[next][0]=U-Bahn_Hamburg_DT5_1

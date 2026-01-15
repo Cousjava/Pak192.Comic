@@ -7,6 +7,7 @@ retire_year=1958
 retire_month=0
 freight=Passagiere
 payload=39
+overcrowded_capacity=18
 cost=19448492
 runningcost=830
 weight=40
@@ -24,6 +25,10 @@ constraint[prev][0]=VT_04_PC-3
 constraint[prev][1]=none
 constraint[next][0]=VT_04_PC-2
 constraint[next][1]=VT_04_PC-3
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/Diesel_1935_SVT_Hamburg.1.1
 EmptyImage[E]=./image/Diesel_1935_SVT_Hamburg.1.0
@@ -61,6 +66,10 @@ constraint[prev][0]=VT_04_PC-1
 constraint[next][0]=VT_04_PC-3
 #constraint[next][1]=VT_04_PC-2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Diesel_1935_SVT_Hamburg.0.1
 EmptyImage[E]=./image/Diesel_1935_SVT_Hamburg.0.0
 EmptyImage[SE]=./image/Diesel_1935_SVT_Hamburg.0.4
@@ -78,7 +87,8 @@ intro_month=0
 retire_year=1958
 retire_month=0
 freight=Passagiere
-payload=38
+payload=39
+overcrowded_capacity=18
 cost=19448492
 runningcost=830
 weight=45
@@ -96,6 +106,10 @@ constraint[prev][0]=VT_04_PC-1
 constraint[prev][1]=VT_04_PC-2
 constraint[next][0]=VT_04_PC-1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/Diesel_1935_SVT_Hamburg.2.1
 EmptyImage[E]=./image/Diesel_1935_SVT_Hamburg.2.0

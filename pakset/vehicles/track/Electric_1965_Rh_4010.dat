@@ -12,6 +12,7 @@ runningcost=565
 weight=34
 speed=150
 length=12
+axles=4
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=5650
@@ -22,6 +23,10 @@ constraint[prev][2]=OBB_4010_Triebkopf_1
 constraint[next][0]=OBB_4010_Mittelwagen
 constraint[next][1]=OBB_4010_Steuerwagen_2
 constraint[next][2]=OBB_4010_Triebkopf_2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/4010.0.1
 EmptyImage[E]=./image/4010.0.0
@@ -46,6 +51,7 @@ runningcost=516
 weight=36
 speed=150
 length=12
+axles=4
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=5160
@@ -56,6 +62,10 @@ constraint[prev][2]=none
 constraint[next][0]=OBB_4010_Mittelwagen
 constraint[next][1]=OBB_4010_Steuerwagen_2
 constraint[next][2]=OBB_4010_Triebkopf_2
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/4010.1.1
 EmptyImage[E]=./image/4010.1.0
@@ -80,6 +90,7 @@ runningcost=516
 weight=36
 speed=150
 length=12
+axles=4
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=5160
@@ -90,6 +101,10 @@ constraint[prev][2]=OBB_4010_Triebkopf_1
 constraint[next][0]=OBB_4010_Steuerwagen_1
 constraint[next][1]=OBB_4010_Triebkopf_1
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/4010.2.1
 EmptyImage[E]=./image/4010.2.0
@@ -109,8 +124,10 @@ retire_year=1978
 retire_month=0
 freight=Passagiere
 payload=0
+tractive_effort=162
+axles=4
 power=2265
-gear=150
+gear=90
 cost=78423134
 runningcost=2296
 weight=81
@@ -125,6 +142,10 @@ constraint[prev][2]=none
 constraint[next][0]=OBB_4010_Mittelwagen
 constraint[next][1]=OBB_4010_Steuerwagen_2
 constraint[next][2]=OBB_4010_Triebkopf_2
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/4010.3.1
 EmptyImage[E]=./image/4010.3.0
@@ -145,7 +166,9 @@ retire_month=0
 freight=Passagiere
 payload=0
 power=2265
-gear=150
+tractive_effort=162
+axles=4
+gear=90
 cost=78423134
 runningcost=2296
 weight=81
@@ -160,6 +183,10 @@ constraint[prev][2]=OBB_4010_Triebkopf_1
 constraint[next][0]=OBB_4010_Steuerwagen_1
 constraint[next][1]=OBB_4010_Triebkopf_1
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/4010.4.1
 EmptyImage[E]=./image/4010.4.0

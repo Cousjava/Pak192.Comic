@@ -223,7 +223,9 @@ simple_tool[40]=40
 # TOOL_LOAD_SCENARIO
 simple_tool[41]=41
 
-################################################################################################################################################################
+simple_tool[129]=,^s
+simple_tool[133]=,l
+
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
 # they have only an icon assigned
@@ -304,6 +306,42 @@ dialog_tool[33]=33
 # DIALOG_SCRIPT_TOOL =      34
 dialog_tool[34]=34 
 # DIALOG_EDIT_GROUNDOBJ =   35
+#
+dialog_tool[0]=0,?
+dialog_tool[1]=1,Q
+dialog_tool[2]=2,m
+dialog_tool[3]=3,w
+dialog_tool[4]=4,q
+dialog_tool[5]=5,f
+dialog_tool[6]=6,k
+dialog_tool[7]=7
+dialog_tool[8]=8
+dialog_tool[9]=9
+dialog_tool[10]=10
+dialog_tool[11]=11,J
+dialog_tool[12]=12,L
+dialog_tool[13]=13,S
+dialog_tool[14]=14,H
+dialog_tool[15]=15,V
+dialog_tool[16]=16,T
+dialog_tool[17]=17,G
+dialog_tool[18]=18,F
+dialog_tool[19]=19,A
+dialog_tool[20]=20
+dialog_tool[21]=21
+dialog_tool[22]=22
+dialog_tool[23]=23 
+dialog_tool[24]=24 
+dialog_tool[25]=25
+dialog_tool[26]=26
+dialog_tool[27]=27
+dialog_tool[28]=28 
+dialog_tool[29]=29
+dialog_tool[30]=30
+dialog_tool[31]=31
+dialog_tool[32]=32
+dialog_tool[33]=33 
+dialog_tool[34]=34 
 dialog_tool[35]=35
 
 ################################################################################################################################################################
@@ -400,67 +438,72 @@ toolbar[0][38]=dialog_tool[27]
 toolbar[0][39]=simple_tool[40]
 toolbar[0][40]=-,15
 
+# invisible tools
+toolbar[0][68]=simple_tool[7],,.,+1
+toolbar[0][69]=simple_tool[7],,#44,-1
+toolbar[0][70]=simple_tool[19],,+,+
+toolbar[0][71]=simple_tool[19],,-,-
 
 # view tools
-toolbar[1][0]=general_tool[0]
-toolbar[1][1]=-,24
-toolbar[1][2]=simple_tool[8]
-toolbar[1][3]=simple_tool[9]
-toolbar[1][4]=simple_tool[16]
-toolbar[1][5]=simple_tool[19],18,+,+
-toolbar[1][6]=simple_tool[19],19,-,-
+toolbar[1][0]=general_tool[0],35
+toolbar[1][1]=-,36
+toolbar[1][2]=simple_tool[8],37
+toolbar[1][3]=simple_tool[9],38
+toolbar[1][4]=simple_tool[16],39
+toolbar[1][5]=-
+toolbar[1][6]=x
 toolbar[1][7]=x
 toolbar[1][8]=x
 toolbar[1][9]=x
-toolbar[1][10]=simple_tool[15],20,U
-toolbar[1][11]=simple_tool[15],21,^U,K
-toolbar[1][12]=simple_tool[15],22,(,I
-toolbar[1][13]=simple_tool[15],23,),D
+toolbar[1][10]=simple_tool[15],40,U
+toolbar[1][11]=simple_tool[15],41,^U,K
+toolbar[1][12]=simple_tool[15],42,(,I
+toolbar[1][13]=simple_tool[15],43,),D
 toolbar[1][14]=-
 toolbar[1][15]=x
 toolbar[1][16]=x
 toolbar[1][17]=x
 toolbar[1][18]=x
 toolbar[1][19]=x
-toolbar[1][20]=general_tool[7]
-toolbar[1][21]=simple_tool[13]
-toolbar[1][22]=simple_tool[14]
-toolbar[1][23]=-b,25
+toolbar[1][20]=general_tool[7],45
+toolbar[1][21]=simple_tool[13],46
+toolbar[1][22]=simple_tool[14],47
+toolbar[1][23]=-b,48
 
 # slope tools
-toolbar[2][0]=toolbar[16],32,,SLOPETOOLSEXTRA,slopetoolsextra.txt
-toolbar[2][1]=-,33
-toolbar[2][2]=general_tool[2]
-toolbar[2][3]=general_tool[3]
+toolbar[2][0]=toolbar[16],50,,SLOPETOOLSEXTRA,slopetoolsextra.txt
+toolbar[2][1]=-,51
+toolbar[2][2]=general_tool[2],52
+toolbar[2][3]=general_tool[3],53
 toolbar[2][4]=-
-toolbar[2][5]=general_tool[4],34,,36 #southslope
-toolbar[2][6]=general_tool[4],35,,72 #southslope x2
-toolbar[2][7]=general_tool[4],36,,4 #northslope
-toolbar[2][8]=general_tool[4],37,,8 #northslope x2
-toolbar[2][9]=general_tool[4],38,,12 #westslope
-toolbar[2][10]=general_tool[4],39,,24 #westslope x2
-toolbar[2][11]=general_tool[4],40,,28 #eastslope
-toolbar[2][12]=general_tool[4],41,,56 #eastslope x2
-toolbar[2][13]=general_tool[4],42,,83 #all up slope
-toolbar[2][14]=general_tool[4],43,,82 #all down slope
-toolbar[2][15]=general_tool[5] #delete slope
+toolbar[2][5]=general_tool[4],54,,36 #southslope
+toolbar[2][6]=general_tool[4],55,,72 #southslope x2
+toolbar[2][7]=general_tool[4],56,,4 #northslope
+toolbar[2][8]=general_tool[4],57,,8 #northslope x2
+toolbar[2][9]=general_tool[4],58,,12 #westslope
+toolbar[2][10]=general_tool[4],59,,24 #westslope x2
+toolbar[2][11]=general_tool[4],60,,28 #eastslope
+toolbar[2][12]=general_tool[4],61,,56 #eastslope x2
+toolbar[2][13]=general_tool[4],62,,83 #all up slope
+toolbar[2][14]=general_tool[4],63,,82 #all down slope
+toolbar[2][15]=general_tool[5],64 #delete slope
 toolbar[2][16]=-
-toolbar[2][17]=general_tool[38],48,,+1 #higher water
-toolbar[2][18]=general_tool[38],49,,-1 #lower water
-toolbar[2][19]=general_tool[39],50,,0 #climate water
-toolbar[2][20]=general_tool[39],51,,1
-toolbar[2][21]=general_tool[39],52,,2 
-toolbar[2][22]=general_tool[39],53,,3
-toolbar[2][23]=general_tool[39],54,,4
-toolbar[2][24]=general_tool[39],55,,5
-toolbar[2][25]=general_tool[39],56,,6
-toolbar[2][26]=general_tool[39],57,,7
-toolbar[2][27]=-b,58
+toolbar[2][17]=general_tool[38],65,,+1 #higher water
+toolbar[2][18]=general_tool[38],66,,-1 #lower water
+toolbar[2][19]=general_tool[39],67,,0 #climate water
+toolbar[2][20]=general_tool[39],68,,1
+toolbar[2][21]=general_tool[39],69,,2 
+toolbar[2][22]=general_tool[39],70,,3
+toolbar[2][23]=general_tool[39],71,,4
+toolbar[2][24]=general_tool[39],72,,5
+toolbar[2][25]=general_tool[39],73,,6
+toolbar[2][26]=general_tool[39],74,,7
+toolbar[2][27]=-b,75
 
 
 # roadtools (waytype 1)
-toolbar[3][0]=-,64
-toolbar[3][1]=-,65
+toolbar[3][0]=-,80
+toolbar[3][1]=-,81
 toolbar[3][2]=ways(1,0)
 toolbar[3][3]=ways(1,1)
 toolbar[3][4]=bridges(1)
@@ -472,27 +515,27 @@ toolbar[3][9]=buildings(34,1)
 toolbar[3][10]=buildings(35,1)
 toolbar[3][11]=general_tool[14],,s,1
 toolbar[3][12]=buildings(33,1)
-toolbar[3][13]=general_tool[33],96,,1
-toolbar[3][14]=general_tool[17],97,,1
-toolbar[3][15]=-b,66
+toolbar[3][13]=general_tool[33],124,,1
+toolbar[3][14]=general_tool[17],82,,1
+toolbar[3][15]=-b,83
 
 
 # tramtools (waytype 7)
-toolbar[4][0]=-,67
-toolbar[4][1]=-,68
+toolbar[4][0]=-,84
+toolbar[4][1]=-,85
 toolbar[4][2]=ways(7,0)
 toolbar[4][3]=ways(2,7)
 toolbar[4][4]=wayobjs(7)
-toolbar[4][5]=-,112
-toolbar[4][6]=general_tool[20],113,,tram_signal
-toolbar[4][7]=general_tool[20],114,,tram_presignal
-toolbar[4][8]=general_tool[20],115,,tram_siglong
-toolbar[4][9]=general_tool[20],116,,tram_sigchoose
-toolbar[4][10]=general_tool[20],117,,tram_sigchooseend
+toolbar[4][5]=-,167
+toolbar[4][6]=general_tool[20],168,,tram_signal
+toolbar[4][7]=general_tool[20],169,,tram_presignal
+toolbar[4][8]=general_tool[20],170,,tram_siglong
+toolbar[4][9]=general_tool[20],172,,tram_sigchoose
+toolbar[4][10]=general_tool[20],173,,tram_sigchooseend
 toolbar[4][11]=general_tool[20],x,,tram_sigsingle
-toolbar[4][12]=general_tool[20],119,,tram_sigpriority
+toolbar[4][12]=general_tool[20],175,,tram_sigpriority
 toolbar[4][13]=general_tool[20],x,,tram_sigprivate
-toolbar[4][14]=-,122
+toolbar[4][14]=-,163
 toolbar[4][15]=x
 toolbar[4][16]=buildings(34,7)
 toolbar[4][17]=buildings(35,7)
@@ -502,64 +545,62 @@ toolbar[4][20]=general_tool[17],99,,2
 toolbar[4][21]=-b,69
 
 # railtools (waytype 8)
-toolbar[5][0]=-,70
-toolbar[5][1]=-,71
-toolbar[5][2]=ways(8,69)
-toolbar[5][3]=toolbar[17],123,,TRACKS_TRACK,tracks_track.txt
-toolbar[5][4]=ways(8,1)
-toolbar[5][5]=bridges(8)
-toolbar[5][6]=tunnels(8)
-toolbar[5][7]=wayobjs(8)
-toolbar[5][8]=-,112
-toolbar[5][9]=general_tool[20],113,,track_signal
-toolbar[5][10]=general_tool[20],114,,track_presignal
-toolbar[5][11]=general_tool[20],115,,track_siglong
-toolbar[5][12]=general_tool[20],116,,track_sigchoose
-toolbar[5][13]=general_tool[20],117,,track_sigchooseend
-toolbar[5][14]=general_tool[20],118,,track_sigsingle
-toolbar[5][15]=general_tool[20],119,19,track_sigpriority
-toolbar[5][16]=general_tool[20],120,20,track_sigprivate
-toolbar[5][17]=toolbar[18],121,,SIGNALS_TRACK,signals_track.txt
-toolbar[5][18]=-
-toolbar[5][19]=buildings(34,8)
-toolbar[5][20]=buildings(35,8)
-toolbar[5][21]=general_tool[14],,t,8
-toolbar[5][22]=general_tool[18],,e,8
-toolbar[5][23]=buildings(33,8)
-toolbar[5][24]=general_tool[33],100,,8
-toolbar[5][25]=general_tool[17],101,,8
-toolbar[5][26]=-b,72
+toolbar[5][0]=-,88
+toolbar[5][1]=-,89
+toolbar[5][2]=ways(8,0)
+toolbar[5][3]=ways(8,1)
+toolbar[5][4]=bridges(8)
+toolbar[5][5]=tunnels(8)
+toolbar[5][6]=wayobjs(8)
+toolbar[5][7]=-,167
+toolbar[5][8]=general_tool[20],168,,track_signal
+toolbar[5][9]=general_tool[20],169,,track_presignal
+toolbar[5][10]=general_tool[20],170,,track_siglong
+toolbar[5][11]=general_tool[20],172,,track_sigchoose
+toolbar[5][12]=general_tool[20],173,,track_sigchooseend
+toolbar[5][13]=general_tool[20],174,,track_sigsingle
+toolbar[5][14]=general_tool[20],175,19,track_sigpriority
+toolbar[5][15]=general_tool[20],176,20,track_sigprivate
+toolbar[5][16]=toolbar[17],171,,SIGNALS_TRACK,signals_track.txt
+toolbar[5][17]=-
+toolbar[5][18]=buildings(34,8)
+toolbar[5][19]=buildings(35,8)
+toolbar[5][20]=general_tool[14],,t,8
+toolbar[5][21]=general_tool[18],,e,8
+toolbar[5][22]=buildings(33,8)
+toolbar[5][23]=general_tool[33],126,,8
+toolbar[5][24]=general_tool[17],90,,8
+toolbar[5][25]=-b,91
 
 # narrowgauge (waytype 2)
-toolbar[6][0]=-,73
-toolbar[6][1]=-,74
+toolbar[6][0]=-,92
+toolbar[6][1]=-,93
 toolbar[6][2]=ways(2,0)
 toolbar[6][3]=ways(2,1)
 toolbar[6][4]=bridges(2)
 toolbar[6][5]=tunnels(2)
 toolbar[6][6]=wayobjs(2)
-toolbar[6][7]=-,112
-toolbar[6][8]=general_tool[20],113,,ng_signal
-toolbar[6][9]=general_tool[20],114,,ng_presignal
-toolbar[6][10]=general_tool[20],115,,ng_siglong
-toolbar[6][11]=general_tool[20],116,,ng_sigchoose
-toolbar[6][12]=general_tool[20],117,,ng_sigchooseend
-toolbar[6][13]=general_tool[20],118,,ng_sigsingle
-toolbar[6][14]=general_tool[20],119,,ng_sigpriority
-toolbar[6][15]=general_tool[20],120,,ng_sigprivate
-toolbar[6][16]=toolbar[19],121,,SIGNALS_NG,signals_ng.txt
-#toolbar[6][16]=-
+toolbar[6][7]=-,167
+toolbar[6][8]=general_tool[20],168,,ng_signal
+toolbar[6][9]=general_tool[20],169,,ng_presignal
+toolbar[6][10]=general_tool[20],170,,ng_siglong
+toolbar[6][11]=general_tool[20],172,,ng_sigchoose
+toolbar[6][12]=general_tool[20],173,,ng_sigchooseend
+toolbar[6][13]=general_tool[20],174,,ng_sigsingle
+toolbar[6][14]=general_tool[20],175,,ng_sigpriority
+toolbar[6][15]=general_tool[20],176,,ng_sigprivate
+toolbar[6][16]=toolbar[18],171,,SIGNALS_NG,signals_ng.txt
 toolbar[6][17]=-
 toolbar[6][18]=buildings(34,2)
 toolbar[6][19]=buildings(35,2)
 toolbar[6][20]=buildings(33,2)
-toolbar[6][21]=general_tool[33],102,,2
-toolbar[6][22]=general_tool[17],103,,2
-toolbar[6][23]=-b,75
+toolbar[6][21]=general_tool[33],127,,2
+toolbar[6][22]=general_tool[17],94,,2
+toolbar[6][23]=-b,95
 
 # shiptools (waytype 3)
-toolbar[7][0]=-,76
-toolbar[7][1]=-,77
+toolbar[7][0]=-,96
+toolbar[7][1]=-,97
 toolbar[7][2]=ways(3,0)
 toolbar[7][3]=x
 toolbar[7][4]=bridges(3)
@@ -571,12 +612,12 @@ toolbar[7][9]=buildings(34,3)
 toolbar[7][10]=buildings(11,3)
 toolbar[7][11]=buildings(35,3)
 toolbar[7][12]=buildings(33,3)
-toolbar[7][13]=general_tool[17],104,,3
-toolbar[7][14]=-b,78
+toolbar[7][13]=general_tool[17],98,,3
+toolbar[7][14]=-b,99
 
 # airtools (waytype 16)
-toolbar[8][0]=-,80
-toolbar[8][1]=-,81
+toolbar[8][0]=-,100
+toolbar[8][1]=-,101
 toolbar[8][2]=ways(16,0)
 toolbar[8][3]=ways(16,1)
 toolbar[8][4]=bridges(16)
@@ -586,13 +627,13 @@ toolbar[8][7]=-
 toolbar[8][8]=buildings(34,16)
 toolbar[8][9]=buildings(35,16)
 toolbar[8][10]=buildings(33,16)
-toolbar[8][11]=general_tool[17],105,,16 
-toolbar[8][12]=-b,82
+toolbar[8][11]=general_tool[17],102,,16 
+toolbar[8][12]=-b,103
 
 
 # schwebebahn (waytype 5)
-#toolbar[9][0]=-,83
-#toolbar[9][1]=-,84
+#toolbar[9][0]=-,104
+#toolbar[9][1]=-,105
 #toolbar[9][2]=ways(5,0)
 #toolbar[9][3]=ways(5,1)
 #toolbar[9][4]=bridges(5)
@@ -604,12 +645,12 @@ toolbar[8][12]=-b,82
 #toolbar[9][10]=buildings(35,5)
 #toolbar[9][11]=buildings(33,5)
 #toolbar[9][12]=general_tool[17],106,,5
-#toolbar[9][13]=-b,85
+#toolbar[9][13]=-b,107
 
 
 # maglevtools (waytype 6)
-toolbar[10][0]=-,86
-toolbar[10][1]=-,87
+toolbar[10][0]=-,108
+toolbar[10][1]=-,109
 toolbar[10][2]=ways(6,0)
 toolbar[10][3]=ways(6,1)
 toolbar[10][4]=bridges(6)
@@ -620,12 +661,12 @@ toolbar[10][8]=-
 toolbar[10][9]=buildings(34,6)
 toolbar[10][10]=buildings(35,6)
 toolbar[10][11]=buildings(33,6)
-toolbar[10][12]=general_tool[17],107,,6
-toolbar[10][13]=-b,88
+toolbar[10][12]=general_tool[17],110,,6
+toolbar[10][13]=-b,111
 
 # buildings
-toolbar[11][0]=-,89
-toolbar[11][1]=-,90
+toolbar[11][0]=-,112
+toolbar[11][1]=-,113
 toolbar[11][2]=buildings(35,0)
 toolbar[11][3]=buildings(35,1)
 toolbar[11][4]=buildings(35,2)
@@ -635,11 +676,11 @@ toolbar[11][7]=buildings(35,6)
 toolbar[11][8]=buildings(35,7)
 toolbar[11][9]=buildings(35,8)
 toolbar[11][10]=buildings(35,16)
-toolbar[11][11]=-b,91
+toolbar[11][11]=-b,115
 
 # special tools
-toolbar[12][0]=-,92
-toolbar[12][1]=-,93
+toolbar[12][0]=-,116
+toolbar[12][1]=-,117
 toolbar[12][2]=ways(2,255)
 toolbar[12][3]=general_tool[14],,,kaimauer1
 toolbar[12][4]=general_tool[14],,,kaimauer2
@@ -649,68 +690,63 @@ toolbar[12][7]=bridges(128)
 toolbar[12][8]=tunnels(128)
 toolbar[12][9]=x
 toolbar[12][10]=general_tool[8]
-toolbar[12][11]=general_tool[17],109,,128
+toolbar[12][11]=general_tool[17],114,,128
 toolbar[12][12]=-
-toolbar[12][13]=general_tool[30]
-toolbar[12][14]=general_tool[44]
-toolbar[12][15]=general_tool[31]
+toolbar[12][13]=general_tool[30],156
+toolbar[12][14]=general_tool[44],154
+toolbar[12][15]=general_tool[31],157
 toolbar[12][16]=x
-toolbar[12][17]=general_tool[32]
-toolbar[12][18]=general_tool[6]
-toolbar[12][19]=general_tool[35]
-toolbar[12][20]=general_tool[40]
-toolbar[12][21]=x
-toolbar[12][22]=-b,94
+toolbar[12][17]=general_tool[32],158
+toolbar[12][18]=general_tool[6],159
+toolbar[12][19]=general_tool[35],160
+toolbar[12][20]=x
+toolbar[12][21]=-b,119
 
 #Abrisstools
-toolbar[13][0]=general_tool[1],60
-toolbar[13][1]=-,61
-toolbar[13][2]=general_tool[17],97,,1
-toolbar[13][3]=general_tool[17],99,,2
-toolbar[13][4]=general_tool[17],101,,8 
-toolbar[13][5]=general_tool[17],103,,2 
-toolbar[13][6]=general_tool[17],104,,3
-toolbar[13][7]=general_tool[17],105,,16
-#toolbar[13][8]=general_tool[17],106,,5
-toolbar[13][8]=x
-toolbar[13][8]=general_tool[17],107,,6
-toolbar[13][9]=general_tool[17],108,,2
-toolbar[13][10]=general_tool[17],109,,128
+toolbar[13][0]=general_tool[1],120
+toolbar[13][1]=-,121
+toolbar[13][2]=general_tool[17],82,,1
+toolbar[13][3]=general_tool[17],90,,8 
+toolbar[13][4]=general_tool[17],94,,2 
+toolbar[13][5]=general_tool[17],98,,3
+toolbar[13][6]=general_tool[17],102,,16
+#toolbar[13][7]=general_tool[17],106,,5
+toolbar[13][7]=x
+toolbar[13][8]=general_tool[17],110,,6
+toolbar[13][9]=general_tool[17],118,,2
+toolbar[13][10]=general_tool[17],114,,128
 toolbar[13][11]=-
-toolbar[13][12]=general_tool[33],96,,1
-toolbar[13][13]=general_tool[33],98,,2
-toolbar[13][14]=general_tool[33],100,,8
-toolbar[13][15]=general_tool[33],102,,2
-toolbar[13][16]=-b,62
+toolbar[13][12]=general_tool[33],124,,1
+toolbar[13][13]=general_tool[33],127,,8
+toolbar[13][14]=general_tool[33],126,,2
+toolbar[13][15]=-b,123
 
 # list tools
-toolbar[14][0]=dialog_tool[33]
-toolbar[14][1]=dialog_tool[14]
-toolbar[14][2]=dialog_tool[25]
-toolbar[14][3]=dialog_tool[15]
-toolbar[14][4]=dialog_tool[32]
-toolbar[14][5]=dialog_tool[16]
-toolbar[14][6]=dialog_tool[17]
-toolbar[14][7]=dialog_tool[18]
-toolbar[14][8]=dialog_tool[19]
-toolbar[14][9]=-b,95
+toolbar[14][0]=dialog_tool[14],130
+toolbar[14][1]=dialog_tool[15],131
+toolbar[14][2]=dialog_tool[25],132
+toolbar[14][3]=dialog_tool[16],133
+toolbar[14][4]=dialog_tool[17],134
+toolbar[14][5]=dialog_tool[18],135
+toolbar[14][6]=dialog_tool[19],136
+toolbar[14][7]=-b,137
 
 # editor tools
-toolbar[15][0]=general_tool[9]
-toolbar[15][1]=general_tool[10],26,,+100
-toolbar[15][2]=general_tool[10],27,,-100
-toolbar[15][3]=general_tool[14],,,city_road
-toolbar[15][4]=general_tool[29]
-toolbar[15][5]=simple_tool[3]
-toolbar[15][6]=general_tool[26]
-toolbar[15][7]=dialog_tool[20],,(
-toolbar[15][8]=dialog_tool[21],,/
-toolbar[15][9]=dialog_tool[22],,&
-toolbar[15][10]=dialog_tool[23]
-toolbar[15][11]=dialog_tool[35]
-toolbar[15][12]=simple_tool[6]
+toolbar[15][0]=general_tool[9],140
+toolbar[15][1]=general_tool[10],141,,+100
+toolbar[15][2]=general_tool[10],142,,-100
+toolbar[15][3]=general_tool[14],143,,city_road
+toolbar[15][4]=general_tool[29],144
+toolbar[15][5]=simple_tool[3],145
+toolbar[15][6]=general_tool[26],146
+toolbar[15][7]=dialog_tool[20],147,(
+toolbar[15][8]=dialog_tool[21],148,/
+toolbar[15][9]=dialog_tool[22],149,&
+toolbar[15][10]=dialog_tool[23],150
+toolbar[15][11]=dialog_tool[35],153
+toolbar[15][12]=simple_tool[6],151
 toolbar[15][13]=ways(3,255)
-toolbar[15][14]=dialog_tool[24]
+toolbar[15][14]=dialog_tool[24],152
 toolbar[15][15]=-b,137
 
 
@@ -796,7 +832,7 @@ toolbar[16][63]=general_tool[4],275,,75
 toolbar[16][64]=general_tool[4],278,,78
 #toolbar[16][79]=general_tool[4],279,,79
 #toolbar[16][80]=general_tool[4],280,,80
-toolbar[16][65]=-b,25
+toolbar[16][65]=-b,48
 
 
 #additional tracks track
@@ -805,11 +841,11 @@ toolbar[17][1]=ways(8,0)
 toolbar[17][2]=-b,72
 
 #additional signals track
-toolbar[18][0]=-,125
-toolbar[18][1]=signs(8)
-toolbar[18][2]=-b,72
+toolbar[17][0]=-,164
+toolbar[17][1]=signs(8)
+toolbar[17][2]=-b,91
 
 #additional signals narrowgauge
-toolbar[19][0]=-,126
-toolbar[19][1]=signs(2)
-toolbar[19][2]=-b,75
+toolbar[18][0]=-,165
+toolbar[18][1]=signs(2)
+toolbar[18][2]=-b,95

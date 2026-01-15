@@ -10,12 +10,17 @@ speed=100
 payload=57
 #with 82m3 and 0,7t/m3 for coal
 weight=24
+brake_force=58
 runningcost=213
 cost=2344650
 length=8
 loading_time=2130
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[s,w,se,sw]=./image/Car_Coal_1987_Eanos_052.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore

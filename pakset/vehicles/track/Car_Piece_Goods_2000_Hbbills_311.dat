@@ -9,10 +9,15 @@ intro_month=9
 speed=120
 payload=44
 weight=18
+brake_force=36
 runningcost=213
 cost=2344650
 length=8
 loading_time=2130
 freight=flour
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[s,w,se,sw]=./image/Car_Piece_Goods_2000_Hbbills_311.0.<$0>
