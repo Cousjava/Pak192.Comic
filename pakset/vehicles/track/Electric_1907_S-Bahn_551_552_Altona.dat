@@ -24,6 +24,11 @@ speed=50
 length=6
 waytype=narrowgauge_track
 loading_time=4580
+
+axles=3
+has_front_cab=1
+has_rear_cab=0
+
 constraint[prev][0]=Electric_1907_S-Bahn_552_Altona
 constraint[prev][1]=none
 constraint[next][0]=Electric_1907_S-Bahn_552_Altona
@@ -57,6 +62,10 @@ speed=50
 length=6
 waytype=narrowgauge_track
 loading_time=4580
+
+axles=3
+has_front_cab=0
+has_rear_cab=1
 constraint[prev][0]=Electric_1907_S-Bahn_551_Altona
 constraint[next][0]=Electric_1907_S-Bahn_551_Altona
 constraint[next][1]=none
