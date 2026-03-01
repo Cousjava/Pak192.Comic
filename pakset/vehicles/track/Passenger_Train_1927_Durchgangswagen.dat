@@ -11,7 +11,7 @@ intro_month=3
 retire_year=1939
 retire_month=0
 freight=Passagiere
-payload=58
+payload[0]=58
 cost=5037648
 runningcost=45
 weight=21
@@ -19,6 +19,7 @@ weight=21
 speed=90
 # LÜP 13.920mm
 length=6
+axles=2
 waytype=narrowgauge_track
 loading_time=4580
 constraint[prev][0]=any
