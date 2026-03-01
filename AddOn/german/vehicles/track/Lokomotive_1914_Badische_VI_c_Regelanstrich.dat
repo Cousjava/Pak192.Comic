@@ -22,6 +22,7 @@ power=580
 #    That is reached with gear=315
 gear=315
 length=6
+axles=5
 waytype=narrowgauge_track
 engine_type=steam
 EmptyImage[E,S,W,N,SE,SW,NW,NE]=./image/Lokomotive_1914_Badische_VI_c_Regelanstrich.0.<$0>
