@@ -12,7 +12,12 @@ intro_month=3
 retire_year=1931
 retire_month=0
 freight=Passagiere
-payload=52
+payload[0]=0
+payload[1]=0
+payload[2]=52
+payload[3]=0
+axles=2
+
 cost=5037648
 runningcost=45
 weight=18
