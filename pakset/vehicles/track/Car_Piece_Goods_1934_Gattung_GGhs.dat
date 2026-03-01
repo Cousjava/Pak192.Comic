@@ -14,6 +14,7 @@ runningcost=45
 weight=23
 speed=120
 length=8
+axles=4
 waytype=narrowgauge_track
 loading_time=4580
 constraint[prev][0]=any
