@@ -8,7 +8,9 @@ retire_year=1940
 retire_month=0
 freight=Passagiere
 # http://www.dbtrains.com/en/coaches/epochII/Standard/Bauart35
-payload=80
+payload[0]=0
+payload[1]=80
+axles=4
 cost=5037648
 runningcost=458
 weight=44
@@ -37,7 +39,11 @@ retire_year=1940
 retire_month=0
 freight=Passagiere
 # http://www.dbtrains.com/en/coaches/epochII/Standard/Bauart35
-payload=42
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=42
+axles=4
 cost=5037648
 runningcost=458
 weight=44
