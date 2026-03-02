@@ -8,7 +8,10 @@ retire_year=1971
 retire_month=0
 freight=Passagiere
 # 72 in second class
-payload=72
+payload[0]=0
+payload[1]=0
+payload[2]=72
+axles=4
 cost=4626617
 runningcost=421
 weight=31
@@ -40,7 +43,11 @@ retire_month=0
 freight=Passagiere
 # 24 in first class
 # 36 in second class
-payload=60
+payload[0]=0
+payload[1]=0
+payload[2]=36
+payload[3]=24
+axles=4
 cost=4626617
 runningcost=421
 weight=28
@@ -71,7 +78,10 @@ retire_year=1971
 retire_month=0
 freight=Passagiere
 # 36 in second class
-payload=36
+payload[0]=0
+payload[1]=0
+payload[2]=36
+axles=4
 cost=4626617
 runningcost=421
 weight=30

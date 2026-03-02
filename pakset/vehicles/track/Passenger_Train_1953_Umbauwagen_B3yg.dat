@@ -8,7 +8,10 @@ retire_year=1971
 retire_month=0
 freight=Passagiere
 # 62 seated in second class
-payload=62
+payload[0]=0
+payload[1]=0
+payload[2]=62
+axles=3
 cost=3049002
 runningcost=277
 weight=18

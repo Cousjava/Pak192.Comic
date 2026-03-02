@@ -16,6 +16,8 @@ waytype=narrowgauge_track
 loading_time=2530
 constraint[prev][0]=any
 
+axles=3
+
 EmptyImage[S]=./image/Passenger_Train_1953_Umbauwagen_3yg.3.1
 EmptyImage[E]=./image/Passenger_Train_1953_Umbauwagen_3yg.3.0
 EmptyImage[SE]=./image/Passenger_Train_1953_Umbauwagen_3yg.3.4
@@ -43,6 +45,9 @@ speed=100
 length=8
 waytype=narrowgauge_track
 loading_time=2530
+
+axles=3
+
 constraint[prev][0]=any
 constraint[next][0]=Passenger_Train_1953_Umbauwagen_B3yg_hinten
 constraint[next][1]=Passenger_Train_1953_Umbauwagen_AB3yg_hinten
@@ -77,6 +82,7 @@ weight=16
 speed=100
 length=8
 waytype=narrowgauge_track
+axles=3
 loading_time=2530
 constraint[prev][0]=Passenger_Train_1953_Umbauwagen_B3yg_vorne
 constraint[prev][1]=Passenger_Train_1953_Umbauwagen_AB3yg_vorne
