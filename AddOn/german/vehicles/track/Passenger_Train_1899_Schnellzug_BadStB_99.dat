@@ -13,7 +13,9 @@ freight=Passagiere
 #  0 x 2. class
 # 72 x 3. class
 # 72 total
-payload=72
+payload[0]=0
+payload[1]=72
+axles=4
 cost=5037648
 runningcost=458
 # Westinghouse-Bremse, Schnellbremse
@@ -53,6 +55,11 @@ freight=Passagiere
 #  39 x 2. class
 #   0 x 3. class
 #  49 total
+payload[0]=0
+payload[1]=0
+payload[2]=39
+payload[3]=10
+axles=4
 payload=49
 cost=5037648
 runningcost=458
