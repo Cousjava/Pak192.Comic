@@ -15,7 +15,8 @@ freight=Passagiere
 #  0 x 2. class
 # 44 x 3. class
 # 44 total
-payload=44
+payload[0]=0
+payload[1]=44
 cost=5037648
 runningcost=45
 # Schnellbremse, keine Westinghouse-Bremse!
@@ -24,6 +25,7 @@ weight=13
 # 
 speed=70
 
+axles=3
 # LÜP 11.610mm
 length=6
 waytype=narrowgauge_track
