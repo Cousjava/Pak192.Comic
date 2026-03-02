@@ -14,7 +14,13 @@ retire_year=1939
 retire_month=0
 freight=Passagiere
 # 126 total on both cars
-payload=60
+payload[0]=0
+payload[1]=0
+payload[2]=60
+axles=3
+axle_load=16
+has_front_cab=1
+has_rear_cab=0
 cost=5037648
 runningcost=45
 # weigth estimated
@@ -49,7 +55,12 @@ retire_year=1939
 retire_month=0
 freight=Passagiere
 # 126 total on both cars
-payload=66
+payload[0]=0
+payload[1]=66
+axles=3
+axle_load=16
+has_front_cab=0
+has_rear_cab=1
 cost=5037648
 runningcost=45
 # weigth estimated
