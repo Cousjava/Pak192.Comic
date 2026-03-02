@@ -18,6 +18,11 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 
+axles=4
+has_front_cab=1
+had_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Lokomotive_1966_Rh_2043.0.3
 EmptyImage[E]=./image/Lokomotive_1966_Rh_2043.0.2
 EmptyImage[SE]=./image/Lokomotive_1966_Rh_2043.1.0
