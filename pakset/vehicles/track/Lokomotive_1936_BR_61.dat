@@ -18,6 +18,9 @@ gear=200
 # calculated: 8.5
 length=9
 
+axles=7
+axle_load=19
+air_resistance=108
 
 waytype=narrowgauge_track
 engine_type=steam
