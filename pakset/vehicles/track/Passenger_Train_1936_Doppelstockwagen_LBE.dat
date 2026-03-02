@@ -15,11 +15,16 @@ speed=120
 # 41  2nd class
 # 49  3rd class
 # 0   4th class
-payload=90
+payload[0]=0
+payload[1]=49
+payload[2]=31
 freight=Passagiere
 # 22.670 mm
 length=10
 waytype=narrowgauge_track
+
+axles=4
+is_tall=1
 
 #constraint[prev][0]=none
 constraint[next][0]=Passenger_Train_1936_Doppelstockwagen_LBE_B
@@ -48,11 +53,15 @@ speed=120
 # 0   2nd class
 # 100 3rd class
 # 0   4th class
-payload=100
+payload[0]=0
+payload[1]=100
 freight=Passagiere
 # 22.670 mm
 length=10
 waytype=narrowgauge_track
+
+axles=4
+is_tall=1
 
 constraint[prev][0]=Passenger_Train_1936_Doppelstockwagen_LBE_AB
 #constraint[next][0]=none
