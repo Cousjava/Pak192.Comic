@@ -9,7 +9,11 @@ retire_month=0
 freight=Passagiere
 # 5x8=40 x 3. class
 # 40 total
-payload=40
+payload[0]=0
+payload[1]=40
+has_front_cab=1
+has_rear_cab=1
+axles=3
 cost=5037648
 runningcost=45
 # ungebremst
