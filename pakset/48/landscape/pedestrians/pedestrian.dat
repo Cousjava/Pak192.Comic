@@ -547,9 +547,6 @@ intro_year=1990
 #retire_year=
 offset=21
 ---
-<<<<<<< HEAD
-
-=======
 ####################
 # Comic Book Characters
 # 
@@ -736,6 +733,5 @@ intro_year=1950
 #retire_year=?
 offset=21
 ---
->>>>>>> c8b1a453 (ADD: Jesus)
 
 
