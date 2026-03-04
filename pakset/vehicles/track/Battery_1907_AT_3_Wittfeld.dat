@@ -10,7 +10,11 @@ retire_month=0
 freight=Passagiere
 # 46 x 3. class
 # 46 total
-payload=46
+payload[0]=0
+payload[1]=46
+axles=2
+has_front_cab=1
+has_rear_cab=0
 cost=5037648
 runningcost=45
 # ungebremst
@@ -50,7 +54,10 @@ freight=Passagiere
 # 44 x 4. class seating
 # 0,5 x 18 x 4. class standing (counting as 0,5 each)
 # 53 total
-payload=45
+payload[0]=44
+overcrowded_capacity=18
+has_front_cab=0
+has_rear_cab=0
 cost=5037648
 runningcost=45
 # ungebremst
@@ -88,7 +95,10 @@ freight=Passagiere
 # 36 x 4. class seating
 # 0,5 x 18 x 4. class standing (counting as 0,5 each)
 # 45 total
-payload=45
+payload[0]=36
+overcrowded_capacity=18
+has_front_cab=0
+has_rear_cab=1
 cost=5037648
 runningcost=45
 # ungebremst
