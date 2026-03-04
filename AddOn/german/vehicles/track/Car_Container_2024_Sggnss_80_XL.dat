@@ -13,6 +13,8 @@ runningcost=213
 cost=2344650
 length=14
 loading_time=2130
+axles=4
+
 constraint[prev][0]=any
 
 freight=fiber
