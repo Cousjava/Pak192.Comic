@@ -13,8 +13,9 @@ intro_month=6
 retire_year=1936
 retire_month=5
 freight=Passagiere
-
-payload=58
+payload[0]=0
+payload[1]=58
+axles=4
 cost=353000
 runningcost=79
 weight=18
@@ -24,6 +25,8 @@ speed=80
 length=8
 waytype=narrowgauge_track
 engine_type=electric
+has_front_cab=1
+has_rear_cab=0
 
 Constraint[Prev][0]=BR_475_1-BVG
 Constraint[Prev][1]=BR_875_2-BVG
@@ -47,8 +50,8 @@ intro_month=6
 retire_year=1936
 retire_month=5
 freight=Passagiere
-
-payload=58
+payload[0]=0
+payload[1]=58
 cost=5959214
 runningcost=415
 weight=28
@@ -58,7 +61,9 @@ speed=80
 length=8
 waytype=narrowgauge_track
 engine_type=electric
-
+has_front_cab=0
+has_rear_cab=0
+axles=4
 Constraint[Prev][0]=BR_875_1-BVG
 Constraint[Next][0]=BR_875_1-BVG
 Constraint[Next][1]=BR_475_2-BVG
@@ -80,8 +85,8 @@ intro_month=6
 retire_year=1936
 retire_month=5
 freight=Passagiere
-
-payload=58
+payload[0]=0
+payload[1]=58
 cost=5959214
 runningcost=415
 weight=28
@@ -91,7 +96,9 @@ speed=80
 length=8
 waytype=narrowgauge_track
 engine_type=electric
-
+axles=4
+has_front_cab=0
+has_rear_cab=0
 Constraint[Prev][0]=BR_475_1-BVG
 Constraint[Prev][1]=BR_875_2-BVG
 Constraint[Next][0]=BR_875_2-BVG
@@ -113,8 +120,8 @@ intro_month=6
 retire_year=1936
 retire_month=5
 freight=Passagiere
-
-payload=58
+payload[0]=0
+payload[1]=58
 cost=353000
 runningcost=79
 weight=18
@@ -124,6 +131,9 @@ speed=80
 length=8
 waytype=narrowgauge_track
 engine_type=electric
+has_front_cab=1
+has_rear_cab=1
+axles=4
 
 Constraint[Prev][0]=BR_475_2-BVG
 Constraint[Next][0]=BR_875_1-BVG
