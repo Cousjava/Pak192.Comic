@@ -74,6 +74,8 @@ river_max_length = 512
 
 #####################################gameplay###################################
 
+pak_overrides_savegame_settings = 0
+
 # at which number of inhabitants we need a new market?
 industry_increase_every = 5000
 
@@ -87,6 +89,11 @@ beginner_price_factor = 2100
 # older game size was 3
 # savegames with another catch area will be unloadable
 station_coverage = 16
+
+# Size of the catchment area of a station/stop in tiles.
+# This is for factories only.
+# Default: 3
+station_coverage_factories = 3
 
 # things to overcrowded destinations won't load if active (default off)
 avoid_overcrowding = 1
@@ -105,6 +112,59 @@ max_rail_convoi_length = 64
 # max_ship_convoi_length = 32
 # max_air_convoi_length = 32
 
+##################################city stuff####################################
+
+# The rate at which towns grow depends on their size. There are three different size categories:
+# "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
+# of population) above which towns become "Cities" and "Capitals". Anything smaller than 
+# city_threshold_size is a "Village". These settings are overriden if any value in 
+# city_threshold_percentage or capital_threshold_percentage be set. 
+
+city_threshold_size = 2500
+capital_threshold_size = 25000
+
+# These values determine which rates of town growth apply depending, not on the absolute size
+# of the city, but rather its size relative to other cities in the game. If capital_threshold_percentage
+# is 5, for example, any city in the top 5% of cities by population count will be a capital. 
+# These settings override the absolute values in city_threshold_size and capital_threshold_size
+# unless their values are 0, which is the default. It is recommended to use these rather than absolute
+# values, especially in longer games, where all towns may grow to the size of "capitals" eventually.
+
+city_threshold_percentage = 20
+capital_threshold_percentage = 2
+
+# These values are used in the city generation algorithm to determine the maximum size of cities.
+# max_city_size is the maximum size, in citizens, of any city at the point of generation.
+# max_small_city_size is the size, in citizens, of any city other than a "big city" at the point of generation. 
+#
+# TIP: Set a lower number for these values the earlier that the game is started.
+
+max_city_size = 100000
+max_small_city_size = 50000
+
+# These values represent the rate at which towns grow. The raw growth number is *divided*
+# by the growth factors; ergo, the lower the number, the higher the growth. Longer games
+# should have less growth, whereas shorter games do better with more growth.
+
+growthfactor_villages = 832
+growthfactor_cities = 480
+growthfactor_capitals = 120
+
+# This setting determines the extent to which cities should be built far away from
+# other cities when the map is first generated. The higher the number, the further
+# away from each other that the cities are built.
+
+city_isolation_factor = 128
+
+# Minimum distance of a city attraction to other special buildings
+special_building_distance = 2
+
+
+# Enable this to use the old algorithm for city growth from Standard.
+# NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
+quick_city_growth = 0
+
+
 ##################################industry stuff#################################
 
 # allow all possible supplier to connect to your factories?
@@ -113,20 +173,128 @@ max_rail_convoi_length = 64
 crossconnect_factories = 0
 
 # how much is the total electric power available in releation to total production) in parts per thousand
-electric_promille = 330
+electric_promille = 1000
 
 # how big is the chance for crossconnections in percent
 # (100% will give nearly the same results as crossconnect_factories=1)
 crossconnect_factories_percentage = 33
 
-# with this switch on (default), overcrowded factories will not recieve goods any more
-just_in_time = 1
+# This setting determines the behaviour of industry demand.
+# At 0, industries will always demand goods until their internal storage is full, no matter how many goods are already in transit.
+# At 1, industries will demand enough goods to fill their internal storage initially, then will demand only enough goods to keep up with the demand of their consumers.
+# At 2, industries will demand only enough goods to keep up with the demand of their consumers without trying to fill their internal storage first, but will not demand so many goods that their internal storage is likely to overflow.
+# At 3, industries behave as in 2, save that the internal storage of consumer industries is ignored.
+# At 4, industries will demand goods whenever their internal storage does not have sufficient stock to last until the next delivery is estimated to arrive if the goods were to leave the producing factory now.
+# At 5, production contracts will be used. Production contracts work as follows:
+# For each industry, it is has production capabilities and production contracts for more than its production capacity, it will evenly reduce the contracts to its linked consumers with the aim of having the 
+# total contracts being equal to its production capacity. If that producing industry's total contracts is less than one eighth of its production capacity, it solicits contracts to its linked consumers. 
+# If the industry consumes goods, it calculates its expected consumption using past consumer data (for consumers), current staffing levels, current production contracts (for manufacturers), and current amount 
+# of goods in transit and in stock (which only reduces, not halts, the expected consumption).  If the total contracts is less than the expected consumption or more than 10 percent of expected consumption, it 
+# tries to adjust the contracts to existing links in two rounds, one concentrating on active and staffed producers, then all producers.  Such adjustments are done evenly with slight weight towards more nearby producers.
+# If that fails to produce a total number of contracts above the expected consumption, a third round is performed more aggressively such that it saturates the supply of each producer, starting with the nearest, until
+# the total exceeds the expected consumption.  If it still cannot meet the expected consumption with existing links, it then will attempt to connect to other suppliers to fill the void. Also, when production contracts
+# are used, industries that have had no production contracts for 12 consecutive months or has been unproductive for 60 consecutive months will close.
+just_in_time = 4
+
+# True if substations ("transformers") are allowed to be built underground (default)
+allow_underground_transformers = 1
+
+# powerlines
+cost_transformer = 2500
+cost_maintain_transformer = 100
 
 # use beginner mode for new maps (can be switched anyway on the new map dialog)
 first_beginner = 0
 
 # Factory spacing (default = 6)
 factory_spacing = 10
+
+# Minimum distance between factories (in tiles)
+# Note that this applies as between *any* pair of factories, not just factories
+# that are connected to each other.
+min_factory_spacing = 2
+
+# Maximum distance for connected factories
+# If percentage>0, it will be in percent of the largest map dimension
+# percentage also over-rides the absolute value (which is in tiles)
+max_factory_spacing_percentage = 100
+# max_factory_spacing = 1280
+
+# Some factories have a retirement date, after which they are obsolete. After
+# that date, factories may close down (random chance each month). After the number
+# of years stipulated below, factories have a 100% chance of closing down. The
+# chance increases the closer to this value that factories get.
+max_years_obsolete = 32
+
+# number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
+# one period represents a fixed interval of 2^18 ms in-game time
+# value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
+factory_arrival_periods = 4
+
+# If this is disabled, all industries will continue to operate fully despite having no staff.
+# If this is enabled, industries will cease to operate if they are short of staff (subject to
+# the setting in rural_industries_no_staff_shortage).
+# Default: 1 (enabled)
+factory_enforce_demand = 1
+
+# If the below setting is enabled, industries situated outside a town will continue
+# to function as normal even if they are short of staff. It is recommended to enable
+# this, as there is currently no way of ensuring that towns are built close enough
+# to industries in the early years to allow those rural industries to produce.
+rural_industries_no_staff_shortage = 1
+
+# How much amount in transport is sent before further distribution stops
+# This is only enabled when "just_in_time" is enabled (i.e, set to a value > 0)
+# The limit is given in percent of factory storage (0=off)
+# 
+# This number is scaled to the ratio
+# of the time that it takes the industry to consume its stock to the average
+# lead time for new deliveries. Values of slightly over 100% are recommended.
+maximum_intransit_percentage = 200
+
+# The maximum_intransit_percentage will catastrophically break freight if the industry
+# capacities are too low.  While this should be fixed in the .dat files, this is difficult
+# due to all the scaling factors.  These act as a "sanity check" backstop.  They should be
+# set to at least the size of a single truckload for a truck which is expected to be economically viable
+# for all goods.  This makes it possible to:
+# (a) set the truck to wait for full at the origin (minimum_industry_output_storage_raw)
+# (b) deliver a full truckload to the destination (minimum_industry_input_storage_raw)
+#
+# For pak128.britain, the 1750 slow horse-drawn wagon has a capacity of 7 perishable goods, 6 everything else.
+# This should be economically usable, so this is the minimum set.  Late game trucks still have similar capacities
+# around 5 to 7 so this shuld still be effective.
+minimum_industry_output_storage_raw = 10
+minimum_industry_input_storage_raw = 10
+
+# The following settings determine the thresholds for deciding whether an industry is short
+# of staff. 
+# 
+# minimum_staffing_percentage_consumer_industry is for consumer industries (i.e. shops): it
+# is the threshold (in percentage of the total complement of staff) below which the shop
+# must close until more staff can be found. No visiting passengers can start their journeys
+# to a consumer industry whose staffing level is below this proportion.
+#
+# minimum_staffing_percentage_full_production_producer_industry is for producer industries:
+# it is the threshold below which the production of the industry will be scaled back
+# to match the proportion of the available staff. For example, when this setting is at
+# its default value of 80, if the industry has 81% of staff, it produces at full capacity.
+# If the industry has 75% of staff, it produces at 75% of capacity, and so forth.
+
+minimum_staffing_percentage_consumer_industry = 66
+minimum_staffing_percentage_full_production_producer_industry = 80
+
+# This setting will connect every industry and attraction not in a town by road to the nearest town 
+# that it can reach whenever an industry or country attraction is built. The number specifies how far down
+# the rank order of nearest towns that the industry/attraction will try to connect to if it cannot
+# connect to the nearest town.
+# 
+# 0 = disabled
+# 1 = try to connect to the nearest town
+# 2 = try to connect to the nearest town, and, if unsuccessful, try to connect to the second nearest town
+# 3 = ...first, second, then third nearest town
+# ...etc.
+auto_connect_industries_and_attractions_by_road = 4
+
 
 ###################################money stuff##################################
 
@@ -153,6 +321,7 @@ cost_multiply_headquarter=1000
 cost_depot_rail=20000
 cost_depot_road=5000
 cost_depot_ship=25000
+cost_depot_air  = 7500
 
 # other way related stuff
 #cost_signal=250
@@ -183,6 +352,85 @@ toll_waycost_percentage = 10
  # vehicle can loose a part of their value, when the are once used
  # the loss is given in 1/1000th, i.e 300 mean the value will be 70%
 used_vehicle_reduction = 50
+
+# Forge cost settings
+# 
+# The forge cost settings determine the cost of building a new way, in
+# SimuCents per kilometre. This cost is charged when building a new
+# way of a specified type on a tile, but not when upgrading an existing
+# way of that same type. This therefore makes it cheaper to upgrade ways
+# than build new ones. This cost is added to the base cost of the ways
+# specified in the .dat files.
+
+forge_cost_road = 7500
+forge_cost_track = 15000
+forge_cost_water = 25000
+forge_cost_monorail = 15000
+forge_cost_maglev = 20000
+forge_cost_tram = 4000
+forge_cost_narrowgauge = 8000
+forge_cost_air = 22500
+
+# The parallel ways forge cost percentage is the percentage of the
+# forge cost that is charged when building one way of each type
+# adjacent to an already existing way of that same type. For example,
+# if this number is set to 50 for roads, the forge cost (as specified 
+# above) of building one road immediately adjacent to another is 50%
+# of the full value.
+
+parallel_ways_forge_cost_percentage_road = 50
+parallel_ways_forge_cost_percentage_track = 35
+parallel_ways_forge_cost_percentage_water = 75
+parallel_ways_forge_cost_percentage_monorail = 40
+parallel_ways_forge_cost_percentage_maglev = 40
+parallel_ways_forge_cost_percentage_tram = 85
+parallel_ways_forge_cost_percentage_narrowgauge = 35
+parallel_ways_forge_cost_percentage_air = 85
+
+# Insolvency and debt settings
+#
+# These settings allow what happens when the player runs out of money and goes
+# into the red to be customised. 
+#
+# "interest_rate_percent" is the annual interest rate (charged monthly) on all
+# overdraft debt (i.e., on all negative account balances). It can be between 0
+# and 255. 
+# 
+# "allow_bankruptcy" determines whether, when the player is deemed to have been
+# insolvent for more than a certain period, the player should be declared
+# bankrupt and the game over. 0 = no, 1 = yes.
+# 
+# "allow_purchases_when_insolvent" determines whether, if the player's bank
+# balance falls below the player's credit limit (shown in the finance window),
+# the player will be unable to spend any new money on capital items (excluding
+# bulldozing) until the player has come back within the credit limit again.
+# 0 = no, 1 = yes.
+#
+# To revert to the behaviour of Simutrans standard, set interest_rate_percent to
+# 0, set allow_bankruptsy to 1, and set allow_purchases_when_insolvent to 1.
+
+interest_rate_percent = 10
+allow_bankruptcy = 1
+allow_purchases_when_insolvent = 0	
+
+# disable companies from making ways public with the appropiate tool
+# even when disabled companies can still make stops public
+# does not affect public service provider player
+disable_make_way_public = 0
+
+ # The number of months of maintainance that the make public tool costs to use
+cst_make_public_months = 60
+
+# This setting alters the revenue for electricity transmission.
+# The figure is a percentage of the default revenue. Default: 100.
+power_revenue_factor_percentage = 100
+
+# Sanity check: overrides to deal with problem settings in individual factory buildings in paks which round down too low.
+# Minimum storage size for industries should be set at the size of a small vehicle which is expected to
+# be usable economically during the game.  This is always at least 1, but usually more like 5 or 7.
+minimum_industry_input_storage_raw = 5
+minimum_industry_output_storage_raw = 5
+
 
 ###################################time settings################################
 
@@ -413,6 +661,53 @@ height_conversion_factor = 2
 # 0 = off; 1 = on. Default: off.
 
 allow_routing_on_foot = 1
+
+# Passengers will walk to their destination if it is close enough, rather than use
+# players' transport or private cars. This parameter defines how close that close
+# enough is. It is expressed in hundreds of meters (or tenths of kilometres), so
+# the default setting of 15 means that passnegers will walk to their destination if
+# it is within 1.5km of their origin.
+
+max_walking_distance_km_tenth = 15
+
+# This is the speed in km/h at which passengers will walk. The average walking speed
+# is 5km/h, and this is the default. However, there is much to be said for a lower
+# setting than this to take into account the fact that many walking journeys are
+# not in a straight line.
+
+walking_speed = 4
+
+# This setting determines the relationship between the number of private car trips
+# generated and (1) the congestion recorded in the cities; and (2) the number of
+# private car graphics that appear in the game. This is intended to simulate
+# vehicle occupancy rates. The higher the occupancy rate, the fewer cars that
+# there will be (and therefore the less congestion that there will be) for
+# any given number of people making trips by car. 
+#
+# The correct setting for the UK is 11: different countries might have higher or
+# lower occupancy rates.
+#
+# Range: 0 - 16.
+# Setting	-	Occupants per car
+#	0		-	[No cars]
+#	1		-	200
+#	2		-	100
+#	3		-	50
+#	4		-	40
+#	5		-	20
+#	6		-	10
+#	7		-	5
+#	8		-	4
+#	9		-	3
+#	10		-	2
+#	11		-	1.6 * UK average
+#	12		-	1.5
+#	13		-	1.3
+#	14		-	1.2
+#	15		-	1.1
+#	16		-	1.0
+
+citycar_level = 11
 
 # These settings are used to calculate adjusted figures based on the length of the month. 
 # To assume a base month length based on the settings in Simutrans-Standard, use 1,000
@@ -791,9 +1086,81 @@ toll_free_public_roads = 1
 
 private_car_toll_per_km = 15
 
+# If this is set to 1, any road built in a town will be adopted
+# by that town (set to unowned), meaning that the building player
+# will not have to maintain it, but does not have exclusive use
+# of the way, and cannot prevent other players from upgrading/
+# downgrading/removing it. Setting it to 0 will disable this 
+# feature.
 
-pak_overrides_savegame_settings = 0
+towns_adopt_player_roads = 1
 
+# If this is set to 1, any player may transfer any way tile or stop to the ownership
+# of the public player. If this is set to 0, only the public player may transfer
+# stops and way tiles to public ownership.
+# Default: 1 (which replicates the behaviour in Standard)
+
+allow_making_public = 0
+
+# This setting determines whether aircraft can land and take off
+# at airports without control towers. 1 = yes; 0 = no.
+
+allow_airports_without_control_towers = 1
+
+# If this is set to 2, single height bridges cannot be built over ways.
+
+way_height_clearance = 1
+
+# This is the fraction of the way's total wear capacity below which
+# the way will count as degraded and be automatically renewed or,
+# if the player has insufficient money or auto-renewal has been
+# disabled for the way in question, will enter a degraded state
+# in which the speed limit will be reduced. (At a state of 0,
+# the way will become totally impassable). 
+# Default: 7 (approx. 14%). 
+
+way_degradation_fraction = 7
+
+# These two settings determine the default relationship between
+# the weight of vehicles and their way wear factors. Air and
+# road vehicles use the "road_type", and all others apart from
+# maglev and water (which are hard coded to zero) use the 
+# "rail_type". This only applies to vehicles whose way wear
+# factor is not specified in the individual vehicle definitions.
+# The default for road is 4, based on the "forth power law":
+# http://www.pavementinteractive.org/article/equivalent-single-axle-load/
+# The default for rail is 1. 
+
+way_wear_power_factor_road_type = 4
+way_wear_power_factor_rail_type = 1
+
+# This is the setting to calibrate the way wear system. This
+# is only effective for vehicles which do not have their way
+# wear factor set in their individual .dat files. For an
+# explanation of the standard axle load (in tonnes), see
+# the link above.
+# The default is 8, which is the UK standard for road.
+
+standard_axle_load = 8
+
+# This is the way wear factor exerted on roads by all
+# "citycars" (that is, the automatically generated
+# private road traffic) in the game, measured in 
+# 1/10,000ths of a standard axle load. 
+# Default = 2
+
+citycar_way_wear_factor = 2
+
+# If this setting should be enabled, it will be possible to see
+# information about what will happen to certain vehicle types in 
+# the future, specifically, when they will stop being produced and
+# whether they will have any upgrades.
+show_future_vehicle_information = 0
+
+# This is the maximum "level" of a building that may be built underneath an elevated way.
+# Set this to 0 to disable building elevated ways and bridges with supports over any buildings.
+# Default: 2. 
+max_elevated_way_building_level=2
 
 ######LIVERY
 
@@ -850,7 +1217,7 @@ intro_year[5][0] = 2002
 intro_month[5][0] = 1
 
 #Belgium (BE)
-livery_scheme[56 = SNCB_new_look
+livery_scheme[6] = SNCB_new_look
 retire_year[6] = 2050
 retire_month[6] = 12
 livery[6][0] = SNCB_new_look
@@ -859,7 +1226,8 @@ intro_month[6][0] = 1
 
 #Switzerland (CH)
 
-livery_scheme[7] = Hupac #Swiss Freight company
+#Swiss Freight company
+livery_scheme[7] = Hupac
 retire_year[7] = 2100
 retire_month[7] = 12
 livery[7][0] = Hupac
@@ -881,14 +1249,16 @@ livery[9][0] = DB_Cargo
 intro_year[9][0] = 1996
 intro_month[9][0] = 1
 
-livery_scheme[10] = DB_Fernverkehr #Long-Distance Transport
+#Long-Distance Transport
+livery_scheme[10] = DB_Fernverkehr
 retire_year[10] = 2100
 retire_month[10] = 1
 livery[10][0] = DB_Fernverkehr
 intro_year[10][0] = 1996
 intro_month[10][0] = 1
 
-livery_scheme[11] = DB_Orientrot #Orient Red
+#Orient Red
+livery_scheme[11] = DB_Orientrot
 retire_year[11] = 1997
 retire_month[11] = 1
 livery[11][0] = DB_Orientrot
@@ -902,21 +1272,24 @@ livery[12][0] = DB_Regio
 intro_year[12][0] = 1996
 intro_month[12][0] = 1
 
-livery_scheme[13] = alex #Bavarian route
+#Bavarian route
+livery_scheme[13] = alex
 retire_year[13] = 2100
 retire_month[13] = 1
 livery[13][0] = alex
 intro_year[13][0] = 1990
 intro_month[13][0] = 1
 
-livery_scheme[14] = boxxpress #Container trains in Germany
+#Container trains in Germany
+livery_scheme[14] = boxxpress
 retire_year[14] = 2100
 retire_month[14] = 12
 livery[14][0] = boxxpress
 intro_year[14][0] = 2000
 intro_month[14][0] = 1
 
-livery_scheme[15] = RBH #RBH Logistics
+#RBH Logistics
+livery_scheme[15] = RBH
 retire_year[15] = 2100
 retire_month[15] = 1
 livery[15][0] = RBH
@@ -930,28 +1303,32 @@ livery[16][0] = Urban
 intro_year[16][0] = 1850
 intro_month[16][0] = 1
 
-livery_scheme[17] = LNVG #Lower Saxony Transport Authority
+#Lower Saxony Transport Authority
+livery_scheme[17] = LNVG
 retire_year[17] = 2100
 retire_month[17] = 1
 livery[17][0] = LNVG
 intro_year[17][0] = 2000
 intro_month[17][0] = 1
 
-livery_scheme[18] = MET #Metropolitan Express Train (Cologne - Hamburg)
+#Metropolitan Express Train (Cologne - Hamburg)
+livery_scheme[18] = MET
 retire_year[18] = 2100
 retire_month[18] = 1
 livery[18][0] = MET
 intro_year[18][0] = 1996
 intro_month[18][0] = 1
 
-livery_scheme[19] = NahSH #Schleswig-Holstein
+#Schleswig-Holstein
+livery_scheme[19] = NahSH
 retire_year[19] = 2100
 retire_month[19] = 1
 livery[19][0] = NahSH
 intro_year[19][0] = 2000
 intro_month[19][0] = 1
 
-livery_scheme[20] = BWegt #Baden-Württemberg
+#Baden-Württemberg
+livery_scheme[20] = BWegt
 retire_year[20] = 2100
 retire_month[20] = 1
 livery[20][0] = BWegt
@@ -959,7 +1336,8 @@ intro_year[20][0] = 2000
 intro_month[20][0] = 1
 
 #Denmark (DK)
-livery_scheme[21] = DSB #Danish State Railways
+#Danish State Railways
+livery_scheme[21] = DSB
 retire_year[21] = 2045
 retire_month[21] = 12
 livery[21][0] = DSB
