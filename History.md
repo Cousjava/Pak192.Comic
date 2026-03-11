@@ -1,4 +1,7 @@
-# V0.7.2
+## Vehicles
+- UK trains now use liveries
+
+# V0.7.2 (Standard)
 Jan 04, 2025
 
 
@@ -44,7 +47,7 @@ Jan 04, 2025
 - Umbauwagen DB
 
 
-# V0.7.1.
+# V0.7.1. (Standard)
 Feb 16, 2024
 
 ## Gameplay
@@ -57,7 +60,7 @@ Feb 16, 2024
 
 - LBE double deck coaches
 
-# V 0.7
+# V 0.7 (Standard)
 
 ## Gameplay
 
