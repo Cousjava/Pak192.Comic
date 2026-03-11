@@ -1,3 +1,4 @@
+#Class 378 with pantograph
 obj=vehicle
 name=Class_378-2_LO-1
 copyright=Flemmbrav
@@ -19,6 +20,7 @@ engine_type=electric
 smoke=none
 sound=none
 loading_time=3700
+axles=4
 constraint[prev][0]=Class_378-2_LO-4
 constraint[prev][1]=none
 constraint[next][0]=Class_378-2_LO-2

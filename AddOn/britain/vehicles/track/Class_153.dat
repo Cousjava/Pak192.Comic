@@ -19,36 +19,20 @@ gear=150
 smoke=none
 sound=none
 loading_time=4000
+axles=4
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
+liverytype[0]=EMT
+liverytype[1]=fGW
+liverytype[2]=LM_toc
 
 constraint[prev][0]=Sprinter_Coupler
 constraint[prev][1]=none
 constraint[next][0]=Sprinter_Coupler
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/BR_Class_153_EMT.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=image/BR_Class_153_EMT.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=image/BR_Class_153_FGW.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][2]=image/LM_Class_153.0.<$0>
 -----------------
 
-obj=vehicle
-name=FGWR Class 153
-copyright=Flemmbrav
-intro_year=1987
-intro_month=0
-retire_year=2000
-retire_month=0
-freight=Passagiere
-payload=75
-cost=12792679
-runningcost=631
-weight=41
-speed=120
-length=12
-waytype=narrowgauge_track
-engine_type=diesel
-power=213
-gear=150
-smoke=none
-sound=none
-loading_time=4000
-constraint[prev][0]=Sprinter_Coupler
-constraint[prev][1]=none
-constraint[next][0]=Sprinter_Coupler
-constraint[next][1]=none
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/BR_Class_153_FGW.0.<$0>

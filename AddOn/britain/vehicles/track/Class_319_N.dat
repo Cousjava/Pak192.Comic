@@ -16,19 +16,35 @@ waytype=narrowgauge_track
 engine_type=electric
 
 loading_time=6150
+axles=4
+has_front_cab=1
+has_rear_cab=0
+
+liverytype[0]=northern
+#Really FCC, but they look similar enough to share livery
+liverytype[1]=fGW
 
 constraint[prev][0]=Class_319_N_4
 constraint[prev][1]=none
 constraint[next][0]=Class_319_N_2
 
-EmptyImage[S]=image/319_N.3.1
-EmptyImage[E]=image/319_N.3.0
-EmptyImage[SE]=image/319_N.3.4
-EmptyImage[SW]=image/319_N.3.7
-EmptyImage[N]=image/319_N.3.3
-EmptyImage[W]=image/319_N.3.2
-EmptyImage[NW]=image/319_N.3.6
-EmptyImage[NE]=image/319_N.3.5
+EmptyImage[S][0]=image/319_N.3.1
+EmptyImage[E][0]=image/319_N.3.0
+EmptyImage[SE][0]=image/319_N.3.4
+EmptyImage[SW][0]=image/319_N.3.7
+EmptyImage[N][0]=image/319_N.3.3
+EmptyImage[W][0]=image/319_N.3.2
+EmptyImage[NW][0]=image/319_N.3.6
+EmptyImage[NE][0]=image/319_N.3.5
+
+EmptyImage[S][1]=image/319_FCC.3.1
+EmptyImage[E][1]=image/319_FCC.3.0
+EmptyImage[SE][1]=image/319_FCC.3.4
+EmptyImage[SW][1]=image/319_FCC.3.7
+EmptyImage[N][1]=image/319_FCC.3.3
+EmptyImage[W][1]=image/319_FCC.3.2
+EmptyImage[NW][1]=image/319_FCC.3.6
+EmptyImage[NE][1]=image/319_FCC.3.5
 
 --------------------------
 
@@ -54,18 +70,34 @@ gear=170
 smoke=none
 sound=none
 loading_time=6150
+axles=4
+has_front_cab=0
+has_rear_cab=0
+
+liverytype[0]=northern
+#Really FCC, but they look similar enough to share livery
+liverytype[1]=fGW
 
 constraint[prev][0]=Class_319_N_1
 constraint[next][0]=Class_319_N_3
 
-EmptyImage[S]=image/319_N.1.1
-EmptyImage[E]=image/319_N.1.0
-EmptyImage[SE]=image/319_N.1.4
-EmptyImage[SW]=image/319_N.1.7
-EmptyImage[N]=image/319_N.1.3
-EmptyImage[W]=image/319_N.1.2
-EmptyImage[NW]=image/319_N.1.6
-EmptyImage[NE]=image/319_N.1.5
+EmptyImage[S][0]=image/319_N.1.1
+EmptyImage[E][0]=image/319_N.1.0
+EmptyImage[SE][0]=image/319_N.1.4
+EmptyImage[SW][0]=image/319_N.1.7
+EmptyImage[N][0]=image/319_N.1.3
+EmptyImage[W][0]=image/319_N.1.2
+EmptyImage[NW][0]=image/319_N.1.6
+EmptyImage[NE][0]=image/319_N.1.5
+
+EmptyImage[S][1]=image/319_FCC.1.1
+EmptyImage[E][1]=image/319_FCC.1.0
+EmptyImage[SE][1]=image/319_FCC.1.4
+EmptyImage[SW][1]=image/319_FCC.1.7
+EmptyImage[N][1]=image/319_FCC.1.3
+EmptyImage[W][1]=image/319_FCC.1.2
+EmptyImage[NW][1]=image/319_FCC.1.6
+EmptyImage[NE][1]=image/319_FCC.1.5
 
 --------
 
@@ -86,17 +118,33 @@ length=8
 waytype=narrowgauge_track
 loading_time=6060
 engine_type=electric
+axles=4
+has_front_cab=0
+has_rear_cab=0
 constraint[prev][0]=Class_319_N_2
 constraint[next][0]=Class_319_N_4
 
-EmptyImage[S]=image/319_N.0.1
-EmptyImage[E]=image/319_N.0.0
-EmptyImage[SE]=image/319_N.0.4
-EmptyImage[SW]=image/319_N.0.7
-EmptyImage[N]=image/319_N.0.3
-EmptyImage[W]=image/319_N.0.2
-EmptyImage[NW]=image/319_N.0.6
-EmptyImage[NE]=image/319_N.0.5
+liverytype[0]=northern
+#Really FCC, but they look similar enough to share livery
+liverytype[1]=fGW
+
+EmptyImage[S][0]=image/319_N.0.1
+EmptyImage[E][0]=image/319_N.0.0
+EmptyImage[SE][0]=image/319_N.0.4
+EmptyImage[SW][0]=image/319_N.0.7
+EmptyImage[N][0]=image/319_N.0.3
+EmptyImage[W][0]=image/319_N.0.2
+EmptyImage[NW][0]=image/319_N.0.6
+EmptyImage[NE][0]=image/319_N.0.5
+
+EmptyImage[S][1]=image/319_FCC.0.1
+EmptyImage[E][1]=image/319_FCC.0.0
+EmptyImage[SE][1]=image/319_FCC.0.4
+EmptyImage[SW][1]=image/319_FCC.0.7
+EmptyImage[N][1]=image/319_FCC.0.3
+EmptyImage[W][1]=image/319_FCC.0.2
+EmptyImage[NW][1]=image/319_FCC.0.6
+EmptyImage[NE][1]=image/319_FCC.0.5
 
 --------------------------
 
@@ -120,13 +168,29 @@ engine_type=electric
 constraint[prev][0]=Class_319_N_3
 constraint[next][0]=Class_319_N_1
 constraint[next][1]=none
+axles=4
+has_front_cab=0
+has_rear_cab=1
 
-EmptyImage[S]=image/319_N.4.1
-EmptyImage[E]=image/319_N.4.0
-EmptyImage[SE]=image/319_N.4.4
-EmptyImage[SW]=image/319_N.4.7
-EmptyImage[N]=image/319_N.4.3
-EmptyImage[W]=image/319_N.4.2
-EmptyImage[NW]=image/319_N.4.6
-EmptyImage[NE]=image/319_N.4.5
+liverytype[0]=northern
+#Really FCC, but they look similar enough to share livery
+liverytype[1]=fGW
+
+EmptyImage[S][0]=image/319_N.4.1
+EmptyImage[E][0]=image/319_N.4.0
+EmptyImage[SE][0]=image/319_N.4.4
+EmptyImage[SW][0]=image/319_N.4.7
+EmptyImage[N][0]=image/319_N.4.3
+EmptyImage[W][0]=image/319_N.4.2
+EmptyImage[NW][0]=image/319_N.4.6
+EmptyImage[NE][0]=image/319_N.4.5
+
+EmptyImage[S][1]=image/319_FCC.4.1
+EmptyImage[E][1]=image/319_FCC.4.0
+EmptyImage[SE][1]=image/319_FCC.4.4
+EmptyImage[SW][1]=image/319_FCC.4.7
+EmptyImage[N][1]=image/319_FCC.4.3
+EmptyImage[W][1]=image/319_FCC.4.2
+EmptyImage[NW][1]=image/319_FCC.4.6
+EmptyImage[NE][1]=image/319_FCC.4.5
 

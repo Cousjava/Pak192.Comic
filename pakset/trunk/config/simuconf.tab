@@ -1296,7 +1296,8 @@ livery[15][0] = RBH
 intro_year[15][0] = 1996
 intro_month[15][0] = 1
 
-livery_scheme[16] = Urban #S-Bahn
+#S-Bahn
+livery_scheme[16] = Urban
 retire_year[16] = 2100
 retire_month[16] = 1
 livery[16][0] = Urban
@@ -1350,3 +1351,81 @@ retire_month[22] = 12
 livery[22][0] = PKP_Cargo
 intro_year[22][0] = 2000
 intro_month[22][0] = 1
+
+#United Kingdom (UK)
+livery_scheme[23] = CrossCountry
+retire_year[23] = 2100
+retire_month[23] = 1
+livery[23][0] = XC_toc
+intro_year[23][0] = 1998
+intro_month[23][0] = 5
+
+livery_scheme[24] = EastMidlandsTrains
+retire_year[24] = 2100
+retire_month[24] = 1
+livery[24][0] = EMT
+intro_year[24][0] = 1987
+intro_month[24][0] = 1
+
+livery_scheme[25] = GreaterAnglia
+retire_year[25] = 2100
+retire_month[25] = 1
+livery[25][0] = greater_anglia
+intro_year[25][0] = 1987
+intro_month[25][0] = 1
+
+livery_scheme[26] = FirstGreatWestern
+retire_year[26] = 2100
+retire_month[26] = 1
+livery[26][0] = fGW
+intro_year[26][0] = 1987
+intro_month[26][0] = 1
+
+livery_scheme[27] = LondonMidland
+retire_year[27] = 2100
+retire_month[27] = 1
+livery[27][0] = LM_toc
+intro_year[27][0] = 1987
+intro_month[27][0] = 1
+
+livery_scheme[28] = LondonOverground
+retire_year[28] = 2100
+retire_month[28] = 1
+livery[28][0] = TfL_LO
+intro_year[28][0] = 1981
+intro_month[28][0] = 0
+
+livery_scheme[29] = Northern
+retire_year[29] = 2100
+retire_month[29] = 1
+livery[29][0] = northern
+intro_year[29][0] = 1987
+intro_month[29][0] = 1
+
+livery_scheme[30] = Southern
+retire_year[30] = 2100
+retire_month[30] = 1
+livery[30][0] = southern_gtr
+intro_year[30][0] = 2003
+intro_month[30][0] = 1
+
+livery_scheme[31] = ScotRail
+retire_year[31] = 2100
+retire_month[31] = 1
+livery[31][0] = scotrail
+intro_year[31][0] = 1987
+intro_month[31][0] = 1
+
+livery_scheme[32] = Virgin
+retire_year[32] = 2100
+retire_month[32] = 1
+livery[32][0] = virgin
+intro_year[32][0] = 2000
+intro_month[32][0] = 4
+
+livery_scheme[33] = Wales
+retire_year[33] = 2100
+retire_month[33] = 1
+livery[33][0] = ATW
+intro_year[33][0] = 1990
+intro_month[33][0] = 1

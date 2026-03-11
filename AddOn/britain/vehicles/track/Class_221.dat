@@ -18,16 +18,32 @@ engine_type=diesel
 freight=Passagiere
 payload=75
 loading_time=7080
-EmptyImage[E]=image/class_220_f.0.0
-EmptyImage[S]=image/class_220_f.0.1
-EmptyImage[W]=image/class_220_f.0.2
-EmptyImage[N]=image/class_220_f.0.3
-EmptyImage[SE]=image/class_220_f.0.4
-#EmptyImage[NE]=image/class_220_f.0.5
-EmptyImage[NW]=image/class_220_f.0.6
-#EmptyImage[SW]=image/class_220_f.0.7
-EmptyImage[NE]=image/class_220_b.0.5
-EmptyImage[SW]=image/class_220_b.0.7
+axles=4
+has_front_cab=1
+has_rear_cab=0
+
+liverytype[0]=virgin
+liverytype[1]=XC_toc
+
+EmptyImage[E][0]=image/class_220_f.0.0
+EmptyImage[S][0]=image/class_220_f.0.1
+EmptyImage[W][0]=image/class_220_f.0.2
+EmptyImage[N][0]=image/class_220_f.0.3
+EmptyImage[SE][0]=image/class_220_f.0.4
+#EmptyImage[NE][0]=image/class_220_f.0.5
+EmptyImage[NW][0]=image/class_220_f.0.6
+#EmptyImage[SW][0]=image/class_220_f.0.7
+EmptyImage[NE][0]=image/class_220_b.0.5
+EmptyImage[SW][0]=image/class_220_b.0.7
+
+EmptyImage[E][1]=image/class_220_f_XC.0.0
+EmptyImage[S][1]=image/class_220_f_XC.0.1
+EmptyImage[W][1]=image/class_220_f_XC.0.2
+EmptyImage[N][1]=image/class_220_f_XC.0.3
+EmptyImage[SE][1]=image/class_220_f_XC.0.4
+EmptyImage[NW][1]=image/class_220_f_XC.0.6
+EmptyImage[NE][1]=image/class_220_b_XC.0.5
+EmptyImage[SW][1]=image/class_220_b_XC.0.7
 
 constraint[prev][0]=Virgin SuperVoyager Back
 constraint[prev][1]=none
@@ -54,17 +70,33 @@ engine_type=diesel
 freight=Passagiere
 payload=75
 loading_time=7080
-EmptyImage[E]=image/class_220_b.0.0
-EmptyImage[S]=image/class_220_b.0.1
-EmptyImage[W]=image/class_220_b.0.2
-EmptyImage[N]=image/class_220_b.0.3
-EmptyImage[SE]=image/class_220_b.0.4
-#EmptyImage[NE]=image/class_220_b.0.5
-EmptyImage[NW]=image/class_220_b.0.6
-#EmptyImage[SW]=image/class_220_b.0.7
+axles=4
+has_front_cab=0
+has_rear_cab=1
+
+liverytype[0]=virgin
+liverytype[1]=XC_toc
+
+EmptyImage[E][0]=image/class_220_b.0.0
+EmptyImage[S][0]=image/class_220_b.0.1
+EmptyImage[W][0]=image/class_220_b.0.2
+EmptyImage[N][0]=image/class_220_b.0.3
+EmptyImage[SE][0]=image/class_220_b.0.4
+#EmptyImage[NE][0]=image/class_220_b.0.5
+EmptyImage[NW][0]=image/class_220_b.0.6
+#EmptyImage[SW][0]=image/class_220_b.0.7
 
 EmptyImage[NE]=image/class_220_f.0.5
 EmptyImage[SW]=image/class_220_f.0.7
+
+EmptyImage[E][1]=image/class_220_b_XC.0.0
+EmptyImage[S][1]=image/class_220_b_XC.0.1
+EmptyImage[W][1]=image/class_220_b_XC.0.2
+EmptyImage[N][1]=image/class_220_b_XC.0.3
+EmptyImage[SE][1]=image/class_220_b_XC.0.4
+EmptyImage[NW][1]=image/class_220_b_XC.0.6
+EmptyImage[NE][1]=image/class_220_f_XC.0.5
+EmptyImage[SW][1]=image/class_220_f_XC.0.7
 
 constraint[prev][0]=Virgin SuperVoyager Middle three
 constraint[next][0]=Virgin SuperVoyager Front
@@ -90,15 +122,31 @@ smoke=smoke_diesel_thin_short
 engine_type=diesel
 freight=Passagiere
 payload=80
+axles=4
+has_front_cab=0
+has_rear_cab=0
+
+liverytype[0]=virgin
+liverytype[1]=XC_toc
+
 loading_time=7550
-EmptyImage[E]=image/class_220_m.0.0
-EmptyImage[S]=image/class_220_m.0.1
-EmptyImage[W]=image/class_220_m.0.2
-EmptyImage[N]=image/class_220_m.0.3
-EmptyImage[SE]=image/class_220_m.0.4
-EmptyImage[NE]=image/class_220_m.0.5
-EmptyImage[NW]=image/class_220_m.0.6
-EmptyImage[SW]=image/class_220_m.0.7
+EmptyImage[E][0]=image/class_220_m.0.0
+EmptyImage[S][0]=image/class_220_m.0.1
+EmptyImage[W][0]=image/class_220_m.0.2
+EmptyImage[N][0]=image/class_220_m.0.3
+EmptyImage[SE][0]=image/class_220_m.0.4
+EmptyImage[NE][0]=image/class_220_m.0.5
+EmptyImage[NW][0]=image/class_220_m.0.6
+EmptyImage[SW][0]=image/class_220_m.0.7
+
+EmptyImage[E][1]=image/class_220_m_XC.0.0
+EmptyImage[S][1]=image/class_220_m_XC.0.1
+EmptyImage[W][1]=image/class_220_m_XC.0.2
+EmptyImage[N][1]=image/class_220_m_XC.0.3
+EmptyImage[SE][1]=image/class_220_m_XC.0.4
+EmptyImage[NE][1]=image/class_220_m_XC.0.5
+EmptyImage[NW][1]=image/class_220_m_XC.0.6
+EmptyImage[SW][1]=image/class_220_m_XC.0.7
 
 constraint[prev][0]=Virgin SuperVoyager Front
 constraint[next][0]=Virgin SuperVoyager Middle two
@@ -123,15 +171,31 @@ smoke=smoke_diesel_thin_short
 engine_type=diesel
 freight=Passagiere
 payload=80
+axles=4
+has_front_cab=0
+has_rear_cab=0
 loading_time=7550
-EmptyImage[E]=image/class_220_m.0.0
-EmptyImage[S]=image/class_220_m.0.1
-EmptyImage[W]=image/class_220_m.0.2
-EmptyImage[N]=image/class_220_m.0.3
-EmptyImage[SE]=image/class_220_m.0.4
-EmptyImage[NE]=image/class_220_m.0.5
-EmptyImage[NW]=image/class_220_m.0.6
-EmptyImage[SW]=image/class_220_m.0.7
+
+liverytype[0]=virgin
+liverytype[1]=XC_toc
+
+EmptyImage[E][0]=image/class_220_m.0.0
+EmptyImage[S][0]=image/class_220_m.0.1
+EmptyImage[W][0]=image/class_220_m.0.2
+EmptyImage[N][0]=image/class_220_m.0.3
+EmptyImage[SE][0]=image/class_220_m.0.4
+EmptyImage[NE][0]=image/class_220_m.0.5
+EmptyImage[NW][0]=image/class_220_m.0.6
+EmptyImage[SW][0]=image/class_220_m.0.7
+
+EmptyImage[E][1]=image/class_220_m_XC.0.0
+EmptyImage[S][1]=image/class_220_m_XC.0.1
+EmptyImage[W][1]=image/class_220_m_XC.0.2
+EmptyImage[N][1]=image/class_220_m_XC.0.3
+EmptyImage[SE][1]=image/class_220_m_XC.0.4
+EmptyImage[NE][1]=image/class_220_m_XC.0.5
+EmptyImage[NW][1]=image/class_220_m_XC.0.6
+EmptyImage[SW][1]=image/class_220_m_XC.0.7
 
 constraint[prev][0]=Virgin SuperVoyager Middle one
 constraint[next][0]=Virgin SuperVoyager Middle three
@@ -156,14 +220,30 @@ engine_type=diesel
 freight=Passagiere
 payload=80
 loading_time=7550
-EmptyImage[E]=image/class_220_m.0.0
-EmptyImage[S]=image/class_220_m.0.1
-EmptyImage[W]=image/class_220_m.0.2
-EmptyImage[N]=image/class_220_m.0.3
-EmptyImage[SE]=image/class_220_m.0.4
-EmptyImage[NE]=image/class_220_m.0.5
-EmptyImage[NW]=image/class_220_m.0.6
-EmptyImage[SW]=image/class_220_m.0.7
+axles=4
+has_front_cab=0
+has_rear_cab=0
+
+liverytype[0]=virgin
+liverytype[1]=XC_toc
+
+EmptyImage[E][0]=image/class_220_m.0.0
+EmptyImage[S][0]=image/class_220_m.0.1
+EmptyImage[W][0]=image/class_220_m.0.2
+EmptyImage[N][0]=image/class_220_m.0.3
+EmptyImage[SE][0]=image/class_220_m.0.4
+EmptyImage[NE][0]=image/class_220_m.0.5
+EmptyImage[NW][0]=image/class_220_m.0.6
+EmptyImage[SW][0]=image/class_220_m.0.7
+
+EmptyImage[E][1]=image/class_220_m_XC.0.0
+EmptyImage[S][1]=image/class_220_m_XC.0.1
+EmptyImage[W][1]=image/class_220_m_XC.0.2
+EmptyImage[N][1]=image/class_220_m_XC.0.3
+EmptyImage[SE][1]=image/class_220_m_XC.0.4
+EmptyImage[NE][1]=image/class_220_m_XC.0.5
+EmptyImage[NW][1]=image/class_220_m_XC.0.6
+EmptyImage[SW][1]=image/class_220_m_XC.0.7
 
 constraint[prev][0]=Virgin SuperVoyager Middle two
 constraint[next][0]=Virgin SuperVoyager Back

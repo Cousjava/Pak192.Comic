@@ -16,19 +16,34 @@ waytype=narrowgauge_track
 engine_type=electric
 
 loading_time=6150
+axles=4
+has_front_cab=1
+has_rear_cab=0
 
 constraint[prev][0]=Class_321_GA_4
 constraint[prev][1]=none
 constraint[next][0]=Class_321_GA_2
 
-EmptyImage[S]=image/GA_Class_321.0.1
-EmptyImage[E]=image/GA_Class_321.0.0
-EmptyImage[SE]=image/GA_Class_321.0.4
-EmptyImage[SW]=image/GA_Class_321.0.7
-EmptyImage[N]=image/GA_Class_321.0.3
-EmptyImage[W]=image/GA_Class_321.0.2
-EmptyImage[NW]=image/GA_Class_321.0.6
-EmptyImage[NE]=image/GA_Class_321.0.5
+liverytype[0]=greater_anglia
+liverytype[1]=northern
+
+EmptyImage[S][0]=image/GA_Class_321.0.1
+EmptyImage[E][0]=image/GA_Class_321.0.0
+EmptyImage[SE][0]=image/GA_Class_321.0.4
+EmptyImage[SW][0]=image/GA_Class_321.0.7
+EmptyImage[N][0]=image/GA_Class_321.0.3
+EmptyImage[W][0]=image/GA_Class_321.0.2
+EmptyImage[NW][0]=image/GA_Class_321.0.6
+EmptyImage[NE][0]=image/GA_Class_321.0.5
+
+EmptyImage[S][1]=image/NR_Class_321.0.1
+EmptyImage[E][1]=image/NR_Class_321.0.0
+EmptyImage[SE][1]=image/NR_Class_321.0.4
+EmptyImage[SW][1]=image/NR_Class_321.0.7
+EmptyImage[N][1]=image/NR_Class_321.0.3
+EmptyImage[W][1]=image/NR_Class_321.0.2
+EmptyImage[NW][1]=image/NR_Class_321.0.6
+EmptyImage[NE][1]=image/NR_Class_321.0.5
 
 --------------------------
 
@@ -54,18 +69,33 @@ gear=170
 smoke=none
 sound=none
 loading_time=6150
+axles=4
+has_front_cab=0
+has_rear_cab=0
 
 constraint[prev][0]=Class_321_GA_1
 constraint[next][0]=Class_321_GA_3
 
-EmptyImage[S]=image/GA_Class_321.3.1
-EmptyImage[E]=image/GA_Class_321.3.0
-EmptyImage[SE]=image/GA_Class_321.3.4
-EmptyImage[SW]=image/GA_Class_321.3.7
-EmptyImage[N]=image/GA_Class_321.3.3
-EmptyImage[W]=image/GA_Class_321.3.2
-EmptyImage[NW]=image/GA_Class_321.3.6
-EmptyImage[NE]=image/GA_Class_321.3.5
+liverytype[0]=greater_anglia
+liverytype[1]=northern
+
+EmptyImage[S][0]=image/GA_Class_321.3.1
+EmptyImage[E][0]=image/GA_Class_321.3.0
+EmptyImage[SE][0]=image/GA_Class_321.3.4
+EmptyImage[SW][0]=image/GA_Class_321.3.7
+EmptyImage[N][0]=image/GA_Class_321.3.3
+EmptyImage[W][0]=image/GA_Class_321.3.2
+EmptyImage[NW][0]=image/GA_Class_321.3.6
+EmptyImage[NE][0]=image/GA_Class_321.3.5
+
+EmptyImage[S][1]=image/NR_Class_321.3.1
+EmptyImage[E][1]=image/NR_Class_321.3.0
+EmptyImage[SE][1]=image/NR_Class_321.3.4
+EmptyImage[SW][1]=image/NR_Class_321.3.7
+EmptyImage[N][1]=image/NR_Class_321.3.3
+EmptyImage[W][1]=image/NR_Class_321.3.2
+EmptyImage[NW][1]=image/NR_Class_321.3.6
+EmptyImage[NE][1]=image/NR_Class_321.3.5
 
 --------
 
@@ -86,17 +116,32 @@ length=9
 waytype=narrowgauge_track
 loading_time=6060
 engine_type=electric
+axles=4
+has_front_cab=0
+has_rear_cab=0
 constraint[prev][0]=Class_321_GA_2
 constraint[next][0]=Class_321_GA_4
 
-EmptyImage[S]=image/GA_Class_321.4.1
-EmptyImage[E]=image/GA_Class_321.4.0
-EmptyImage[SE]=image/GA_Class_321.4.4
-EmptyImage[SW]=image/GA_Class_321.4.7
-EmptyImage[N]=image/GA_Class_321.4.3
-EmptyImage[W]=image/GA_Class_321.4.2
-EmptyImage[NW]=image/GA_Class_321.4.6
-EmptyImage[NE]=image/GA_Class_321.4.5
+liverytype[0]=greater_anglia
+liverytype[1]=northern
+
+EmptyImage[S][0]=image/GA_Class_321.4.1
+EmptyImage[E][0]=image/GA_Class_321.4.0
+EmptyImage[SE][0]=image/GA_Class_321.4.4
+EmptyImage[SW][0]=image/GA_Class_321.4.7
+EmptyImage[N][0]=image/GA_Class_321.4.3
+EmptyImage[W][0]=image/GA_Class_321.4.2
+EmptyImage[NW][0]=image/GA_Class_321.4.6
+EmptyImage[NE][0]=image/GA_Class_321.4.5
+
+EmptyImage[S][1]=image/NR_Class_321.4.1
+EmptyImage[E][1]=image/NR_Class_321.4.0
+EmptyImage[SE][1]=image/NR_Class_321.4.4
+EmptyImage[SW][1]=image/NR_Class_321.4.7
+EmptyImage[N][1]=image/NR_Class_321.4.3
+EmptyImage[W][1]=image/NR_Class_321.4.2
+EmptyImage[NW][1]=image/NR_Class_321.4.6
+EmptyImage[NE][1]=image/NR_Class_321.4.5
 
 --------------------------
 
@@ -117,16 +162,30 @@ length=8
 waytype=narrowgauge_track
 loading_time=6140
 engine_type=electric
+axles=4
+has_front_cab=0
+has_rear_cab=1
 constraint[prev][0]=Class_321_GA_3
 constraint[next][0]=Class_321_GA_1
 constraint[next][1]=none
 
-EmptyImage[S]=image/GA_Class_321.1.1
-EmptyImage[E]=image/GA_Class_321.1.0
-EmptyImage[SE]=image/GA_Class_321.1.4
-EmptyImage[SW]=image/GA_Class_321.1.7
-EmptyImage[N]=image/GA_Class_321.1.3
-EmptyImage[W]=image/GA_Class_321.1.2
-EmptyImage[NW]=image/GA_Class_321.1.6
-EmptyImage[NE]=image/GA_Class_321.1.5
+liverytype[0]=greater_anglia
+liverytype[1]=northern
 
+EmptyImage[S][0]=image/GA_Class_321.1.1
+EmptyImage[E][0]=image/GA_Class_321.1.0
+EmptyImage[SE][0]=image/GA_Class_321.1.4
+EmptyImage[SW][0]=image/GA_Class_321.1.7
+EmptyImage[N][0]=image/GA_Class_321.1.3
+EmptyImage[W][0]=image/GA_Class_321.1.2
+EmptyImage[NW][0]=image/GA_Class_321.1.6
+EmptyImage[NE][0]=image/GA_Class_321.1.5
+
+EmptyImage[S][1]=image/NR_Class_321.1.1
+EmptyImage[E][1]=image/NR_Class_321.1.0
+EmptyImage[SE][1]=image/NR_Class_321.1.4
+EmptyImage[SW][1]=image/NR_Class_321.1.7
+EmptyImage[N][1]=image/NR_Class_321.1.3
+EmptyImage[W][1]=image/NR_Class_321.1.2
+EmptyImage[NW][1]=image/NR_Class_321.1.6
+EmptyImage[NE][1]=image/NR_Class_321.1.5
