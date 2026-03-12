@@ -26,7 +26,12 @@ length=6
 axles=5
 waytype=narrowgauge_track
 engine_type=steam
-EmptyImage[E,S,W,N,SE,SW,NW,NE]=./image/Lokomotive_1918_Badische_VI_c.0.<$0>
+
+liverytype[0]=baden_steam
+liverytype[1]=unpainted
+
+EmptyImage[E,S,W,N,SE,SW,NW,NE][0]=./image/Lokomotive_1918_Badische_VI_c.0.<$0>
+EmptyImage[E,S,W,N,SE,SW,NW,NE][1]=./image/Lokomotive_1918_Badische_VI_c_Regelanstrich.0.<$0>
 #Image[E,S,W,N,SE,SW,NW,NE][0]=./image/Lokomotive_1918_Badische_VI_c.0.<$0>
 #Image[E,S,W,N,SE,SW,NW,NE][1]=./image/Lokomotive_1918_Badische_VI_c.0.<$0>
 #steps_per_frame=4

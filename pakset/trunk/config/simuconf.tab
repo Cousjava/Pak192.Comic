@@ -1173,259 +1173,298 @@ livery[0][0] = Pride
 intro_year[0][0] = 1920
 intro_month[0][0] = 1
 
+livery_scheme[1] = Unpainted
+retire_year[1] = 2100
+retire_month[1] = 12
+livery[1][0] = unpainted
+intro_year[1][0] = 1800
+intro_month[1][0] = 1
+
 #International
 
 #Eurorfima C1 Livery - used CH, DE, FR, IT, NL
-livery_scheme[1] = C1
-retire_year[1] = 2002
-retire_month[1] = 12
-livery[1][0] = C1
-intro_year[1][0] = 1977
-intro_month[1][0] = 1
-
-#Dispolok Loco leasing - bought by MRCE
-livery_scheme[2] = Dispolok
+livery_scheme[2] = C1
 retire_year[2] = 2002
-retire_month[2] = 1
-livery[2][0] = Dispolok
-intro_year[2][0] = 1990
+retire_month[2] = 12
+livery[2][0] = C1
+intro_year[2][0] = 1977
 intro_month[2][0] = 1
 
-#Mitsui Rail Capital/Modern Rail Capital - International ROSCO
-livery_scheme[3] = MRCE
-retire_year[3] = 2100
+#Dispolok Loco leasing - bought by MRCE
+livery_scheme[3] = Dispolok
+retire_year[3] = 2002
 retire_month[3] = 1
-livery[3][0] = MRCE
-intro_year[3][0] = 2001
+livery[3][0] = Dispolok
+intro_year[3][0] = 1990
 intro_month[3][0] = 1
+
+#Mitsui Rail Capital/Modern Rail Capital - International ROSCO
+livery_scheme[4] = MRCE
+retire_year[4] = 2100
+retire_month[4] = 1
+livery[4][0] = MRCE
+intro_year[4][0] = 2001
+intro_month[4][0] = 1
 
 #####National rail companies, countries by ISO country code
 
 # Austria (AT)
-livery_scheme[4] = OBB_Valousek
-retire_year[4] = 2002
-retire_month[4] = 12
-livery[4][0] = OBB_Valousek
-intro_year[4][0] = 1988
-intro_month[4][0] = 1
-
-livery_scheme[5] = OBB_Upgrade
-retire_year[5] = 2100
-retire_month[5] = 1
-livery[5][0] = OBB_Upgrade
-intro_year[5][0] = 2002
+livery_scheme[5] = OBB_Valousek
+retire_year[5] = 2002
+retire_month[5] = 12
+livery[5][0] = OBB_Valousek
+intro_year[5][0] = 1988
 intro_month[5][0] = 1
 
-#Belgium (BE)
-livery_scheme[6] = SNCB_new_look
-retire_year[6] = 2050
-retire_month[6] = 12
-livery[6][0] = SNCB_new_look
-intro_year[6][0] = 1995
+livery_scheme[6] = OBB_Upgrade
+retire_year[6] = 2100
+retire_month[6] = 1
+livery[6][0] = OBB_Upgrade
+intro_year[6][0] = 2002
 intro_month[6][0] = 1
+
+#Belgium (BE)
+livery_scheme[7] = SNCB_new_look
+retire_year[7] = 2050
+retire_month[7] = 12
+livery[7][0] = SNCB_new_look
+intro_year[7][0] = 1995
+intro_month[7][0] = 1
 
 #Switzerland (CH)
 
 #Swiss Freight company
-livery_scheme[7] = Hupac
-retire_year[7] = 2100
-retire_month[7] = 12
-livery[7][0] = Hupac
-intro_year[7][0] = 2000
-intro_month[7][0] = 1
+livery_scheme[8] = Hupac
+retire_year[8] = 2100
+retire_month[8] = 12
+livery[8][0] = Hupac
+intro_year[8][0] = 2000
+intro_month[8][0] = 1
 
 #Germany (DE)
-livery_scheme[8] = DB
-retire_year[8] = 1987
-retire_month[8] = 1
-livery[8][0] = DB
-intro_year[8][0] = 1949
-intro_month[108][0] = 1
-
-livery_scheme[9] = DB_Cargo
-retire_year[9] = 2100
+#Grand Duchy of Baden State Railways
+livery_scheme[9] = Baden
+retire_year[9] = 1947
 retire_month[9] = 1
-livery[9][0] = DB_Cargo
-intro_year[9][0] = 1996
+livery[9][0] = baden_steam
+intro_year[9][0] = 1840
 intro_month[9][0] = 1
 
-#Long-Distance Transport
-livery_scheme[10] = DB_Fernverkehr
-retire_year[10] = 2100
+#Prussian State Railways
+livery_scheme[10] = Prussian
+retire_year[10] = 1947
 retire_month[10] = 1
-livery[10][0] = DB_Fernverkehr
-intro_year[10][0] = 1996
+livery[10][0] = prussian_steam
+intro_year[10][0] = 1840
 intro_month[10][0] = 1
 
-#Orient Red
-livery_scheme[11] = DB_Orientrot
-retire_year[11] = 1997
+#Royal Saxon State Railways 
+livery_scheme[11] = Saxony
+retire_year[11] = 1947
 retire_month[11] = 1
-livery[11][0] = DB_Orientrot
-intro_year[11][0] = 1986
+livery[11][0] = saxony_steam
+intro_year[11][0] = 1869
 intro_month[11][0] = 1
 
-livery_scheme[12] = DB_Regio
-retire_year[12] = 2100
+#Royal Württemberg State Railways 
+livery_scheme[12] = Württemberg
+retire_year[12] = 1947
 retire_month[12] = 1
-livery[12][0] = DB_Regio
-intro_year[12][0] = 1996
+livery[12][0] = wurttemberg_steam
+intro_year[12][0] = 1843
 intro_month[12][0] = 1
 
-#Bavarian route
-livery_scheme[13] = alex
-retire_year[13] = 2100
+livery_scheme[13] = DB
+retire_year[13] = 1987
 retire_month[13] = 1
-livery[13][0] = alex
-intro_year[13][0] = 1990
+livery[13][0] = DB
+intro_year[13][0] = 1949
 intro_month[13][0] = 1
 
-#Container trains in Germany
-livery_scheme[14] = boxxpress
+livery_scheme[14] = DB_Cargo
 retire_year[14] = 2100
-retire_month[14] = 12
-livery[14][0] = boxxpress
-intro_year[14][0] = 2000
+retire_month[14] = 1
+livery[14][0] = DB_Cargo
+intro_year[14][0] = 1996
 intro_month[14][0] = 1
 
-#RBH Logistics
-livery_scheme[15] = RBH
+#Long-Distance Transport
+livery_scheme[15] = DB_Fernverkehr
 retire_year[15] = 2100
 retire_month[15] = 1
-livery[15][0] = RBH
+livery[15][0] = DB_Fernverkehr
 intro_year[15][0] = 1996
 intro_month[15][0] = 1
 
-#S-Bahn
-livery_scheme[16] = Urban
-retire_year[16] = 2100
+#Orient Red
+livery_scheme[16] = DB_Orientrot
+retire_year[16] = 1997
 retire_month[16] = 1
-livery[16][0] = Urban
-intro_year[16][0] = 1850
+livery[16][0] = DB_Orientrot
+intro_year[16][0] = 1986
 intro_month[16][0] = 1
 
-#Lower Saxony Transport Authority
-livery_scheme[17] = LNVG
+livery_scheme[17] = DB_Regio
 retire_year[17] = 2100
 retire_month[17] = 1
-livery[17][0] = LNVG
-intro_year[17][0] = 2000
+livery[17][0] = DB_Regio
+intro_year[17][0] = 1996
 intro_month[17][0] = 1
 
-#Metropolitan Express Train (Cologne - Hamburg)
-livery_scheme[18] = MET
+#Bavarian route
+livery_scheme[18] = alex
 retire_year[18] = 2100
 retire_month[18] = 1
-livery[18][0] = MET
-intro_year[18][0] = 1996
+livery[18][0] = alex
+intro_year[18][0] = 1990
 intro_month[18][0] = 1
 
-#Schleswig-Holstein
-livery_scheme[19] = NahSH
+#Container trains in Germany
+livery_scheme[19] = boxxpress
 retire_year[19] = 2100
-retire_month[19] = 1
-livery[19][0] = NahSH
+retire_month[19] = 12
+livery[19][0] = boxxpress
 intro_year[19][0] = 2000
 intro_month[19][0] = 1
 
-#Baden-Württemberg
-livery_scheme[20] = BWegt
+#RBH Logistics
+livery_scheme[20] = RBH
 retire_year[20] = 2100
 retire_month[20] = 1
-livery[20][0] = BWegt
-intro_year[20][0] = 2000
+livery[20][0] = RBH
+intro_year[20][0] = 1996
 intro_month[20][0] = 1
 
-#Denmark (DK)
-#Danish State Railways
-livery_scheme[21] = DSB
-retire_year[21] = 2045
-retire_month[21] = 12
-livery[21][0] = DSB
-intro_year[21][0] = 1900
+#S-Bahn
+livery_scheme[21] = Urban
+retire_year[21] = 2100
+retire_month[21] = 1
+livery[21][0] = Urban
+intro_year[21][0] = 1850
+intro_month[21][0] = 1
 
-#Poland (PL)
-livery_scheme[22] = PKP_Cargo
+#Lower Saxony Transport Authority
+livery_scheme[22] = LNVG
 retire_year[22] = 2100
-retire_month[22] = 12
-livery[22][0] = PKP_Cargo
+retire_month[22] = 1
+livery[22][0] = LNVG
 intro_year[22][0] = 2000
 intro_month[22][0] = 1
 
-#United Kingdom (UK)
-livery_scheme[23] = CrossCountry
+#Metropolitan Express Train (Cologne - Hamburg)
+livery_scheme[23] = MET
 retire_year[23] = 2100
 retire_month[23] = 1
-livery[23][0] = XC_toc
-intro_year[23][0] = 1998
-intro_month[23][0] = 5
+livery[23][0] = MET
+intro_year[23][0] = 1996
+intro_month[23][0] = 1
 
-livery_scheme[24] = EastMidlandsTrains
+#Schleswig-Holstein
+livery_scheme[24] = NahSH
 retire_year[24] = 2100
 retire_month[24] = 1
-livery[24][0] = EMT
-intro_year[24][0] = 1987
+livery[24][0] = NahSH
+intro_year[24][0] = 2000
 intro_month[24][0] = 1
 
-livery_scheme[25] = GreaterAnglia
+#Baden-Württemberg
+livery_scheme[25] = BWegt
 retire_year[25] = 2100
 retire_month[25] = 1
-livery[25][0] = greater_anglia
-intro_year[25][0] = 1987
+livery[25][0] = BWegt
+intro_year[25][0] = 2000
 intro_month[25][0] = 1
 
-livery_scheme[26] = FirstGreatWestern
-retire_year[26] = 2100
-retire_month[26] = 1
-livery[26][0] = fGW
-intro_year[26][0] = 1987
-intro_month[26][0] = 1
+#Denmark (DK)
+#Danish State Railways
+livery_scheme[26] = DSB
+retire_year[26] = 2045
+retire_month[26] = 12
+livery[26][0] = DSB
+intro_year[26][0] = 1900
 
-livery_scheme[27] = LondonMidland
+#Poland (PL)
+livery_scheme[27] = PKP_Cargo
 retire_year[27] = 2100
-retire_month[27] = 1
-livery[27][0] = LM_toc
-intro_year[27][0] = 1987
+retire_month[27] = 12
+livery[27][0] = PKP_Cargo
+intro_year[27][0] = 2000
 intro_month[27][0] = 1
 
-livery_scheme[28] = LondonOverground
+#United Kingdom (UK)
+livery_scheme[28] = CrossCountry
 retire_year[28] = 2100
 retire_month[28] = 1
-livery[28][0] = TfL_LO
-intro_year[28][0] = 1981
-intro_month[28][0] = 0
+livery[28][0] = XC_toc
+intro_year[28][0] = 1998
+intro_month[28][0] = 5
 
-livery_scheme[29] = Northern
+livery_scheme[29] = EastMidlandsTrains
 retire_year[29] = 2100
 retire_month[29] = 1
-livery[29][0] = northern
+livery[29][0] = EMT
 intro_year[29][0] = 1987
 intro_month[29][0] = 1
 
-livery_scheme[30] = Southern
+livery_scheme[30] = GreaterAnglia
 retire_year[30] = 2100
 retire_month[30] = 1
-livery[30][0] = southern_gtr
-intro_year[30][0] = 2003
+livery[30][0] = greater_anglia
+intro_year[30][0] = 1987
 intro_month[30][0] = 1
 
-livery_scheme[31] = ScotRail
+livery_scheme[31] = FirstGreatWestern
 retire_year[31] = 2100
 retire_month[31] = 1
-livery[31][0] = scotrail
+livery[31][0] = fGW
 intro_year[31][0] = 1987
 intro_month[31][0] = 1
 
-livery_scheme[32] = Virgin
+livery_scheme[32] = LondonMidland
 retire_year[32] = 2100
 retire_month[32] = 1
-livery[32][0] = virgin
-intro_year[32][0] = 2000
-intro_month[32][0] = 4
+livery[32][0] = LM_toc
+intro_year[32][0] = 1987
+intro_month[32][0] = 1
 
-livery_scheme[33] = Wales
+livery_scheme[33] = LondonOverground
 retire_year[33] = 2100
 retire_month[33] = 1
-livery[33][0] = ATW
-intro_year[33][0] = 1990
-intro_month[33][0] = 1
+livery[33][0] = TfL_LO
+intro_year[33][0] = 1981
+intro_month[33][0] = 0
+
+livery_scheme[34] = Northern
+retire_year[34] = 2100
+retire_month[34] = 1
+livery[34][0] = northern
+intro_year[34][0] = 1987
+intro_month[34][0] = 1
+
+livery_scheme[35] = Southern
+retire_year[35] = 2100
+retire_month[35] = 1
+livery[35][0] = southern_gtr
+intro_year[35][0] = 2003
+intro_month[35][0] = 1
+
+livery_scheme[36] = ScotRail
+retire_year[36] = 2100
+retire_month[36] = 1
+livery[36][0] = scotrail
+intro_year[36][0] = 1987
+intro_month[36][0] = 1
+
+livery_scheme[37] = Virgin
+retire_year[37] = 2100
+retire_month[37] = 1
+livery[37][0] = virgin
+intro_year[37][0] = 2000
+intro_month[37][0] = 4
+
+livery_scheme[38] = Wales
+retire_year[38] = 2100
+retire_month[38] = 1
+livery[38][0] = ATW
+intro_year[38][0] = 1990
+intro_month[38][0] = 1
