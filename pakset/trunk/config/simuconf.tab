@@ -1243,7 +1243,7 @@ intro_month[8][0] = 1
 
 #Germany (DE)
 #Grand Duchy of Baden State Railways
-livery_scheme[9] = Baden
+livery_scheme[9] = BadenR
 retire_year[9] = 1947
 retire_month[9] = 1
 livery[9][0] = baden_steam
@@ -1251,7 +1251,7 @@ intro_year[9][0] = 1840
 intro_month[9][0] = 1
 
 #Prussian State Railways
-livery_scheme[10] = Prussian
+livery_scheme[10] = PrussianR
 retire_year[10] = 1947
 retire_month[10] = 1
 livery[10][0] = prussian_steam
@@ -1259,7 +1259,7 @@ intro_year[10][0] = 1840
 intro_month[10][0] = 1
 
 #Royal Saxon State Railways 
-livery_scheme[11] = Saxony
+livery_scheme[11] = SaxonyR
 retire_year[11] = 1947
 retire_month[11] = 1
 livery[11][0] = saxony_steam
@@ -1267,7 +1267,7 @@ intro_year[11][0] = 1869
 intro_month[11][0] = 1
 
 #Royal Württemberg State Railways 
-livery_scheme[12] = Württemberg
+livery_scheme[12] = WürttembergR
 retire_year[12] = 1947
 retire_month[12] = 1
 livery[12][0] = wurttemberg_steam
@@ -1399,7 +1399,7 @@ livery[28][0] = XC_toc
 intro_year[28][0] = 1998
 intro_month[28][0] = 5
 
-livery_scheme[29] = EastMidlandsTrains
+livery_scheme[29] = EastMidlands
 retire_year[29] = 2100
 retire_month[29] = 1
 livery[29][0] = EMT
@@ -1413,7 +1413,7 @@ livery[30][0] = greater_anglia
 intro_year[30][0] = 1987
 intro_month[30][0] = 1
 
-livery_scheme[31] = FirstGreatWestern
+livery_scheme[31] = GreatWestern
 retire_year[31] = 2100
 retire_month[31] = 1
 livery[31][0] = fGW
@@ -1434,14 +1434,14 @@ livery[33][0] = TfL_LO
 intro_year[33][0] = 1981
 intro_month[33][0] = 0
 
-livery_scheme[34] = Northern
+livery_scheme[34] = NorthernR
 retire_year[34] = 2100
 retire_month[34] = 1
 livery[34][0] = northern
 intro_year[34][0] = 1987
 intro_month[34][0] = 1
 
-livery_scheme[35] = Southern
+livery_scheme[35] = SouthernR
 retire_year[35] = 2100
 retire_month[35] = 1
 livery[35][0] = southern_gtr

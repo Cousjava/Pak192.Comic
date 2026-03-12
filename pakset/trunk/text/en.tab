@@ -7638,3 +7638,112 @@ catenary_tram
 Tram Catenary
 oberleitung_tram_m
 Tram Catenary
+################Extended items - manually added, not in translator yet #########
+p_class[0]
+4th Class
+p_class[1]
+3rd Class
+p_class[2]
+Standard/2nd Class
+p_class[3]
+1st Class
+p_class[4]
+Luxury Class
+p_accommodation[0]
+4th Class Seats
+p_accommodation[1]
+3rd Class Seats
+p_accommodation[2]
+Standard/2nd Class Seats
+p_accommodation[3]
+1st Class Seats
+p_accommodation[4]
+Luxury Seats
+p_fare[0]
+4th Class Fares
+p_fare[1]
+3rd Class Fares
+p_fare[2]
+Standard/2nd Class Fares
+p_fare[3]
+1st Class Fares
+p_fare[4]
+Luxury Fares
+Pride
+Pride
+Unpainted
+Unpainted
+C1
+(Int) C1
+Dispolok
+(Int) Dispolok
+MRCE
+(Int) MRCE
+OBB_Valousek
+(AT) OBB Valousek
+OBB_Upgrade
+(AT) OBB Upgrade
+SNCB_new_look
+(BE) SNCB New Look
+Hupac
+(CH) Hupac
+BadenR
+(DE) Grand Duchy of Baden State Railways
+PrussianR
+(DE) Prussian State Railways
+SaxonyR
+(DE) Royal Saxon State Railways
+WürttembergR
+(DE) Royal Württemberg State Railways
+DB
+(DE) Deutsche Bundesbahn
+DB_Cargo
+(DE) DB Cargo
+DB_Fernverkehr
+(DE) DB Fernverkehr
+DB_Orientrot
+(DE) DB Orient Red
+DB_Regio
+(DE) DB Regio
+alex
+(DE) alex
+boxxpress
+(DE) boxxpress
+RBH
+(DE) RBH
+Urban
+Urban
+LNVG
+(DE) Lower Saxony Transport Authority (LNVG)
+MET
+(DE) Metropolitan Express Train
+NahSH
+(DE) Schleswig-Holstein Public Transport (NahSH)
+BWegt
+(DE) BWegt
+DSB
+(DK) Danish State Railways (DSB)
+PKP_Cargo
+(PL) PKP Cargo
+CrossCountry
+(UK) CrossCountry
+EastMidlands
+(UK) East Midlands Trains
+GreaterAnglia
+(UK) GreaterAnglia
+GreatWestern
+(UK) firstGreatWestern
+LondonMidland
+(UK) LondonMidland
+LondonOverground
+(UK) London Overground
+NorthernR
+(UK) Northern
+SouthernR
+(UK) Southern
+ScotRail
+(UK) ScotRail
+Virgin
+(UK) Virgin Trains
+Wales
+(UK) Arriva Trains Wales
