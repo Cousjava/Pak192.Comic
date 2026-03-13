@@ -7669,6 +7669,28 @@ p_fare[3]
 1st Class Fares
 p_fare[4]
 Luxury Fares
+PlayerColourLivery
+Player Primary Colour
+PlayerColourLivery2
+Player Secondary Colour
+redLivery
+Red
+orangeLivery
+Orange
+yellowLivery
+Yellow
+lightGreenLivery
+Light Green
+darkGreenLivery
+Dark Green
+blueLivery
+Blue
+purpleLivery
+Purple
+whiteLivery
+White
+blackLivery
+Black
 Pride
 Pride
 Unpainted
@@ -7687,6 +7709,10 @@ SNCB_new_look
 (BE) SNCB New Look
 Hupac
 (CH) Hupac
+CSD_Livery
+(CS) Czechoslovak State Railway (CSD)
+CD_Livery
+(CZ) Czech Railways (CD)
 BadenR
 (DE) Grand Duchy of Baden State Railways
 PrussianR
