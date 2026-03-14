@@ -1487,88 +1487,96 @@ retire_month[40] = 12
 livery[40][0] = DSB
 intro_year[40][0] = 1900
 
-#Poland (PL)
-livery_scheme[41] = PKP_Cargo
+#Hungary (HU)
+livery_scheme[41] = GYSEV
 retire_year[41] = 2100
 retire_month[41] = 12
-livery[41][0] = PKP_Cargo
-intro_year[41][0] = 2000
-intro_month[41][0] = 1
+livery[41][0] = GYSEV
+intro_year[41][0] = 1875
+intro_month[41][0] = 2
+
+#Poland (PL)
+livery_scheme[42] = PKP_Cargo
+retire_year[42] = 2100
+retire_month[42] = 12
+livery[42][0] = PKP_Cargo
+intro_year[42][0] = 2000
+intro_month[42][0] = 1
 
 #United Kingdom (UK)
-livery_scheme[42] = CrossCountry
-retire_year[42] = 2100
-retire_month[42] = 1
-livery[42][0] = XC_toc
-intro_year[42][0] = 1998
-intro_month[42][0] = 5
-
-livery_scheme[43] = EastMidlands
+livery_scheme[43] = CrossCountry
 retire_year[43] = 2100
 retire_month[43] = 1
-livery[43][0] = EMT
-intro_year[43][0] = 1987
-intro_month[43][0] = 1
+livery[43][0] = XC_toc
+intro_year[43][0] = 1998
+intro_month[43][0] = 5
 
-livery_scheme[44] = GreaterAnglia
+livery_scheme[44] = EastMidlands
 retire_year[44] = 2100
 retire_month[44] = 1
-livery[44][0] = greater_anglia
+livery[44][0] = EMT
 intro_year[44][0] = 1987
 intro_month[44][0] = 1
 
-livery_scheme[45] = GreatWestern
+livery_scheme[45] = GreaterAnglia
 retire_year[45] = 2100
 retire_month[45] = 1
-livery[45][0] = fGW
+livery[45][0] = greater_anglia
 intro_year[45][0] = 1987
 intro_month[45][0] = 1
 
-livery_scheme[46] = LondonMidland
+livery_scheme[46] = GreatWestern
 retire_year[46] = 2100
 retire_month[46] = 1
-livery[46][0] = LM_toc
+livery[46][0] = fGW
 intro_year[46][0] = 1987
 intro_month[46][0] = 1
 
-livery_scheme[47] = LondonOverground
+livery_scheme[47] = LondonMidland
 retire_year[47] = 2100
 retire_month[47] = 1
-livery[47][0] = TfL_LO
-intro_year[47][0] = 1981
-intro_month[47][0] = 0
+livery[47][0] = LM_toc
+intro_year[47][0] = 1987
+intro_month[47][0] = 1
 
-livery_scheme[48] = NorthernR
+livery_scheme[48] = LondonOverground
 retire_year[48] = 2100
 retire_month[48] = 1
-livery[48][0] = northern
-intro_year[48][0] = 1987
-intro_month[48][0] = 1
+livery[48][0] = TfL_LO
+intro_year[48][0] = 1981
+intro_month[48][0] = 0
 
-livery_scheme[49] = SouthernR
+livery_scheme[49] = NorthernR
 retire_year[49] = 2100
 retire_month[49] = 1
-livery[49][0] = southern_gtr
-intro_year[49][0] = 2003
+livery[49][0] = northern
+intro_year[49][0] = 1987
 intro_month[49][0] = 1
 
-livery_scheme[50] = ScotRail
+livery_scheme[50] = SouthernR
 retire_year[50] = 2100
 retire_month[50] = 1
-livery[50][0] = scotrail
-intro_year[50][0] = 1987
+livery[50][0] = southern_gtr
+intro_year[50][0] = 2003
 intro_month[50][0] = 1
 
-livery_scheme[51] = Virgin
+livery_scheme[51] = ScotRail
 retire_year[51] = 2100
 retire_month[51] = 1
-livery[51][0] = virgin
-intro_year[51][0] = 2000
-intro_month[51][0] = 4
+livery[51][0] = scotrail
+intro_year[51][0] = 1987
+intro_month[51][0] = 1
 
-livery_scheme[52] = Wales
+livery_scheme[52] = Virgin
 retire_year[52] = 2100
 retire_month[52] = 1
-livery[52][0] = ATW
-intro_year[52][0] = 1990
-intro_month[52][0] = 1
+livery[52][0] = virgin
+intro_year[52][0] = 2000
+intro_month[52][0] = 4
+
+livery_scheme[53] = Wales
+retire_year[53] = 2100
+retire_month[53] = 1
+livery[53][0] = ATW
+intro_year[53][0] = 1990
+intro_month[53][0] = 1

@@ -19,8 +19,8 @@ has_rear_cab=0
 bidirectional=1
 constraint[prev][0]=OBB_Cityjet_eco_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_eco_Steuerwagen_hinten
-
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.5.<$0>
+liverytype[0]=OBB_Upgrade
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/OBB_Desiro_ML.5.<$0>
 -----------
 obj=vehicle
 name=OBB_Cityjet_eco_Steuerwagen_vorne
@@ -52,7 +52,8 @@ constraint[prev][6]=Electric_2011_Desiro_ML_SNCB_3
 constraint[prev][7]=none
 constraint[next][0]=OBB_Cityjet_eco_Mittelwagen
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.2.<$0>
+liverytype[0]=OBB_Upgrade
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/OBB_Desiro_ML.2.<$0>
 -----------
 obj=vehicle
 name=OBB_Cityjet_eco_Steuerwagen_hinten
@@ -84,4 +85,5 @@ constraint[next][5]=Electric_2019_Desiro_ML_ODEG_1
 constraint[next][6]=Electric_2011_Desiro_ML_SNCB_1
 constraint[next][7]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.8.<$0>
+liverytype[0]=OBB_Upgrade
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/OBB_Desiro_ML.8.<$0>
