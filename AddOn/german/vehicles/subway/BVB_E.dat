@@ -29,6 +29,10 @@ Constraint[Prev][2]=E_4U-BVG
 Constraint[Prev][3]=none
 Constraint[Next][0]=E_4-BVG
 
+liverytype[0]=BVB
+liverytype[1]=BVG
+liverytype[2]=Pride
+
 EmptyImage[S]=./image/E-BVG.0.3
 EmptyImage[E]=./image/E-BVG.0.2
 EmptyImage[SE]=./image/E-BVG.1.0
