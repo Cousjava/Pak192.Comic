@@ -26,7 +26,11 @@ constraint[prev][1]=Flirt_Triebwagen_1
 constraint[next][0]=Flirt_Mittelwagen
 constraint[next][1]=Flirt_Triebwagen_2
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2004_Flirt_WFB.0.<$0>
+liverytype[0]=WFB
+liverytype[1]=SBB
+
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Electric_2004_Flirt_WFB.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Electric_2004_Flirt_SBB.0.<$0>
 -----------
 obj=vehicle
 name=Flirt_Triebwagen_1
@@ -58,7 +62,11 @@ constraint[prev][1]=none
 constraint[next][0]=Flirt_Mittelwagen
 constraint[next][1]=Flirt_Triebwagen_2
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2004_Flirt_WFB.2.<$0>
+liverytype[0]=WFB
+liverytype[1]=SBB
+
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Electric_2004_Flirt_WFB.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Electric_2004_Flirt_SBB.2.<$0>
 -----------
 obj=vehicle
 name=Flirt_Triebwagen_2
@@ -91,4 +99,8 @@ constraint[prev][1]=Flirt_Mittelwagen
 constraint[next][0]=Flirt_Triebwagen_1
 constraint[next][1]=none
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2004_Flirt_WFB.3.<$0>
+liverytype[0]=WFB
+liverytype[1]=SBB
+
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Electric_2004_Flirt_WFB.3.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Electric_2004_Flirt_SBB.3.<$0>

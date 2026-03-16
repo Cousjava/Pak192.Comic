@@ -7709,6 +7709,10 @@ SNCB_new_look
 (BE) SNCB New Look
 Hupac
 (CH) Hupac
+SBB
+(CH) Swiss Federal Railways (SBB)
+SBZ
+(CH) S-Bahn Zurich
 CSD_Livery
 (CS) Czechoslovak State Railway (CSD)
 CD_Livery
@@ -7739,10 +7743,14 @@ alex
 (DE) alex
 boxxpress
 (DE) boxxpress
+nbe_nordbahn
+(DE) NBE Nordbahn
 RBH
 (DE) RBH
 Urban
 Urban
+WFB
+(DE) WestfalenBahn (WFB)
 LNVG
 (DE) Lower Saxony Transport Authority (LNVG)
 MET
