@@ -29,11 +29,13 @@ cost=92504069
 runningcost=2553
 length=10
 
-EmptyImage[S]=image/class_59.0.3
-EmptyImage[E]=image/class_59.0.2
-EmptyImage[SE]=image/class_59.1.0
-EmptyImage[SW]=image/class_59.1.3
-EmptyImage[N]=image/class_59.0.1
-EmptyImage[W]=image/class_59.0.0
-EmptyImage[NW]=image/class_59.1.2
-EmptyImage[NE]=image/class_59.1.1
+liverytype[0]=red
+
+EmptyImage[S][0]=image/class_59.0.3
+EmptyImage[E][0]=image/class_59.0.2
+EmptyImage[SE][0]=image/class_59.1.0
+EmptyImage[SW][0]=image/class_59.1.3
+EmptyImage[N][0]=image/class_59.0.1
+EmptyImage[W][0]=image/class_59.0.0
+EmptyImage[NW][0]=image/class_59.1.2
+EmptyImage[NE][0]=image/class_59.1.1
