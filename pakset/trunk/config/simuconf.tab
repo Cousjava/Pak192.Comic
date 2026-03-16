@@ -1399,7 +1399,7 @@ intro_month[28][0] = 1
 livery_scheme[29] = BVG
 retire_year[29] = 2100
 retire_month[29] = 1
-livery[29][0] = DB
+livery[29][0] = BVG
 intro_year[29][0] = 1928
 intro_month[29][0] = 1
 
@@ -1407,7 +1407,7 @@ intro_month[29][0] = 1
 livery_scheme[30] = BVB
 retire_year[30] = 1992
 retire_month[30] = 1
-livery[30][0] = DB_Cargo
+livery[30][0] = BVB
 intro_year[30][0] = 1949
 intro_month[30][0] = 8
 
