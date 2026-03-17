@@ -7709,6 +7709,8 @@ SNCB_new_look
 (BE) SNCB New Look
 Hupac
 (CH) Hupac
+RegioExpress
+(CH) RegioExpress
 SBB
 (CH) Swiss Federal Railways (SBB)
 SBZ
@@ -7723,7 +7725,7 @@ PrussianR
 (DE) Prussian State Railways
 SaxonyR
 (DE) Royal Saxon State Railways
-WürttembergR
+WurttembergR
 (DE) Royal Württemberg State Railways
 BVB
 (DE) Berliner Verkehrsbetrieb (BVB)

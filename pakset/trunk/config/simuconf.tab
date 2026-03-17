@@ -1388,7 +1388,7 @@ intro_year[27][0] = 1869
 intro_month[27][0] = 1
 
 #Royal Württemberg State Railways 
-livery_scheme[28] = WürttembergR
+livery_scheme[28] = WurttembergR
 retire_year[28] = 1947
 retire_month[28] = 1
 livery[28][0] = wurttemberg_steam
