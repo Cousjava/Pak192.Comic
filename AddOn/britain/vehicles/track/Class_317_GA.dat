@@ -14,7 +14,7 @@ speed=160
 length=9
 waytype=narrowgauge_track
 engine_type=electric
-
+is_tall=0
 loading_time=6120
 
 axles=4
@@ -77,7 +77,7 @@ waytype=narrowgauge_track
 engine_type=electric
 power=990
 gear=200
-
+is_tall=0
 axles=4
 has_front_cab=0
 has_rear_cab=0
@@ -140,7 +140,7 @@ loading_time=5620
 engine_type=electric
 constraint[prev][0]=Class_317_GA_2
 constraint[next][0]=Class_317_GA_4
-
+is_tall=0
 axles=4
 has_front_cab=0
 has_rear_cab=0
@@ -197,7 +197,7 @@ engine_type=electric
 constraint[prev][0]=Class_317_GA_3
 constraint[next][0]=Class_317_GA_1
 constraint[next][1]=none
-
+is_tall=0
 axles=4
 has_front_cab=0
 has_rear_cab=1

@@ -21,6 +21,7 @@ smoke=diesel
 sound=none
 loading_time=2870
 axles=4
+is_tall=0
 
 constraint[prev][0]=Sprinter_Coupler
 constraint[prev][1]=none
@@ -71,6 +72,7 @@ smoke=diesel
 sound=none
 loading_time=2870
 axles=4
+is_tall=0
 
 constraint[prev][0]=Class_150_1_FGW
 constraint[next][0]=Sprinter_Coupler
@@ -121,6 +123,7 @@ smoke=diesel
 sound=none
 loading_time=2870
 axles=4
+is_tall=0
 
 constraint[prev][0]=Sprinter_Coupler
 constraint[prev][1]=none
@@ -182,6 +185,7 @@ smoke=diesel
 sound=none
 loading_time=2870
 axles=4
+is_tall=0
 
 constraint[prev][0]=Class_150_3_FGW
 constraint[next][0]=Sprinter_Coupler

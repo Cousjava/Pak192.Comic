@@ -21,6 +21,7 @@ power=300
 gear=100
 speed=100
 length=11
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric
@@ -56,6 +57,7 @@ power=300
 gear=100
 speed=100
 length=9
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric
@@ -92,6 +94,7 @@ power=300
 gear=100
 speed=100
 length=11
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric
@@ -129,6 +132,7 @@ power=500
 gear=100
 speed=72
 length=10
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric
@@ -164,6 +168,7 @@ weight=20
 gear=100
 speed=72
 length=10
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric
@@ -198,6 +203,7 @@ weight=20
 gear=100
 speed=72
 length=10
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric
@@ -233,6 +239,7 @@ power=500
 gear=100
 speed=72
 length=10
+is_tall=0
 
 waytype=narrowgauge_track
 engine_type=electric

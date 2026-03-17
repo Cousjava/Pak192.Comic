@@ -15,6 +15,7 @@ length=9
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=6150
+is_tall=0
 
 constraint[prev][0]=Class_320_ASR_3
 constraint[prev][1]=none
@@ -50,6 +51,8 @@ power=1072
 gear=170
 loading_time=6060
 engine_type=electric
+is_tall=0
+
 constraint[prev][0]=Class_320_ASR_1
 constraint[next][0]=Class_320_ASR_3
 
@@ -81,6 +84,7 @@ length=8
 waytype=narrowgauge_track
 loading_time=6140
 engine_type=electric
+is_tall=0
 constraint[prev][0]=Class_320_ASR_2
 constraint[next][0]=Class_320_ASR_1
 constraint[next][1]=none

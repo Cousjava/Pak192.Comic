@@ -24,6 +24,7 @@ has_rear_cab=0
 
 liverytype[0]=virgin
 liverytype[1]=XC_toc
+is_tall=0
 
 EmptyImage[E][0]=image/class_220_f.0.0
 EmptyImage[S][0]=image/class_220_f.0.1
@@ -73,6 +74,7 @@ loading_time=7080
 axles=4
 has_front_cab=0
 has_rear_cab=1
+is_tall=0
 
 liverytype[0]=virgin
 liverytype[1]=XC_toc
@@ -175,6 +177,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=0
 loading_time=7550
+is_tall=0
 
 liverytype[0]=virgin
 liverytype[1]=XC_toc
@@ -223,6 +226,7 @@ loading_time=7550
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 
 liverytype[0]=virgin
 liverytype[1]=XC_toc

@@ -19,6 +19,7 @@ engine_type=diesel
 smoke=diesel
 sound=none
 loading_time=5200
+is_tall=0
 
 constraint[prev][0]=SR_Class_171-1
 constraint[next][0]=SR_Class_171-3
@@ -53,6 +54,7 @@ engine_type=diesel
 smoke=diesel
 sound=none
 loading_time=5200
+is_tall=0
 
 constraint[prev][0]=SR_Class_171-2
 constraint[next][0]=SR_Class_171-4
@@ -87,6 +89,8 @@ engine_type=diesel
 smoke=diesel
 sound=none
 loading_time=4880
+is_tall=0
+
 constraint[prev][0]=SR_Class_171-4
 constraint[prev][1]=none
 constraint[next][0]=SR_Class_171-2
@@ -122,6 +126,8 @@ engine_type=diesel
 smoke=diesel
 sound=none
 loading_time=4880
+is_tall=0
+
 constraint[prev][0]=SR_Class_171-3
 constraint[prev][1]=SR_Class_171-1
 constraint[next][0]=SR_Class_171-1

@@ -20,6 +20,7 @@ gear=100
 speed=64
 length=7
 loading_time=330
+is_tall=0
 
 Constraint[prev][0]=Docklands_B07_2
 Constraint[prev][1]=none
@@ -56,6 +57,7 @@ gear=100
 speed=64
 length=8
 loading_time=330
+is_tall=0
 
 Constraint[prev][0]=Docklands_B07_1
 Constraint[Next][0]=Docklands_B07_1
@@ -94,6 +96,7 @@ gear=100
 speed=64
 length=7
 loading_time=720
+is_tall=0
 
 Constraint[prev][0]=Docklands_B92_2
 Constraint[prev][1]=none
@@ -130,6 +133,7 @@ gear=100
 speed=64
 length=8
 loading_time=720
+is_tall=0
 
 Constraint[prev][0]=Docklands_B92_1
 Constraint[Next][0]=Docklands_B92_1
@@ -168,6 +172,7 @@ gear=100
 speed=64
 length=7
 loading_time=920
+is_tall=0
 
 Constraint[prev][0]=Docklands_P86_2
 Constraint[prev][1]=none
@@ -204,6 +209,7 @@ gear=100
 speed=64
 length=8
 loading_time=920
+is_tall=0
 
 Constraint[prev][0]=Docklands_P86_1
 Constraint[Next][0]=Docklands_P86_1

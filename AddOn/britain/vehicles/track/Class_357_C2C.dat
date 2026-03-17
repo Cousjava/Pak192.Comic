@@ -20,6 +20,7 @@ smoke=none
 sound=none
 loading_time=4830
 axles=4
+is_tall=0
 constraint[prev][0]=Class_357_C2C-1
 constraint[next][0]=Class_357_C2C-3
 
@@ -67,6 +68,7 @@ sound=none
 loading_time=4830
 axles=4
 is_tall=0
+
 constraint[prev][0]=Class_357_C2C-2
 constraint[next][0]=Class_357_C2C-4
 
@@ -112,6 +114,7 @@ engine_type=electric
 smoke=none
 sound=none
 loading_time=4480
+is_tall=0
 constraint[prev][0]=Class_357_C2C-4
 constraint[prev][1]=none
 constraint[next][0]=Class_357_C2C-2
@@ -158,6 +161,7 @@ engine_type=electric
 smoke=none
 sound=none
 loading_time=4480
+is_tall=0
 constraint[prev][0]=Class_357_C2C-3
 constraint[next][0]=Class_357_C2C-1
 constraint[next][1]=none

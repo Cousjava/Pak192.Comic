@@ -20,6 +20,7 @@ gear=120
 smoke=diesel
 sound=none
 loading_time=5100
+is_tall=0
 
 constraint[prev][0]=Class_172_2_LO
 constraint[prev][1]=none
@@ -57,6 +58,8 @@ gear=120
 smoke=diesel
 sound=none
 loading_time=5100
+is_tall=0
+
 constraint[prev][0]=Class_172_1_LO
 constraint[next][0]=Class_172_1_LO
 constraint[next][1]=none

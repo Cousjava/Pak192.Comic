@@ -19,6 +19,7 @@ loading_time=6150
 axles=4
 has_front_cab=1
 has_rear_cab=0
+is_tall=0
 
 constraint[prev][0]=Class_321_GA_4
 constraint[prev][1]=none
@@ -72,6 +73,7 @@ loading_time=6150
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 
 constraint[prev][0]=Class_321_GA_1
 constraint[next][0]=Class_321_GA_3
@@ -119,6 +121,7 @@ engine_type=electric
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 constraint[prev][0]=Class_321_GA_2
 constraint[next][0]=Class_321_GA_4
 
@@ -165,6 +168,7 @@ engine_type=electric
 axles=4
 has_front_cab=0
 has_rear_cab=1
+is_tall=0
 constraint[prev][0]=Class_321_GA_3
 constraint[next][0]=Class_321_GA_1
 constraint[next][1]=none

@@ -20,6 +20,7 @@ engine_type=electric
 freight=Passagiere
 smoke=none
 sound=none
+is_tall=0
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=IC_225_MK_IV_Coach
@@ -56,6 +57,7 @@ engine_type=electric
 freight=Passagiere
 smoke=none
 sound=none
+is_tall=0
 
 Constraint[Prev][0]=IC_225_MK_IV_Coach
 Constraint[Next][0]=none
@@ -90,6 +92,7 @@ speed=230
 length=12
 waytype=narrowgauge_track
 loading_time=9380
+is_tall=0
 
 Constraint[Prev][0]=IC_225_Class_91_1
 Constraint[Prev][1]=IC_225_MK_IV_Coach

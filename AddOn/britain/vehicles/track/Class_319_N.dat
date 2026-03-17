@@ -19,6 +19,7 @@ loading_time=6150
 axles=4
 has_front_cab=1
 has_rear_cab=0
+is_tall=0
 
 liverytype[0]=northern
 #Really FCC, but they look similar enough to share livery
@@ -73,6 +74,7 @@ loading_time=6150
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 
 liverytype[0]=northern
 #Really FCC, but they look similar enough to share livery
@@ -121,6 +123,7 @@ engine_type=electric
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 constraint[prev][0]=Class_319_N_2
 constraint[next][0]=Class_319_N_4
 
@@ -171,6 +174,7 @@ constraint[next][1]=none
 axles=4
 has_front_cab=0
 has_rear_cab=1
+is_tall=0
 
 liverytype[0]=northern
 #Really FCC, but they look similar enough to share livery

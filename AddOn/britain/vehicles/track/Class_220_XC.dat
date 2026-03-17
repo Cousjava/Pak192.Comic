@@ -17,6 +17,8 @@ engine_type=diesel
 freight=Passagiere
 payload=75
 loading_time=7080
+is_tall=0
+
 EmptyImage[E]=image/class_220_f_XC.0.0
 EmptyImage[S]=image/class_220_f_XC.0.1
 EmptyImage[W]=image/class_220_f_XC.0.2
@@ -52,6 +54,8 @@ engine_type=diesel
 freight=Passagiere
 payload=75
 loading_time=7080
+is_tall=0
+
 EmptyImage[E]=image/class_220_b_XC.0.0
 EmptyImage[S]=image/class_220_b_XC.0.1
 EmptyImage[W]=image/class_220_b_XC.0.2
@@ -88,6 +92,8 @@ engine_type=diesel
 freight=Passagiere
 payload=80
 loading_time=7550
+is_tall=0
+
 EmptyImage[E]=image/class_220_m_XC.0.0
 EmptyImage[S]=image/class_220_m_XC.0.1
 EmptyImage[W]=image/class_220_m_XC.0.2

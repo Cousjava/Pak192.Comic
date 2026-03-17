@@ -15,6 +15,7 @@ length=12
 waytype=narrowgauge_track
 smoke=none
 sound=none
+is_tall=0
 
 #Constraint[Prev][0]=FSR_Class_90
 #Constraint[Prev][1]=FSR_Mk3_SLE
@@ -55,6 +56,7 @@ length=12
 waytype=narrowgauge_track
 smoke=none
 sound=none
+is_tall=0
 
 #Constraint[Prev][0]=FSR_Class_90
 #Constraint[Prev][1]=FSR_Mk3_SLE
@@ -95,6 +97,7 @@ length=12
 waytype=narrowgauge_track
 smoke=none
 sound=none
+is_tall=0
 
 #Constraint[Prev][0]=FSR_Class_90
 #Constraint[Prev][1]=FSR_Mk3_SLE

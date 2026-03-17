@@ -22,6 +22,7 @@ sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+is_tall=0
 
 freight=None
 payload=0

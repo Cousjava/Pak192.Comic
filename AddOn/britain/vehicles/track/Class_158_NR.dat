@@ -22,6 +22,7 @@ loading_time=4000
 axles=4
 has_front_cab=1
 has_rear_cab=0
+is_tall=0
 
 liverytype[0]=northern
 
@@ -67,6 +68,7 @@ loading_time=4000
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 
 liverytype[0]=northern
 
@@ -109,6 +111,7 @@ loading_time=4000
 axles=4
 has_front_cab=0
 has_rear_cab=1
+is_tall=0
 
 liverytype[0]=northern
 

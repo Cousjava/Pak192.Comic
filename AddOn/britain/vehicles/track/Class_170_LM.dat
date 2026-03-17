@@ -22,6 +22,7 @@ loading_time=5200
 axles=4
 has_front_cab=0
 has_rear_cab=0
+is_tall=0
 
 constraint[prev][0]=LM_Class_170-1
 constraint[next][0]=LM_Class_170-3
@@ -72,6 +73,7 @@ loading_time=4880
 axles=4
 has_front_cab=1
 has_rear_cab=0
+is_tall=0
 
 constraint[prev][0]=LM_Class_170-3
 constraint[prev][1]=none
@@ -122,6 +124,7 @@ loading_time=4880
 axles=4
 has_front_cab=0
 has_rear_cab=1
+is_tall=0
 
 constraint[prev][0]=LM_Class_170-2
 constraint[next][0]=LM_Class_170-1

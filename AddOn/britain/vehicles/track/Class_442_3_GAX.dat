@@ -21,6 +21,7 @@ freight=Passagiere
 smoke=none
 sound=none
 loading_time=4330
+is_tall=0
 Constraint[Prev][0]=GAX_Class_442-2
 Constraint[Next][0]=GAX_Class_442-4
 
