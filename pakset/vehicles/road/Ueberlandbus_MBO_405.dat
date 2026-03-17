@@ -16,6 +16,7 @@ RunningCost=315
 loading_time=2167
 payload=47
 freight=Passagiere
+is_tall=0
 length=10
 EmptyImage[E]=image/Ueberlandbus_MBO_405.0.2
 EmptyImage[SE]=image/Ueberlandbus_MBO_405.1.3

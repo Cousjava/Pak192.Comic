@@ -16,6 +16,7 @@ gear=150
 weight=8
 runningcost=361
 cost=14047296
+is_tall=0
 length=3
 constraint[prev][0]=none
 emptyimage[e]=./image/Sattelzugmaschine_Renault_Magnum.0.2

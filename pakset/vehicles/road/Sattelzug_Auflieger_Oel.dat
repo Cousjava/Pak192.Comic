@@ -9,6 +9,7 @@ payload=55
 weight=7
 runningcost=673
 cost=10702450
+is_tall=0
 length=11
 loading_time=9730
 constraint[next][0]=none

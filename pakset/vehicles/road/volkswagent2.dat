@@ -11,6 +11,7 @@ speed=100
 power=50
 gear=50
 payload=180
+is_tall=0
 length=6
 runningcost=83
 cost=1375194

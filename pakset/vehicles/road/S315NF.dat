@@ -14,6 +14,7 @@ payload=49
 weight=18
 runningcost=669
 cost=11809419
+is_tall=0
 length=12
 constraint[next][0]=none
 constraint[prev][0]=none

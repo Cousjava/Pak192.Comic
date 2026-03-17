@@ -22,6 +22,7 @@ axles=3
 weight=9
 runningcost=988
 cost=13607786
+is_tall=1
 length=8
 loading_time=8830
 constraint[next][0]=none

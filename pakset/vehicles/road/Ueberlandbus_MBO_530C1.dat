@@ -14,6 +14,7 @@ RunningCost=402
 loading_time=2533
 payload=52
 freight=Passagiere
+is_tall=0
 length=10
 EmptyImage[E]=image/Ueberlandbus_MBO_530C1.0.2
 EmptyImage[SE]=image/Ueberlandbus_MBO_530C1.1.3

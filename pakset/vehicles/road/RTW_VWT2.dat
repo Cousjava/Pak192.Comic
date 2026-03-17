@@ -12,6 +12,7 @@ payload=1
 weight=1
 runningcost=26
 cost=348100
+is_tall=0
 length=6
 engine_type=diesel
 sound=ambulance.wav

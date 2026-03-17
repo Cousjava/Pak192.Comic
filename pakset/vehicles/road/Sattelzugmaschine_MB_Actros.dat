@@ -11,6 +11,7 @@ gear=150
 weight=8
 runningcost=367
 cost=14296500
+is_tall=0
 length=3
 constraint[prev][0]=none
 emptyimage[e]=./image/MB_Actros.0.2

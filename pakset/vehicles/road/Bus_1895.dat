@@ -14,6 +14,7 @@ weight=2
 speed=20
 payload=8
 length=4
+is_tall=0
 loading_time=340
 #
 engine_type=diesel

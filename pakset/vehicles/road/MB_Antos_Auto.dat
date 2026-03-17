@@ -5,6 +5,7 @@ waytype=road
 engine_type=diesel
 intro_year=2012
 intro_month=1
+is_tall=0
 length=8
 
 speed=80
@@ -47,6 +48,7 @@ copyright=PappeTeeMaster
 waytype=road
 intro_year=2012
 intro_month=1
+is_tall=0
 length=8
 
 speed=80
