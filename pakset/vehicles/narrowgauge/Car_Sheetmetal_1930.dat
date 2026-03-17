@@ -10,6 +10,7 @@ weight=12
 runningcost=431
 cost=2560500
 length=8
+is_tall=0
 loading_time=2310
 freight=sheetmetal
 constraint[prev][0]=any

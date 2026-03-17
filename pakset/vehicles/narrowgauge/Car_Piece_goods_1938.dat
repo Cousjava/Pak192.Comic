@@ -13,6 +13,7 @@ speed=90
 payload=20
 freight=juice
 length=8
+is_tall=0
 waytype=track
 constraint[prev][0]=any
 

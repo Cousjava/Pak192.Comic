@@ -14,6 +14,7 @@ weight=23
 runningcost=90
 cost=3924136
 length=6
+is_tall=0
 #constraint[prev][0]=Lokomotive_1904
 #constraint[prev][1]=none
 sound=3

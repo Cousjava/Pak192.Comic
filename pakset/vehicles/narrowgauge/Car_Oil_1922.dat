@@ -10,6 +10,7 @@ speed=90
 payload=26
 freight=oil
 length=8
+is_tall=0
 waytype=track
 loading_time=2830
 constraint[prev][0]=any

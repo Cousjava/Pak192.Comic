@@ -10,6 +10,7 @@ weight=11
 runningcost=242
 cost=2657270
 length=6
+is_tall=0
 loading_time=1800
 constraint[prev][0]=any
 

@@ -12,6 +12,7 @@ speed=90
 payload=18
 freight=cattle
 length=8
+is_tall=0
 waytype=track
 loading_time=3160
 constraint[prev][0]=any

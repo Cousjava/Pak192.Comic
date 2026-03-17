@@ -12,6 +12,7 @@ speed=40
 payload=4
 freight=cattle
 length=6
+is_tall=0
 waytype=track
 loading_time=660
 

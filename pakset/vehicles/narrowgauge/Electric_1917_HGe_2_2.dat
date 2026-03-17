@@ -11,6 +11,7 @@ retire_month=5
 speed=30
 weight=22
 length=6
+is_tall=0
 engine_type=electric
 power=235
 gear=100

@@ -12,6 +12,7 @@ retire_month=6
 speed=40
 weight=47
 length=8
+is_tall=0
 engine_type=steam
 smoke=smoke_steam_thin
 sound=3

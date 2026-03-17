@@ -12,6 +12,7 @@ speed=40
 payload=9
 freight=milk
 length=6
+is_tall=0
 waytype=track
 loading_time=660
 constraint[prev][0]=any

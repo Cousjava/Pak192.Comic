@@ -14,6 +14,7 @@ power=1184
 
 weight=48
 axles=4
+is_tall=0
 
 smoke=none
 sound=none

@@ -11,6 +11,7 @@ intro_month=6
 speed=80
 weight=20
 length=8
+is_tall=0
 
 
 freight=Passagiere

@@ -11,6 +11,7 @@ retire_month=6
 speed=40
 weight=12
 length=6
+is_tall=0
 
 freight=Post
 payload=300

@@ -11,6 +11,7 @@ intro_month=6
 speed=90
 weight=14
 length=8
+is_tall=0
 
 payload=25
 loading_time=2980

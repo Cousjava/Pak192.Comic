@@ -11,6 +11,7 @@ intro_month=6
 speed=70
 weight=9
 length=8
+is_tall=0
 
 freight=cars
 payload=2

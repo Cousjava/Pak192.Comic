@@ -16,6 +16,7 @@ tractive_Effort=127
 weight=66
 gear=100
 axles=6
+is_tall=0
 
 smoke=none
 sound=none

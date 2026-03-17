@@ -11,6 +11,7 @@ retire_month=5
 speed=30
 weight=48
 length=7
+is_tall=0
 engine_type=steam
 smoke=smoke_steam_thin
 power=250

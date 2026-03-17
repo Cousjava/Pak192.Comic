@@ -11,6 +11,7 @@ retire_month=6
 speed=60
 weight=13
 length=7
+is_tall=0
 
 freight=cattle
 payload=8

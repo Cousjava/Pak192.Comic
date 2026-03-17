@@ -11,6 +11,7 @@ intro_month=6
 speed=90
 weight=18
 length=6
+is_tall=0
 
 freight=grain
 payload=21

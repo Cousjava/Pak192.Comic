@@ -11,6 +11,7 @@ retire_month=6
 speed=75
 weight=22
 length=8
+is_tall=0
 
 freight=patients
 payload=2

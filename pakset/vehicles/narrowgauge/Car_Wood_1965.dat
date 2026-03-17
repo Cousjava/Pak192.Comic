@@ -11,6 +11,7 @@ retire_month=7
 speed=70
 weight=12
 length=7
+is_tall=0
 
 payload=16
 loading_time=2980

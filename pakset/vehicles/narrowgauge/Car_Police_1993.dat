@@ -11,6 +11,7 @@ intro_month=6
 speed=90
 weight=18
 length=8
+is_tall=0
 
 freight=suspects
 payload=8

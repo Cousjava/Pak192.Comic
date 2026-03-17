@@ -11,6 +11,7 @@ retire_month=6
 speed=30
 weight=6
 length=5
+is_tall=0
 
 freight=cars
 payload=1

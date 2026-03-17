@@ -11,6 +11,7 @@ intro_month=6
 speed=80
 weight=10
 length=8
+is_tall=0
 
 freight=cable
 payload=3

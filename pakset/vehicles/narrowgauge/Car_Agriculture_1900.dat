@@ -11,6 +11,7 @@ retire_month=6
 speed=40
 weight=9
 length=5
+is_tall=0
 
 freight=grain
 payload=5

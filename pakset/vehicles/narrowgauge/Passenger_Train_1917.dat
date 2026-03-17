@@ -11,6 +11,7 @@ retire_month=5
 speed=30
 weight=10
 length=7
+is_tall=0
 
 freight=Passagiere
 payload=30

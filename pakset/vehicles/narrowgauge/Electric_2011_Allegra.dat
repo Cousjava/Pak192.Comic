@@ -15,6 +15,7 @@ weight=45
 runningcost=877
 cost=31316180
 length=8
+is_tall=0
 engine_type=electric
 power=1400
 gear=100

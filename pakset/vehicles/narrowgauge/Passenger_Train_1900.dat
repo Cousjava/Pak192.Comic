@@ -12,6 +12,7 @@ speed=40
 payload=30
 freight=Passagiere
 length=8
+is_tall=0
 waytype=track
 loading_time=1420
 constraint[prev][0]=any
@@ -40,6 +41,7 @@ retire_month=5
 speed=40
 weight=8
 length=7
+is_tall=0
 
 freight=Passagiere
 payload=36

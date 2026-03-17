@@ -15,6 +15,7 @@ tractive_effort=147
 
 weight=48
 axles=4
+is_tall=0
 
 smoke=smoke_diesel_medium_long
 sound=none

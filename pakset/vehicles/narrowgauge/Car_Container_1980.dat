@@ -27,6 +27,7 @@ weight=9
 runningcost=483
 cost=5313876
 length=8
+is_tall=0
 
 constraint[prev][0]=any
 

@@ -11,6 +11,7 @@ intro_month=6
 speed=75
 weight=50
 length=13
+is_tall=0
 
 
 freight=notes

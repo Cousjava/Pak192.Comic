@@ -15,6 +15,7 @@ weight=20
 runningcost=108
 cost=1191465
 length=7
+is_tall=0
 
 constraint[prev][0]=any
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2016.0.<$0>
