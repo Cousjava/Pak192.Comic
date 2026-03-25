@@ -16,6 +16,7 @@ waytype=narrowgauge_track
 smoke=none
 sound=none
 is_tall=0
+catering_level=3
 
 #Constraint[Prev][0]=FSR_Class_90
 #Constraint[Prev][1]=FSR_Mk3_SLE

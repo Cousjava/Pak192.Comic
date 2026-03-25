@@ -20,6 +20,7 @@ MapColor=48
 intro_year=1800
 #----- EXT Stuff
 population_and_visitor_demand_capacity=400
+max_distance_to_suppplier=50
 #-----
 dims=3,3,1
 needs_ground=1
@@ -47,6 +48,7 @@ MapColor=48
 intro_year=1800
 #----- EXT Stuff
 population_and_visitor_demand_capacity=400
+max_distance_to_suppplier=50
 #-----
 dims=3,3,1
 needs_ground=1
@@ -74,6 +76,7 @@ MapColor=48
 intro_year=1800
 #----- EXT Stuff
 population_and_visitor_demand_capacity=400
+max_distance_to_suppplier=50
 #-----
 dims=3,3,1
 needs_ground=1
@@ -98,6 +101,7 @@ MapColor=55
 intro_year=1800
 #----- EXT Stuff
 population_and_visitor_demand_capacity=2500
+max_distance_to_suppplier=100
 #-----
 dims=4,4,1
 needs_ground=1

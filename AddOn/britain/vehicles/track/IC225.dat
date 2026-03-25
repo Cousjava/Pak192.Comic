@@ -58,6 +58,7 @@ freight=Passagiere
 smoke=none
 sound=none
 is_tall=0
+catering_level=1
 
 Constraint[Prev][0]=IC_225_MK_IV_Coach
 Constraint[Next][0]=none

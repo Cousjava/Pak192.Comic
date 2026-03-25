@@ -14,7 +14,7 @@ runningcost=1020
 cost=162870
 length=12
 constraint[prev][0]=any
-
+catering_level=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
@@ -45,7 +45,7 @@ runningcost=1020
 cost=162870
 length=12
 constraint[prev][0]=any
-
+catering_level=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
@@ -76,7 +76,7 @@ runningcost=1260
 cost=209670
 length=12
 constraint[prev][0]=any
-
+catering_level=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
