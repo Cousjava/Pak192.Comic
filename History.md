@@ -1,5 +1,12 @@
+# V0.7.2 (Extended)
+
 ## Vehicles
-- UK trains now use liveries
+- Trains now use liveries
+- Railway wagons for many goods can no longer be overcrowded
+
+## Config
+- Mimimum city distance reduced to 32 in cityrules
+- Other new options in extended added to simuconf.tab
 
 # V0.7.2 (Standard)
 Jan 04, 2025

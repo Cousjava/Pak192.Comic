@@ -19,7 +19,7 @@
 ################################################################################
 
 # how far cities should be minimum apart (default 16)
-minimum_city_distance = 100
+minimum_city_distance = 32
 
 # chance for renovation versus new building (bigger number => less sprawling) (original war 13)
 renovation_percentage = 33
