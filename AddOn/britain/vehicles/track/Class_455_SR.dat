@@ -3,7 +3,7 @@ name=Class_455_2_SR
 copyright=Taurus & Flemmbrav
 intro_year=1982
 intro_month=0
-retire_year=2000
+retire_year=2016
 retire_month=0
 freight=Passagiere
 payload=100
@@ -19,18 +19,33 @@ gear=160
 smoke=none
 sound=none
 is_tall=0
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
+liverytype[0]=southern_gtr
+liverytype[1]=SWT_toc
 
 constraint[prev][0]=Class_455_1_SR
 constraint[next][0]=Class_455_3_SR
 
-EmptyImage[S]=image/SR_Class_455.0.1
-EmptyImage[E]=image/SR_Class_455.0.0
-EmptyImage[SE]=image/SR_Class_455.0.4
-EmptyImage[SW]=image/SR_Class_455.0.7
-EmptyImage[N]=image/SR_Class_455.0.3
-EmptyImage[W]=image/SR_Class_455.0.2
-EmptyImage[NW]=image/SR_Class_455.0.6
-EmptyImage[NE]=image/SR_Class_455.0.5
+EmptyImage[S][0]=image/SR_Class_455.0.1
+EmptyImage[E][0]=image/SR_Class_455.0.0
+EmptyImage[SE][0]=image/SR_Class_455.0.4
+EmptyImage[SW][0]=image/SR_Class_455.0.7
+EmptyImage[N][0]=image/SR_Class_455.0.3
+EmptyImage[W][0]=image/SR_Class_455.0.2
+EmptyImage[NW][0]=image/SR_Class_455.0.6
+EmptyImage[NE][0]=image/SR_Class_455.0.5
+
+EmptyImage[S][1]=image/SWT_Class_455.0.1
+EmptyImage[E][1]=image/SWT_Class_455.0.0
+EmptyImage[SE][1]=image/SWT_Class_455.0.4
+EmptyImage[SW][1]=image/SWT_Class_455.0.7
+EmptyImage[N][1]=image/SWT_Class_455.0.3
+EmptyImage[W][1]=image/SWT_Class_455.0.2
+EmptyImage[NW][1]=image/SWT_Class_455.0.6
+EmptyImage[NE][1]=image/SWT_Class_455.0.5
 
 --------
 
@@ -50,18 +65,35 @@ speed=120
 length=8
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Class_455_2_SR
 constraint[next][0]=Class_455_4_SR
 loading_time=6220
 is_tall=0
-EmptyImage[S]=image/SR_Class_455.0.1
-EmptyImage[E]=image/SR_Class_455.0.0
-EmptyImage[SE]=image/SR_Class_455.0.4
-EmptyImage[SW]=image/SR_Class_455.0.7
-EmptyImage[N]=image/SR_Class_455.0.3
-EmptyImage[W]=image/SR_Class_455.0.2
-EmptyImage[NW]=image/SR_Class_455.0.6
-EmptyImage[NE]=image/SR_Class_455.0.5
+liverytype[0]=southern_gtr
+liverytype[1]=SWT_toc
+
+EmptyImage[S][0]=image/SR_Class_455.0.1
+EmptyImage[E][0]=image/SR_Class_455.0.0
+EmptyImage[SE][0]=image/SR_Class_455.0.4
+EmptyImage[SW][0]=image/SR_Class_455.0.7
+EmptyImage[N][0]=image/SR_Class_455.0.3
+EmptyImage[W][0]=image/SR_Class_455.0.2
+EmptyImage[NW][0]=image/SR_Class_455.0.6
+EmptyImage[NE][0]=image/SR_Class_455.0.5
+
+EmptyImage[S][1]=image/SWT_Class_455.0.1
+EmptyImage[E][1]=image/SWT_Class_455.0.0
+EmptyImage[SE][1]=image/SWT_Class_455.0.4
+EmptyImage[SW][1]=image/SWT_Class_455.0.7
+EmptyImage[N][1]=image/SWT_Class_455.0.3
+EmptyImage[W][1]=image/SWT_Class_455.0.2
+EmptyImage[NW][1]=image/SWT_Class_455.0.6
+EmptyImage[NE][1]=image/SWT_Class_455.0.5
 
 --------
 
@@ -83,18 +115,34 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=5090
 is_tall=0
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Class_455_4_SR
 constraint[prev][1]=none
 constraint[next][0]=Class_455_2_SR
 
-EmptyImage[S]=image/SR_Class_455.2.1
-EmptyImage[E]=image/SR_Class_455.2.0
-EmptyImage[SE]=image/SR_Class_455.2.4
-EmptyImage[SW]=image/SR_Class_455.2.7
-EmptyImage[N]=image/SR_Class_455.2.3
-EmptyImage[W]=image/SR_Class_455.2.2
-EmptyImage[NW]=image/SR_Class_455.2.6
-EmptyImage[NE]=image/SR_Class_455.2.5
+liverytype[0]=southern_gtr
+liverytype[1]=SWT_toc
+
+EmptyImage[S][0]=image/SR_Class_455.2.1
+EmptyImage[E][0]=image/SR_Class_455.2.0
+EmptyImage[SE][0]=image/SR_Class_455.2.4
+EmptyImage[SW][0]=image/SR_Class_455.2.7
+EmptyImage[N][0]=image/SR_Class_455.2.3
+EmptyImage[W][0]=image/SR_Class_455.2.2
+EmptyImage[NW][0]=image/SR_Class_455.2.6
+EmptyImage[NE][0]=image/SR_Class_455.2.5
+
+EmptyImage[S][1]=image/SWT_Class_455.2.1
+EmptyImage[E][1]=image/SWT_Class_455.2.0
+EmptyImage[SE][1]=image/SWT_Class_455.2.4
+EmptyImage[SW][1]=image/SWT_Class_455.2.7
+EmptyImage[N][1]=image/SWT_Class_455.2.3
+EmptyImage[W][1]=image/SWT_Class_455.2.2
+EmptyImage[NW][1]=image/SWT_Class_455.2.6
+EmptyImage[NE][1]=image/SWT_Class_455.2.5
 
 --------
 
@@ -116,16 +164,30 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=5090
 is_tall=0
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=Class_455_3_SR
 constraint[next][0]=Class_455_1_SR
 constraint[next][1]=none
 
-EmptyImage[S]=image/SR_Class_455.1.3
-EmptyImage[E]=image/SR_Class_455.1.2
-EmptyImage[SE]=image/SR_Class_455.1.6
-EmptyImage[SW]=image/SR_Class_455.1.5
-EmptyImage[N]=image/SR_Class_455.1.1
-EmptyImage[W]=image/SR_Class_455.1.0
-EmptyImage[NW]=image/SR_Class_455.1.4
-EmptyImage[NE]=image/SR_Class_455.1.7
+liverytype[0]=southern_gtr
+liverytype[1]=SWT_toc
 
+EmptyImage[S][0]=image/SR_Class_455.1.3
+EmptyImage[E][0]=image/SR_Class_455.1.2
+EmptyImage[SE][0]=image/SR_Class_455.1.6
+EmptyImage[SW][0]=image/SR_Class_455.1.5
+EmptyImage[N][0]=image/SR_Class_455.1.1
+EmptyImage[W][0]=image/SR_Class_455.1.0
+EmptyImage[NW][0]=image/SR_Class_455.1.4
+EmptyImage[NE][0]=image/SR_Class_455.1.7
+
+EmptyImage[S][1]=image/SWT_Class_455.1.3
+EmptyImage[E][1]=image/SWT_Class_455.1.2
+EmptyImage[SE][1]=image/SWT_Class_455.1.6
+EmptyImage[SW][1]=image/SWT_Class_455.1.5
+EmptyImage[N][1]=image/SWT_Class_455.1.1
+EmptyImage[W][1]=image/SWT_Class_455.1.0
+EmptyImage[NW][1]=image/SWT_Class_455.1.4
+EmptyImage[NE][1]=image/SWT_Class_455.1.7
