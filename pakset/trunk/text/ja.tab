@@ -9,7 +9,7 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                                Font: m+10r.bdf                               #
-#                            Date Created: 4.10 2020                           #
+#                           Date Created: 25.03 2026                           #
 #                                                                              #
 ################################################################################
 #________________________________building - cur_________________________________
@@ -28,8 +28,12 @@ Fachwerkbahnhof
 本社
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
+apron
+ボーディングブリッジ付き駐機場
 apron2
 駐機場
+Narrowgauge_Station_Goods_1
+貨物駅(ナローゲージ)
 road_Busbahnhof
 バス待合所
 road_doppelstation_strab
@@ -38,6 +42,32 @@ track_station_good
 貨物駅
 #________________________________building - tow_________________________________
 #________________________________building - tow_________________________________
+tow_3_modern
+役所
+tow_copper01
+役所
+tow_copper02
+役所
+tow_copper03
+役所
+tow_copper04
+役所
+tow_copper05
+役所
+tow_desert01
+役所(ピラミッド)
+tow_desert04
+役所(ピラミッド)
+tow_east01
+役所
+tow_east02
+役所
+tow_east03
+役所
+tow_east04
+役所
+tow_east05
+役所
 tow_fw_01
 役所
 tow_fw_02
@@ -46,26 +76,72 @@ tow_ger_01
 役所
 tow_ger_02
 役所
+tow_medi01
+役所
+tow_medi02
+役所
+tow_medi03
+役所
+tow_medi04
+役所
+tow_medi05
+役所
+tow_tropic01
+役所
+tow_tropic02
+役所
+tow_tropic03
+役所
+tow_tropic04
+役所
+tow_tropic05
+役所
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 Autofabrik
 自動車工場
 Autoteilefabrik
 自動車部品工場
+bakery_alpine
+パン屋
 bakery_northsea
 パン屋
 berry1_plantation
 果樹園
 berry2_plantation
 果樹園
-dairy
+blastfurnace
+製鉄所
+coalmine
+炭鉱
+coalmine_large
+大型炭鉱
+dairy_factory
 乳製品工場
+gasstation
+ガソリンスタンド
 gasstation_small
 ガソリンスタンド
 grainfarm_alpine
 穀物畑
+grainfarm_easteur
+穀物畑
+grainfarm_northsea
+穀物畑
 juicefactory1
 ジュース工場
+limestone_mine
+石灰石鉱山
+oilplatform
+海上油田
+oilpump
+原油ポンプ
+oremine
+鉄鉱石鉱山
+refinery_new
+製油所
+sheepranch
+羊牧場
 shop
 スーパーマーケット
 Slaughter
@@ -74,22 +150,366 @@ small_shop
 小売店
 Stahlwalzwerk
 製鉄所
+steelmill
+スチール工場
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 beer
 ビール
 car_parts
 自動車部品
+cars
+自動車
+coal
+石炭
+dairy
+乳製品
+fuel
+燃料
+grain
+穀物
+heavy_oil
+重油
 juice
 ジュース
+limestone
+石灰石
+meat
+肉
+naphtha
+ナフサ
 oil
 石油
 ore
 鉄鉱石
+paper
+紙
+sand
+砂
+toys
+玩具
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+deer
+鹿
+duck
+アヒル
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+AIRTOOLS
+航空機ツール
+MAGLEVTOOLS
+リニアツール
+NARROWGAUGETOOLS
+軽便鉄道ツール
+RAILTOOLS
+鉄道ツール
+ROADTOOLS
+道路ツール
+SHIPTOOLS
+港湾ツール
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 narrowgauge_track
 低速ナローゲージ軌道
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
+Airbus_A300B2
+エアバスA300B2
+Airbus_A300B4_DHL
+エアバスA300B4（DHL塗装）
+Airbus_A310-200
+エアバスA310-200
+Airbus_A318
+エアバスA318
+Airbus_A319neo
+エアバスA319neo
+Airbus_A320-200
+エアバスA320-200
+Airbus_A321neo
+エアバスA321neo
+Airbus_A330-300
+エアバスA330-300
+Airbus_A330-300_DHL
+エアバスA330-300（DHL塗装）
+Airbus_A340-600
+エアバスA340-600
+Airbus_A350-1000
+エアバスA350-1000
+Airbus_A350-800
+エアバスA350-800
+Airbus_A380-800
+エアバスA380-800
+Airbus_A380-900
+エアバスA380-900
+Antonov_An_140
+アントノフAn-140
+Antonov_An_218
+アントノフAn-218
+Antonov_An_38
+アントノフAn-38
+Antonov_An2_Colt
+アントノフAn-2
+Antonov_An2_Colt_Post
+アントノフAn-2
+Antonov_An22_Antei
+アントノフAn-22”アンテーイ”
+Antonov_An3
+アントノフAn-3
+Antonov_An3_Post
+アントノフAn-3
+Baade_152_I
+バーデ152-Ⅰ
+Baade_152_II
+バーデ152-Ⅱ
+Baade_153
+バーデ153
+Baade_154
+バーデ154
+Baade_155
+バーデ155
+Boeing_707-100_(Dash80)
+ボーイング７０７－１００（ダッシュ80）
+Boeing_737_300SF_CargoAir
+ボーイング737-300SF(Cargo Air)
+Boeing_737-200
+ボーイング７３７－２００
+Boeing_737-300
+ボーイング737－300
+Boeing_737-700
+ボーイング737－700
+Boeing_737-800
+ボーイング737－800
+Boeing_737-900ER
+ボーイング７３７－９００ＥＲ
+Boeing_757-200SF_DHL
+ボーイング７５７－２００ＳＦ（ＤＨＬ塗装）
+Boeing_757-300
+ボーイング757－300
+Boeing_B747-100
+ボーイング747－100
+Boeing_B747-300
+ボーイング747－300
+Boeing_B747-400
+ボーイング747－400
+Boeing_B747-400F_KalittaAir
+ボーイング747－４００Ｆ（カリッタ航空塗装）
+Boeing_B747-8F_PolarAirCargo
+ボーイング747-8F(ポーラーエアカーゴ塗装)
+Boeing_B747-8I
+ボーイング747－8Ｉ
+Boeing_B747-SP
+ボーイング７４７－ＳＰ
+Boeing_B747AirforceOne
+ボーイングB747（エアフォースワン）
+Boeing_B777-200ER
+ボーイング７７７－２００ＥＲ
+Boeing_B777-300
+ボーイング777－300
+Boeing_B777-300ER
+ボーイング777－300ER
+Concorde
+コンコルド
+DC_3
+ダグラスDC－３
+DC_3Post
+ダグラスDC-3（郵便）
+DC_6
+ダグラスDC-6
+DC_8
+ダグラスDC-8
+DC_8_73_DHL
+ダグラスDC-8-73（ＤＨＬ塗装）
+DC_9_10
+ダグラスＤＣ－９－１０
+Iljushin_Il12_Coach
+イリューシンIl-12
+Iljushin_Il62_Classic
+イリューシンIl-62
+Iljushin_Il86_Camber
+イリューシンIl-86
+Iljushin_Il96_300
+イリューシンIl-96-300
+Iljushin_Il96M
+イリューシンIl-96M
+Junkers_Ju52P
+ユンカース　Ju-52
+MD_11ER
+マクドネル・ダグラスＭＤ１１ＥＲ
+MD_12
+マクドネル・ダグラスＭＤ１２
+Mizubishi_RJ90
+三菱航空機　MRJ90
+Su100_95_Superjet
+スホーイ　スーパージェット１００
+Tupolev_ANT20_Maxim_Gorki
+ツポレフANT-20「マキシム・ゴーリキ」
+Tupolev_ANT9
+ツポレフ　ANT-9
+Tupolev_Tu134_Crusty
+ツポレフ　Tu-134 ”Crusty”
+Tupolev_Tu144
+ツポレフ　Tu-144
+Tupolev_Tu144S
+ツポレフ　Tu-144S
+Tupolev_Tu154
+ツポレフ　Tu-154
+Tupolev_Tu204-100
+ツポレフ　Tu-204-100
+Tupolev_Tu244
+ツポレフTu-244
+#__________________________vehicle - narrowgauge_track__________________________
+#__________________________vehicle - narrowgauge_track__________________________
+A_1-MVG
+ミュンヘン地下鉄 Type A
+B_1-MVG
+ミュンヘン地下鉄 Type B
+BR 150
+西ドイツ国鉄　BR E50(150)型電気機関車
+BR_101
+ドイツ鉄道　BR 101型電気機関車
+BR_110
+西ドイツ国鉄　BR E10(110)型電気機関車
+BR_111
+西ドイツ国鉄　BR 111型電気機関車
+BR_114
+ドイツ鉄道　BR 114型電気機関車
+BR_120
+西ドイツ国鉄　BR 120型電気機関車　試作機
+BR_120_DB_Regio
+西ドイツ鉄道　BR 120型電気機関車　DBレギオ向け
+BR_120_Serienlok
+西ドイツ国鉄　BR 120型電気機関車
+BR_128
+ドイツ鉄道　BR 128型試作電気機関車"12X"
+BR_141
+西ドイツ国鉄　BR E14(141)型電気機関車
+BR_151
+西ドイツ鉄道　BR 151型電気機関車
+BR_181
+西ドイツ国鉄　BR 181型複電圧電気機関車
+BR_187
+ドイツ鉄道　BR 187型電気機関車"TRAXX 3"
+C_1-MVG
+ミュンヘン地下鉄 Type C
+C2_1-MVG
+ミュンヘン地下鉄 Type C2
+Class 390 Pendolino
+クラス３９０「ペンドリーノ」先頭車
+Class 390 Pendolino Back
+クラス３９０「ぺんドリーノ」後部
+Class43-1
+BR　クラス43－1　「HST」先頭車
+Class43-2
+インターシティー　マーク３客車
+Class43-3
+BR　クラス43　「HST」　後部
+Diesel_1957_TEE_Triebzug_0
+西ドイツ国鉄　VT 11.5型気動車"TransEuropExpress"
+Diesel_1957_TEE_Triebzug_1
+西ドイツ国鉄　VT 11.5型気動車"TransEuropExpress"　客車
+Diesel_1957_TEE_Triebzug_2
+西ドイツ国鉄　VT 11.5型気動車"TransEuropExpress"　食堂車
+Diesel_1957_TEE_Triebzug_3
+西ドイツ国鉄　VT 11.5型気動車"TransEuropExpress"　客車(後部)
+Diesel_1957_TEE_Triebzug_4
+西ドイツ国鉄　VT 11.5型気動車"TransEuropExpress"　後部
+Diesel_1968_TEE_Triebzug_0
+西ドイツ国鉄　VT 11.5型気動車"TransEuropExpress"　インターシティー仕様
+DPZ_4
+Re 450型電気機関車 "DPZ"
+DR_E18
+東ドイツ国鉄　E18型電気機関車
+DT8_10_1-SSB
+シュトゥットガルト路面電車DT8.10形
+DT8_12_1-SSB
+シュトゥットガルト路面電車DT8.12形
+DT8_4_1-SSB
+シュトゥットガルト路面電車DT8.4形
+E03
+西ドイツ国鉄　BR 103型電気機関車
+Eurofima_Wagen_1979_0
+インターシティー「ユーロフィマ型」客車
+Eurofima_Wagen_1979_1
+インターシティー「ユーロフィマ型」郵便車
+Eurofima_Wagen_1979_2
+インターシティー「ユーロフィマ型」食堂車
+Eurofima_Wagen_1986_0
+インターシティー「ユーロフィマ型」客車(1986)
+Eurofima_Wagen_1986_1
+インターシティー「ユーロフィマ型」食堂車(1986)
+Eurofima_Wagen_1986_2
+インターシティー「ユーロフィマ型」先頭客車
+Eurofima_Wagen_1986_3
+インターシティー「ユーロフィマ型」先頭客車(後部)
+Eurofima_Wagen_1991_0
+インターシティー「ユーロフィマ型」客車(1988)
+Eurofima_Wagen_2001_0
+インターシティー「ユーロフィマ型」客車(2001)
+Eurofima_Wagen_2001_1
+インターシティー「ユーロフィマ型」食堂車(2001)
+Eurofima_Wagen_2001_2
+インターシティー「ユーロフィマ型」先頭客車(2001)
+Eurofima_Wagen_2001_3
+インターシティー「ユーロフィマ型」先頭客車(後部・2001)
+Eurofima_Wagen_2001_4
+インターシティー「ユーロフィマ型」郵便車(2001)
+Eurostar_Lok1
+HST「ユーロスター」先頭車
+Eurostar_Lok2
+HST「ユーロスター」後部
+Railjet_Wagen
+インターシティー「レールジェット」客車
+Rheingold_1962_0
+ラインゴルト型客車
+Rheingold_1962_1
+ラインゴルト型展望客車
+Rheingold_1962_2
+ラインゴルト型食堂車
+Rheingold_1962_3
+ラインゴルト型郵便車
+U2_1-VGF
+フランクフルト地下鉄 U2形
+U2_2-VGF
+フランクフルト地下鉄 U2形　後部
+U3_1-VGF
+フランクフルト地下鉄 U3形
+U3_2-VGF
+フランクフルト地下鉄 U3形　後部
+U4_1-VGF
+フランクフルト地下鉄 U4形
+U4_2-VGF
+フランクフルト地下鉄 U4形　後部
+U5_1-VGF
+フランクフルト地下鉄 U5形
+U5_2-VGF
+フランクフルト地下鉄 U5形　後部
+Viaggio_Wagen_2012_0
+寝台車 "Viaggio Comfort"
+Virgin Voyager Back
+BR クラス220「ボイジャー」後部
+Virgin Voyager Front
+BR　クラス220「ボイジャー」先頭車
+Wagen_OBB_Wiesel_1
+OBB2階建て客車"Wiesel" 先頭
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+E231-500-1
+JR東日本　E231‐500先頭車
+E231-500-2
+JR東日本　E231‐500電動車
+E231-500-3
+JR東日本　E231‐500中間車
+E231-500-4
+JR東日本　E231‐500後部
+E235-0-1
+JR東日本　E235-0先頭車
+E235-0-2
+JR東日本　E235-0電動車
+E235-0-3
+JR東日本　E235-0中間車
+E235-0-4
+JR東日本　E235-0後部
 #____________________________way - narrowgauge_track____________________________
 #____________________________way - narrowgauge_track____________________________
 track_speed
@@ -102,15 +522,47 @@ city_road
 市道
 highway
 高速道路
+road_highway
+アウトバーン道路
 #__________________________________way - track__________________________________
 #__________________________________way - track__________________________________
+narrowgauge_130
+ナローゲージ軌道(130Km/h)
+narrowgauge_160
+ナローゲージ軌道(160Km/h)
 narrowgauge_track_fast
 ナローゲージ軌道
+narrowgauge_track_slow
+ナローゲージ軌道(20Km/h)
 #________________________way-object - narrowgauge_track_________________________
 #________________________way-object - narrowgauge_track_________________________
+catenary_track_160
+架線(鉄製・160km/h)
+catenary_track_250
+架線(高速線用・250km/h)
+catenary_track_80
+架線(木製・80km/h)
+catenary_track_inf
+架線(コンクリート・制限なし)
 oberleitung
 架線
+oberleitung_track
+架線(鉄製・160km/h)
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+catenary_road
+道路架線
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
+catenary_ng_50
+ナローゲージ架線(木製・50km/h)
+catenary_ng_90
+ナローゲージ架線(鉄製・90km/h)
+catenary_ng_inf
+ナローゲージ架線(コンクリート・制限なし)
 oberleitung_narrowgauge
 ナローゲージ架線
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+catenary_tram
+トラム架線
