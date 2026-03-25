@@ -9,6 +9,7 @@ intro_year=1990
 speed=120
 #original speed=120
 payload=8
+overcrowded_capacity=0
 weight=24
 runningcost=548
 cost=6029100

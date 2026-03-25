@@ -8,6 +8,7 @@ retire_month=5
 retire_year=1970
 speed=90
 payload=45
+overcrowded_capacity=0
 weight=21
 runningcost=231
 cost=2536050

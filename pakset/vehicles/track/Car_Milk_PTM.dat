@@ -19,6 +19,7 @@ waytype=narrowgauge_track
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
+overcrowded_capacity=0
 
 EmptyImage[S]=./image/Milchwagen1.0.1
 EmptyImage[E]=./image/Milchwagen1.0.0
@@ -59,6 +60,7 @@ loading_time=4030
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
+overcrowded_capacity=0
 
 EmptyImage[N]=./image/Milchwagen2.1.1
 EmptyImage[S]=./image/Milchwagen2.0.1

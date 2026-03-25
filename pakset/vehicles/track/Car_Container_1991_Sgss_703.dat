@@ -8,6 +8,7 @@ retire_month=3
 retire_year=1998
 speed=160
 payload=2
+overcrowded_capacity=0
 weight=22
 runningcost=213
 cost=2344650

@@ -10,6 +10,7 @@ freight=milk
 # Ladefläche (bzw. Volumen)	18 m3
 # https://www.vvm-museumsbahn.de/?id=vv-C325
 payload=18
+overcrowded_capacity=0
 cost=50376
 runningcost=45
 # Masse	12530 kg

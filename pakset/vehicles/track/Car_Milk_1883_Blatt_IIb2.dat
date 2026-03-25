@@ -8,6 +8,7 @@ retire_year=1907
 retire_month=3
 freight=milk
 payload=12
+overcrowded_capacity=0
 cost=50376
 runningcost=45
 # weigth estimated

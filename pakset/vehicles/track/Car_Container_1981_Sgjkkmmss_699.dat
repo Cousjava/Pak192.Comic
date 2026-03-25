@@ -8,6 +8,7 @@ intro_month=9
 #retire_year=2001
 speed=120
 payload=2
+overcrowded_capacity=0
 weight=17
 runningcost=213
 cost=2344650
